@@ -1,0 +1,130 @@
+{
+  "full_name": "Guy Richardson",
+  "email": "richardscharlotte@example.net",
+  "phone": "(0151) 4960056",
+  "location": "Blakeberg",
+  "headline": "Senior Data Analyst",
+  "skills": [
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "data pipelines",
+      "canonical": null
+    },
+    {
+      "name": "Excel (pivot tables, Power Query)",
+      "canonical": null
+    },
+    {
+      "name": "statistical inference",
+      "canonical": null
+    },
+    {
+      "name": "Power BI (DAX)",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "R",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "Looker",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Power BI",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "Tableau",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "PwC",
+      "title": "Senior Data Analyst",
+      "start_year": 2024,
+      "start_month": 8,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Automated a weekly inventory report that previously took 4 hours of manual work.",
+        "Defined 11 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Investigated a 57% anomaly in claims volumes and traced it to a broken upstream ETL job.",
+        "Built a cohort retention model in R that identified a 24% drop-off at week 19.",
+        "Wrote Snowflake queries against a 40K-row warehouse to size the notifications opportunity, informing a 38% budget shift."
+      ]
+    },
+    {
+      "company": "Walmart",
+      "title": "Business Data Analyst",
+      "start_year": 2022,
+      "start_month": 12,
+      "end_year": 2024,
+      "end_month": 6,
+      "is_current": false,
+      "responsibilities": [
+        "Built 7 Looker dashboards tracking risk performance for a team of 9 stakeholders.",
+        "Cleaned and reconciled 1.2M rows of search data across 23 source systems.",
+        "Defined 20 core metrics and their SQL definitions so reporting stopped disagreeing across teams."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Data Analyst",
+      "start_year": 2020,
+      "start_month": 7,
+      "end_year": 2021,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Built a cohort retention model in R that identified a 31% drop-off at week 24.",
+        "Wrote PostgreSQL queries against a 600K-row warehouse to size the onboarding opportunity, informing a 38% budget shift.",
+        "Partnered with engineering to instrument 8 new events for billing funnel analysis.",
+        "Built 12 Power BI dashboards tracking notifications performance for a team of 10 stakeholders.",
+        "Cleaned and reconciled 220K rows of inventory data across 7 source systems."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. in Data Science",
+      "level": "master",
+      "field_of_study": "Data Science",
+      "institution": "VIT Vellore",
+      "start_year": 2018,
+      "end_year": 2020
+    },
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Manipal Institute of Technology",
+      "start_year": 2015,
+      "end_year": 2018
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

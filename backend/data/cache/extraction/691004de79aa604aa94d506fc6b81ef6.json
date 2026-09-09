@@ -1,0 +1,142 @@
+{
+  "full_name": "Poncio Anguita Garmendia",
+  "email": "fsolano@example.com",
+  "phone": "+34845 867 017",
+  "location": "Toledo",
+  "headline": "Business Data Analyst",
+  "skills": [
+    {
+      "name": "dashboarding",
+      "canonical": null
+    },
+    {
+      "name": "Microsoft Power BI",
+      "canonical": null
+    },
+    {
+      "name": "applied statistics",
+      "canonical": null
+    },
+    {
+      "name": "Tableau dashboards",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "A/B Testing",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Excel",
+      "canonical": null
+    },
+    {
+      "name": "R",
+      "canonical": null
+    },
+    {
+      "name": "ETL",
+      "canonical": null
+    },
+    {
+      "name": "Tableau dashboard",
+      "canonical": null
+    },
+    {
+      "name": "Power BI",
+      "canonical": null
+    },
+    {
+      "name": "A/B test",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "EY",
+      "title": "Business Data Analyst",
+      "start_year": 2022,
+      "start_month": 11,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Wrote PostgreSQL queries against a 12K-row warehouse to size the billing opportunity, informing a 47% budget shift.",
+        "Automated a weekly claims report that previously took 17 hours of manual work.",
+        "Built a cohort retention model in Excel that identified a 57% drop-off at week 6.",
+        "Cleaned and reconciled 220K rows of billing data across 18 source systems."
+      ]
+    },
+    {
+      "company": "Deloitte",
+      "title": "Senior Data Analyst",
+      "start_year": 2019,
+      "start_month": 2,
+      "end_year": 2022,
+      "end_month": 11,
+      "is_current": false,
+      "responsibilities": [
+        "Built 16 Power BI dashboards tracking onboarding performance for a team of 4 stakeholders.",
+        "Defined 9 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Investigated a 61% anomaly in notifications volumes and traced it to a broken upstream ETL job.",
+        "Ran an A/B test on billing conversion that lifted the metric by 34% at 95% significance.",
+        "Cleaned and reconciled 12K rows of payments data across 22 source systems."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Senior Data Analyst",
+      "start_year": 2015,
+      "start_month": 4,
+      "end_year": 2019,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Built a cohort retention model in R that identified a 52% drop-off at week 3.",
+        "Automated a weekly inventory report that previously took 13 hours of manual work.",
+        "Investigated a 30% anomaly in risk volumes and traced it to a broken upstream ETL job.",
+        "Defined 14 core metrics and their SQL definitions so reporting stopped disagreeing across teams."
+      ]
+    },
+    {
+      "company": "Flipkart",
+      "title": "Data Analyst",
+      "start_year": 2014,
+      "start_month": 4,
+      "end_year": 2015,
+      "end_month": 4,
+      "is_current": false,
+      "responsibilities": [
+        "Defined 18 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Presented monthly notifications findings to 9 business leads and translated them into tracked actions.",
+        "Automated a weekly notifications report that previously took 16 hours of manual work.",
+        "Built a cohort retention model in SQL that identified a 16% drop-off at week 6.",
+        "Investigated a 36% anomaly in logistics volumes and traced it to a broken upstream ETL job."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Jadavpur University",
+      "start_year": 2011,
+      "end_year": 2014
+    }
+  ],
+  "certifications": [
+    "Tableau Desktop Specialist"
+  ]
+}

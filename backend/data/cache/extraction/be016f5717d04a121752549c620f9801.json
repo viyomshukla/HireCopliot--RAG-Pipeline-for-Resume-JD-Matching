@@ -1,0 +1,170 @@
+{
+  "full_name": "Ms Suzanne Jackson",
+  "email": "raymondknight@example.com",
+  "phone": "(0306)9990123",
+  "location": "Rickymouth",
+  "headline": "Applied Scientist",
+  "skills": [
+    {
+      "name": "ML platform engineering",
+      "canonical": null
+    },
+    {
+      "name": "DL",
+      "canonical": null
+    },
+    {
+      "name": "Docker & docker-compose",
+      "canonical": null
+    },
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "NLP",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "drift monitoring",
+      "canonical": null
+    },
+    {
+      "name": "quantisation",
+      "canonical": null
+    },
+    {
+      "name": "batching",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "incremental updates",
+      "canonical": null
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "spaCy",
+      "canonical": null
+    },
+    {
+      "name": "experiment tracking",
+      "canonical": null
+    },
+    {
+      "name": "model registry",
+      "canonical": null
+    },
+    {
+      "name": "error analysis",
+      "canonical": null
+    },
+    {
+      "name": "feature pipeline",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Amazon",
+      "title": "ML Engineer",
+      "start_year": 2025,
+      "start_month": 6,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Reduced training cost by 23% by moving from full retraining to incremental updates.",
+        "Built the feature pipeline feeding 5 features from Snowflake into the payments model.",
+        "Fine-tuned a pretrained spaCy model on 3M labelled inventory examples."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "ML Engineer",
+      "start_year": 2022,
+      "start_month": 10,
+      "end_year": 2025,
+      "end_month": 6,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced training cost by 34% by moving from full retraining to incremental updates.",
+        "Ran error analysis on claims predictions and closed the top 3 failure modes.",
+        "Built the feature pipeline feeding 18 features from PostgreSQL into the billing model.",
+        "Cut inference latency from 1400ms to 210ms through quantisation and batching."
+      ]
+    },
+    {
+      "company": "Samsung R&D",
+      "title": "Machine Learning Engineer",
+      "start_year": 2020,
+      "start_month": 8,
+      "end_year": 2022,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Set up experiment tracking and model registry so 7 engineers could reproduce runs.",
+        "Cut inference latency from 900ms to 80ms through quantisation and batching.",
+        "Built an NLP pipeline over 40K documents for inventory classification using Hugging Face Transformers.",
+        "Built the feature pipeline feeding 14 features from MySQL into the risk model.",
+        "Deployed the notifications model behind a REST endpoint serving 3M predictions per day."
+      ]
+    },
+    {
+      "company": "Adobe",
+      "title": "Applied Scientist",
+      "start_year": 2019,
+      "start_month": 2,
+      "end_year": 2020,
+      "end_month": 8,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote drift monitoring that alerted on a 59% distribution shift in logistics inputs.",
+        "Cut inference latency from 1400ms to 160ms through quantisation and batching.",
+        "Reduced training cost by 22% by moving from full retraining to incremental updates.",
+        "Deployed the inventory model behind a REST endpoint serving 220K predictions per day."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "VIT Vellore",
+      "start_year": 2016,
+      "end_year": 2019
+    }
+  ],
+  "certifications": []
+}

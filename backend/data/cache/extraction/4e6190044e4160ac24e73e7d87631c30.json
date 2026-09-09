@@ -1,0 +1,127 @@
+{
+  "full_name": "Courtney Mcfarland",
+  "email": "mlee@example.net",
+  "phone": "+1-756-663-3671x007",
+  "location": "Jessicaport",
+  "headline": "ML Engineer",
+  "skills": [
+    {
+      "name": "PyTorch",
+      "canonical": null
+    },
+    {
+      "name": "NLP",
+      "canonical": null
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    },
+    {
+      "name": "ML platform engineering",
+      "canonical": null
+    },
+    {
+      "name": "Python 3",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "transformer model",
+      "canonical": null
+    },
+    {
+      "name": "drift monitoring",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "canonical": null
+    },
+    {
+      "name": "Collaborative filtering",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Qualcomm",
+      "title": "ML Engineer",
+      "start_year": 2024,
+      "start_month": 1,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Set up experiment tracking and model registry so 4 engineers could reproduce runs.",
+        "Ran error analysis on notifications predictions and closed the top 8 failure modes.",
+        "Built the feature pipeline feeding 3 features from PostgreSQL into the inventory model.",
+        "Built an NLP pipeline over 12K documents for inventory classification using PyTorch."
+      ]
+    },
+    {
+      "company": "Fractal Analytics",
+      "title": "ML Engineer",
+      "start_year": 2020,
+      "start_month": 10,
+      "end_year": 2024,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Built the feature pipeline feeding 7 features from MongoDB into the inventory model.",
+        "Set up experiment tracking and model registry so 10 engineers could reproduce runs.",
+        "Deployed the billing model behind a REST endpoint serving 220K predictions per day.",
+        "Trained and shipped a transformer model for onboarding, improving accuracy from 9% to 22%.",
+        "Wrote drift monitoring that alerted on a 60% distribution shift in payments inputs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science",
+      "level": "master",
+      "field_of_study": "Computer Science",
+      "institution": "Jadavpur University",
+      "start_year": 2018,
+      "end_year": 2020
+    },
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Anna University",
+      "start_year": 2015,
+      "end_year": 2018
+    },
+    {
+      "degree": "Class XII, State Board",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Kendriya Vidyalaya",
+      "start_year": 2013,
+      "end_year": 2015
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure Data Scientist Associate"
+  ]
+}

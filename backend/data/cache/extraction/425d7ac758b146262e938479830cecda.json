@@ -1,0 +1,116 @@
+{
+  "full_name": "Traudl Segebahn",
+  "email": "seberhardt@example.org",
+  "phone": "08163 98427",
+  "location": "Regensburg",
+  "headline": "ML Engineer",
+  "skills": [
+    {
+      "name": "neural networks",
+      "canonical": null
+    },
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "model deployment & monitoring",
+      "canonical": null
+    },
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "scikit-learn pipelines",
+      "canonical": null
+    },
+    {
+      "name": "Torch",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow 2",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "NVIDIA",
+      "title": "ML Engineer",
+      "start_year": 2024,
+      "start_month": 9,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Built the feature pipeline feeding 3 features from MySQL into the inventory model.",
+        "Reduced training cost by 19% by moving from full retraining to incremental updates.",
+        "Ran error analysis on search predictions and closed the top 5 failure modes.",
+        "Set up experiment tracking and model registry so 5 engineers could reproduce runs."
+      ]
+    },
+    {
+      "company": "IBM",
+      "title": "ML Engineer",
+      "start_year": 2023,
+      "start_month": 3,
+      "end_year": 2024,
+      "end_month": 9,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote drift monitoring that alerted on a 36% distribution shift in logistics inputs.",
+        "Trained and shipped a gradient boosting model for logistics, improving F1 from 28% to 39%.",
+        "Set up experiment tracking and model registry so 5 engineers could reproduce runs.",
+        "Fine-tuned a pretrained Hugging Face Transformers model on 8M labelled claims examples.",
+        "Built an NLP pipeline over 600K documents for inventory classification using Hugging Face Transformers."
+      ]
+    },
+    {
+      "company": "Adobe",
+      "title": "Applied Scientist",
+      "start_year": 2020,
+      "start_month": 11,
+      "end_year": 2022,
+      "end_month": 9,
+      "is_current": false,
+      "responsibilities": [
+        "Cut inference latency from 480ms to 210ms through quantisation and batching.",
+        "Reduced training cost by 31% by moving from full retraining to incremental updates.",
+        "Fine-tuned a pretrained Hugging Face Transformers model on 220K labelled search examples.",
+        "Trained and shipped a transformer model for notifications, improving F1 from 13% to 23%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Sunrise Institute of Technology",
+      "start_year": 2017,
+      "end_year": 2020
+    },
+    {
+      "degree": "Higher Secondary (Class 12), ICSE",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "St. Xavier's School",
+      "start_year": 2015,
+      "end_year": 2017
+    }
+  ],
+  "certifications": [
+    "Certified Kubernetes Application Developer (CKAD)",
+    "Tableau Desktop Specialist",
+    "Google Professional Data Engineer"
+  ]
+}

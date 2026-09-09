@@ -1,0 +1,143 @@
+{
+  "full_name": "Jacob Patterson",
+  "email": "danielturner@example.org",
+  "phone": "842-427-4574",
+  "location": "Allisonton",
+  "headline": "API Engineer",
+  "skills": [
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "async Python APIs (FastAPI)",
+      "canonical": null
+    },
+    {
+      "name": "NodeJS",
+      "canonical": null
+    },
+    {
+      "name": "document databases (MongoDB)",
+      "canonical": null
+    },
+    {
+      "name": "Kotlin",
+      "canonical": null
+    },
+    {
+      "name": "Memcached",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "metrics",
+      "canonical": null
+    },
+    {
+      "name": "alerts",
+      "canonical": null
+    },
+    {
+      "name": "message queue",
+      "canonical": null
+    },
+    {
+      "name": "dead-letter handling",
+      "canonical": null
+    },
+    {
+      "name": "API-key authentication",
+      "canonical": null
+    },
+    {
+      "name": "rate limiting",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "partitioned schema",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Razorpay",
+      "title": "Senior Backend Developer",
+      "start_year": 2025,
+      "start_month": 3,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Built API-key authentication and rate limiting for 17 public API consumers.",
+        "Implemented idempotent billing processing with a message queue to survive retries.",
+        "Modelled the notifications schema in MongoDB and tuned indexes to cut query time by 16%.",
+        "Instrumented the search service with metrics and alerts, cutting incident detection to under 3 minutes.",
+        "Led the migration of payments data from PostgreSQL to a partitioned schema without downtime."
+      ]
+    },
+    {
+      "company": "PhonePe",
+      "title": "Senior Backend Developer",
+      "start_year": 2021,
+      "start_month": 4,
+      "end_year": 2024,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Implemented idempotent risk processing with a message queue to survive retries.",
+        "Reduced background job failure rate from 23% to under 2% by adding dead-letter handling.",
+        "Instrumented the billing service with metrics and alerts, cutting incident detection to under 12 minutes."
+      ]
+    },
+    {
+      "company": "Paytm",
+      "title": "API Engineer",
+      "start_year": 2019,
+      "start_month": 5,
+      "end_year": 2021,
+      "end_month": 4,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and shipped 10 REST endpoints for the risk service in Kotlin.",
+        "Added Memcached caching in front of the billing read path, absorbing 8M requests per day.",
+        "Modelled the notifications schema in Snowflake and tuned indexes to cut query time by 29%.",
+        "Instrumented the search service with metrics and alerts, cutting incident detection to under 9 minutes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Manipal Institute of Technology",
+      "start_year": 2015,
+      "end_year": 2019
+    },
+    {
+      "degree": "Class XII, State Board",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Kendriya Vidyalaya",
+      "start_year": 2013,
+      "end_year": 2015
+    }
+  ],
+  "certifications": []
+}

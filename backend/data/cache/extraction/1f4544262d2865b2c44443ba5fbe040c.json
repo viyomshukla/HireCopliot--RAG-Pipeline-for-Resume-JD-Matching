@@ -1,0 +1,132 @@
+{
+  "full_name": "Christelle Noël",
+  "email": "paul81@example.net",
+  "phone": "04 83 00 73 32",
+  "location": "Morel",
+  "headline": "Backend Engineer",
+  "skills": [
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "in-memory caching (Redis)",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "REST/HTTP API design",
+      "canonical": null
+    },
+    {
+      "name": "NodeJS",
+      "canonical": null
+    },
+    {
+      "name": "document databases (MongoDB)",
+      "canonical": null
+    },
+    {
+      "name": "FastAPI + Pydantic",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Jenkins",
+      "canonical": null
+    },
+    {
+      "name": "Kubernetes",
+      "canonical": null
+    },
+    {
+      "name": "Redis",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Zomato",
+      "title": "Backend Engineer",
+      "start_year": 2024,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Instrumented the onboarding service with metrics and alerts, cutting incident detection to under 13 minutes.",
+        "Wrote integration tests covering 54% of the onboarding endpoints and gated deploys on them.",
+        "Reduced background job failure rate from 15% to under 0.5% by adding dead-letter handling.",
+        "Led the migration of onboarding data from PostgreSQL to a partitioned schema without downtime.",
+        "Containerised the inventory stack and moved CI/CD onto Jenkins."
+      ]
+    },
+    {
+      "company": "Swiggy",
+      "title": "Senior Backend Developer",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": 2024,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced background job failure rate from 27% to under 0.5% by adding dead-letter handling.",
+        "Containerised the billing stack and moved CI/CD onto Kubernetes.",
+        "Implemented idempotent logistics processing with a message queue to survive retries.",
+        "Wrote integration tests covering 46% of the inventory endpoints and gated deploys on them."
+      ]
+    },
+    {
+      "company": "PhonePe",
+      "title": "Backend Engineer",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2022,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Instrumented the logistics service with metrics and alerts, cutting incident detection to under 9 minutes.",
+        "Added Redis caching in front of the payments read path, absorbing 600K requests per day.",
+        "Led the migration of catalog data from BigQuery to a partitioned schema without downtime.",
+        "Reduced background job failure rate from 9% to under 2% by adding dead-letter handling."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "Anna University",
+      "start_year": 2016,
+      "end_year": 2019
+    },
+    {
+      "degree": "Intermediate (12th)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "DAV Public School",
+      "start_year": 2014,
+      "end_year": 2016
+    }
+  ],
+  "certifications": []
+}

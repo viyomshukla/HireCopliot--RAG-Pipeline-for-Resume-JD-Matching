@@ -1,0 +1,129 @@
+{
+  "full_name": "Dr Gary Norton",
+  "email": "bullstephen@example.org",
+  "phone": "(0909) 8790218",
+  "location": "Gillianview",
+  "headline": "Software Development Engineer",
+  "skills": [
+    {
+      "name": "Docker & docker-compose",
+      "canonical": null
+    },
+    {
+      "name": "Java 17",
+      "canonical": null
+    },
+    {
+      "name": "Kubernetes",
+      "canonical": null
+    },
+    {
+      "name": "Unit Testing",
+      "canonical": null
+    },
+    {
+      "name": "RESTful services",
+      "canonical": null
+    },
+    {
+      "name": "in-memory caching (Redis)",
+      "canonical": null
+    },
+    {
+      "name": "microservice design",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Accenture",
+      "title": "Software Development Engineer",
+      "start_year": 2023,
+      "start_month": 6,
+      "end_year": 2024,
+      "end_month": 9,
+      "is_current": false,
+      "responsibilities": [
+        "Migrated the risk service from a monolith to 13 independently deployable services, cutting release time by 42%.",
+        "Debugged and fixed a production incident affecting 3M users, then wrote the postmortem and added alerting.",
+        "Introduced structured logging and tracing across the notifications stack, cutting mean time to diagnosis by 64%."
+      ]
+    },
+    {
+      "company": "Freshworks",
+      "title": "Senior Software Engineer",
+      "start_year": 2021,
+      "start_month": 4,
+      "end_year": 2023,
+      "end_month": 6,
+      "is_current": false,
+      "responsibilities": [
+        "Introduced structured logging and tracing across the payments stack, cutting mean time to diagnosis by 17%.",
+        "Reduced p95 API latency from 1400ms to 210ms by adding an in-process LRU caching and rewriting the hottest query path.",
+        "Migrated the risk service from a monolith to 23 independently deployable services, cutting release time by 49%.",
+        "Implemented JWT-based authentication and role-based access control for the internal onboarding tooling.",
+        "Raised unit test coverage on the onboarding module from 19% to 53% and wired it into the CI gate."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer",
+      "start_year": 2016,
+      "start_month": 12,
+      "end_year": 2019,
+      "end_month": 8,
+      "is_current": false,
+      "responsibilities": [
+        "Introduced structured logging and tracing across the billing stack, cutting mean time to diagnosis by 27%.",
+        "Reviewed roughly 13 pull requests per month and mentored 11 junior engineers.",
+        "Migrated the catalog service from a monolith to 7 independently deployable services, cutting release time by 36%.",
+        "Implemented SAML authentication and role-based access control for the internal search tooling."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. in Data Science",
+      "level": "master",
+      "field_of_study": "Data Science",
+      "institution": "IIT Madras",
+      "start_year": 2014,
+      "end_year": 2016
+    },
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "IIT Bombay",
+      "start_year": 2011,
+      "end_year": 2014
+    },
+    {
+      "degree": "Senior Secondary (Class XII), CBSE",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Delhi Public School",
+      "start_year": 2009,
+      "end_year": 2011
+    }
+  ],
+  "certifications": [
+    "Certified Kubernetes Application Developer (CKAD)"
+  ]
+}

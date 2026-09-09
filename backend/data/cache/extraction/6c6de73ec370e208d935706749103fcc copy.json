@@ -1,0 +1,157 @@
+{
+  "full_name": "Julien Jean",
+  "email": "mlombard@example.org",
+  "phone": "01 64 72 92 68",
+  "location": "Menardnec",
+  "headline": "Backend Software Engineer",
+  "skills": [
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "REST/HTTP API design",
+      "canonical": null
+    },
+    {
+      "name": "version control (Git)",
+      "canonical": null
+    },
+    {
+      "name": "Microservices",
+      "canonical": null
+    },
+    {
+      "name": "K8s",
+      "canonical": null
+    },
+    {
+      "name": "Docker & docker-compose",
+      "canonical": null
+    },
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "Redis",
+      "canonical": null
+    },
+    {
+      "name": "CI gate",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "role-based access control",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "ECS",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "OAuth2",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Accenture",
+      "title": "Backend Software Engineer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": 2024,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced p95 API latency from 1400ms to 45ms by adding Redis caching and rewriting the hottest query path.",
+        "Migrated the risk service from a monolith to 6 independently deployable services, cutting release time by 64%.",
+        "Raised unit test coverage on the onboarding module from 22% to 25% and wired it into the CI gate."
+      ]
+    },
+    {
+      "company": "TCS",
+      "title": "Software Engineer",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Raised unit test coverage on the risk module from 10% to 38% and wired it into the CI gate.",
+        "Implemented JWT-based authentication and role-based access control for the internal inventory tooling.",
+        "Containerised 16 legacy services with Docker and moved deployment to ECS.",
+        "Built and maintained 13 Node.js microservices handling 40K requests per day for the onboarding platform."
+      ]
+    },
+    {
+      "company": "Infosys",
+      "title": "Software Development Engineer",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2020,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built and maintained 8 Python microservices handling 8M requests per day for the logistics platform.",
+        "Migrated the catalog service from a monolith to 14 independently deployable services, cutting release time by 51%.",
+        "Implemented OAuth2 authentication and role-based access control for the internal claims tooling."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Backend Software Engineer",
+      "start_year": 2014,
+      "start_month": null,
+      "end_year": 2017,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Introduced structured logging and tracing across the risk stack, cutting mean time to diagnosis by 18%.",
+        "Implemented API-key authentication and role-based access control for the internal payments tooling.",
+        "Designed the billing data model in MySQL and wrote the migration scripts for a 220K-row backfill."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "IIT Madras",
+      "start_year": 2011,
+      "end_year": 2014
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

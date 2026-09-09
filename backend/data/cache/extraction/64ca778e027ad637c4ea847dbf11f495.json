@@ -1,0 +1,109 @@
+{
+  "full_name": "Heino Eberth",
+  "email": "dgirschner@example.com",
+  "phone": "+49 (0) 5604 844322",
+  "location": "Wurzen",
+  "headline": "Backend Software Engineer",
+  "skills": [
+    {
+      "name": "Kubernetes",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "pytest",
+      "canonical": null
+    },
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "microservice design",
+      "canonical": null
+    },
+    {
+      "name": "in-memory caching (Redis)",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "OAuth2",
+      "canonical": null
+    },
+    {
+      "name": "Memcached",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Wipro",
+      "title": "Backend Software Engineer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": 2025,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Debugged and fixed a production incident affecting 40K users, then wrote the postmortem and added alerting.",
+        "Built and maintained 5 Java microservices handling 600K requests per day for the catalog platform.",
+        "Raised unit test coverage on the risk module from 16% to 50% and wired it into the CI gate."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Software Engineer",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Designed the claims data model in Snowflake and wrote the migration scripts for a 220K-row backfill.",
+        "Implemented OAuth2 authentication and role-based access control for the internal logistics tooling.",
+        "Reduced p95 API latency from 610ms to 110ms by adding Memcached caching and rewriting the hottest query path.",
+        "Migrated the logistics service from a monolith to 12 independently deployable services, cutting release time by 27%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Savitribai Phule Pune University",
+      "start_year": 2017,
+      "end_year": 2021
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure Data Scientist Associate"
+  ]
+}

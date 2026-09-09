@@ -1,0 +1,116 @@
+{
+  "full_name": "Hans-Wolfgang Mende",
+  "email": "mohamed60@example.net",
+  "phone": "+49 (0) 0928 121904",
+  "location": "Griesbach Rottal",
+  "headline": "Data Analyst",
+  "skills": [
+    {
+      "name": "data pipelines",
+      "canonical": null
+    },
+    {
+      "name": "data viz",
+      "canonical": null
+    },
+    {
+      "name": "Microsoft Power BI",
+      "canonical": null
+    },
+    {
+      "name": "pandas / numpy",
+      "canonical": null
+    },
+    {
+      "name": "Statistics",
+      "canonical": null
+    },
+    {
+      "name": "Excel (pivot tables, Power Query)",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "ETL",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Amazon",
+      "title": "Data Analyst",
+      "start_year": 2025,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Wrote MongoDB queries against a 3M-row warehouse to size the logistics opportunity, informing a 37% budget shift.",
+        "Presented monthly catalog findings to 9 business leads and translated them into tracked actions.",
+        "Ran an A/B test on risk conversion that lifted the metric by 46% at 90% significance.",
+        "Built a cohort retention model in SQL that identified a 35% drop-off at week 6."
+      ]
+    },
+    {
+      "company": "Deloitte",
+      "title": "Analytics Specialist",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2025,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Investigated a 34% anomaly in notifications volumes and traced it to a broken upstream ETL job.",
+        "Defined 7 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Automated a weekly payments report that previously took 19 hours of manual work.",
+        "Partnered with engineering to instrument 15 new events for claims funnel analysis.",
+        "Cleaned and reconciled 3M rows of billing data across 19 source systems."
+      ]
+    },
+    {
+      "company": "Capgemini",
+      "title": "Business Data Analyst",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Partnered with engineering to instrument 10 new events for notifications funnel analysis.",
+        "Defined 19 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Investigated a 29% anomaly in billing volumes and traced it to a broken upstream ETL job.",
+        "Wrote Snowflake queries against a 8M-row warehouse to size the logistics opportunity, informing a 15% budget shift."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MCA",
+      "level": "master",
+      "field_of_study": null,
+      "institution": "Savitribai Phule Pune University",
+      "start_year": 2017,
+      "end_year": 2019
+    },
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Manipal Institute of Technology",
+      "start_year": 2013,
+      "end_year": 2017
+    }
+  ],
+  "certifications": []
+}

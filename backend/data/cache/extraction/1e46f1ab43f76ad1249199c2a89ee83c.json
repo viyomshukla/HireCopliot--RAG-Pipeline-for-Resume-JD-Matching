@@ -1,0 +1,167 @@
+{
+  "full_name": "Elizabeth Gordon",
+  "email": "chelsea28@example.org",
+  "phone": "823-403-3786",
+  "location": "West Kevin",
+  "headline": "Senior Data Analyst",
+  "skills": [
+    {
+      "name": "Excel",
+      "canonical": null
+    },
+    {
+      "name": "Tableau",
+      "canonical": null
+    },
+    {
+      "name": "Statistics",
+      "canonical": null
+    },
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "pandas",
+      "canonical": null
+    },
+    {
+      "name": "asyncio",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "R",
+      "canonical": null
+    },
+    {
+      "name": "Metabase",
+      "canonical": null
+    },
+    {
+      "name": "Looker",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "A/B test",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Amazon",
+      "title": "Senior Data Analyst",
+      "start_year": 2024,
+      "start_month": 2,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Built a cohort retention model in R that identified a 50% drop-off at week 5.",
+        "Presented monthly inventory findings to 2 business leads and translated them into tracked actions.",
+        "Investigated a 33% anomaly in claims volumes and traced it to a broken upstream ETL job.",
+        "Wrote MySQL queries against a 1.2M-row warehouse to size the onboarding opportunity, informing a 63% budget shift.",
+        "Built 9 Metabase dashboards tracking logistics performance for a team of 5 stakeholders."
+      ]
+    },
+    {
+      "company": "PwC",
+      "title": "Analytics Specialist",
+      "start_year": 2020,
+      "start_month": 1,
+      "end_year": 2022,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Presented monthly risk findings to 6 business leads and translated them into tracked actions.",
+        "Ran an A/B test on risk conversion that lifted the metric by 16% at 90% significance.",
+        "Cleaned and reconciled 600K rows of claims data across 6 source systems.",
+        "Automated a weekly logistics report that previously took 12 hours of manual work.",
+        "Partnered with engineering to instrument 9 new events for notifications funnel analysis."
+      ]
+    },
+    {
+      "company": "Swiggy",
+      "title": "Business Data Analyst",
+      "start_year": 2018,
+      "start_month": 12,
+      "end_year": 2019,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Ran an A/B test on logistics conversion that lifted the metric by 34% at 99% significance.",
+        "Cleaned and reconciled 12K rows of search data across 11 source systems.",
+        "Partnered with engineering to instrument 17 new events for billing funnel analysis.",
+        "Built 4 Looker dashboards tracking risk performance for a team of 8 stakeholders.",
+        "Investigated a 38% anomaly in catalog volumes and traced it to a broken upstream ETL job."
+      ]
+    },
+    {
+      "company": "Deloitte",
+      "title": "Data Analyst",
+      "start_year": 2015,
+      "start_month": 3,
+      "end_year": 2018,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Partnered with engineering to instrument 16 new events for notifications funnel analysis.",
+        "Built a cohort retention model in Excel that identified a 57% drop-off at week 8.",
+        "Investigated a 28% anomaly in risk volumes and traced it to a broken upstream ETL job."
+      ]
+    },
+    {
+      "company": "Accenture",
+      "title": "Analytics Specialist",
+      "start_year": 2013,
+      "start_month": 1,
+      "end_year": 2015,
+      "end_month": 3,
+      "is_current": false,
+      "responsibilities": [
+        "Defined 15 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Wrote BigQuery queries against a 1.2M-row warehouse to size the onboarding opportunity, informing a 43% budget shift.",
+        "Automated a weekly catalog report that previously took 13 hours of manual work.",
+        "Presented monthly onboarding findings to 9 business leads and translated them into tracked actions.",
+        "Investigated a 38% anomaly in claims volumes and traced it to a broken upstream ETL job."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "BITS Pilani",
+      "start_year": 2009,
+      "end_year": 2013
+    },
+    {
+      "degree": "Senior Secondary (Class XII)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Delhi Public School",
+      "start_year": 2007,
+      "end_year": 2009
+    }
+  ],
+  "certifications": [
+    "Google Professional Data Engineer",
+    "Tableau Desktop Specialist"
+  ]
+}

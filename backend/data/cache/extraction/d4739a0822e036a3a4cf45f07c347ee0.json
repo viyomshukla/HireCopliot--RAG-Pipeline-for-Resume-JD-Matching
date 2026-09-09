@@ -1,0 +1,144 @@
+{
+  "full_name": "Sra. Allana Guerra",
+  "email": "ycasa-grande@example.net",
+  "phone": "0300-860-4877",
+  "location": "Peixoto do Galho",
+  "headline": "Senior Software Engineer",
+  "skills": [
+    {
+      "name": "Redis",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "RESTful services",
+      "canonical": null
+    },
+    {
+      "name": "K8s",
+      "canonical": null
+    },
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "microservice design",
+      "canonical": null
+    },
+    {
+      "name": "version control (Git)",
+      "canonical": null
+    },
+    {
+      "name": "structured logging",
+      "canonical": null
+    },
+    {
+      "name": "tracing",
+      "canonical": null
+    },
+    {
+      "name": "alerting",
+      "canonical": null
+    },
+    {
+      "name": "unit test coverage",
+      "canonical": null
+    },
+    {
+      "name": "CI gate",
+      "canonical": null
+    },
+    {
+      "name": "search service",
+      "canonical": null
+    },
+    {
+      "name": "monolith",
+      "canonical": null
+    },
+    {
+      "name": "independently deployable services",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "migration scripts",
+      "canonical": null
+    },
+    {
+      "name": "JWT-based authentication",
+      "canonical": null
+    },
+    {
+      "name": "role-based access control",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "WebSocket",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Cognizant",
+      "title": "Senior Software Engineer",
+      "start_year": 2024,
+      "start_month": 6,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Introduced structured logging and tracing across the risk stack, cutting mean time to diagnosis by 40%.",
+        "Debugged and fixed a production incident affecting 3M users, then wrote the postmortem and added alerting.",
+        "Reviewed roughly 21 pull requests per month and mentored 2 junior engineers."
+      ]
+    },
+    {
+      "company": "Freshworks",
+      "title": "Software Engineer",
+      "start_year": 2022,
+      "start_month": 4,
+      "end_year": 2024,
+      "end_month": 5,
+      "is_current": false,
+      "responsibilities": [
+        "Raised unit test coverage on the logistics module from 19% to 17% and wired it into the CI gate.",
+        "Migrated the search service from a monolith to 7 independently deployable services, cutting release time by 27%.",
+        "Designed the catalog data model in BigQuery and wrote the migration scripts for a 150K-row backfill.",
+        "Debugged and fixed a production incident affecting 40K users, then wrote the postmortem and added alerting.",
+        "Implemented JWT-based authentication and role-based access control for the internal risk tooling."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "IIT Delhi",
+      "start_year": 2018,
+      "end_year": 2022
+    },
+    {
+      "degree": "Class XII, State Board",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Kendriya Vidyalaya",
+      "start_year": 2016,
+      "end_year": 2018
+    }
+  ],
+  "certifications": []
+}

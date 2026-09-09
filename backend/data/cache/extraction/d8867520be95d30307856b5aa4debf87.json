@@ -1,0 +1,164 @@
+{
+  "full_name": "Melina Moura",
+  "email": "apollo37@example.org",
+  "phone": "+55 81 1463-7942",
+  "location": "Cunha de Camargo",
+  "headline": "ML Engineer",
+  "skills": [
+    {
+      "name": "Deep Learning",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "model deployment & monitoring",
+      "canonical": null
+    },
+    {
+      "name": "NLP",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "applied ML",
+      "canonical": null
+    },
+    {
+      "name": "scikit-learn pipelines",
+      "canonical": null
+    },
+    {
+      "name": "PyTorch",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "quantisation",
+      "canonical": null
+    },
+    {
+      "name": "batching",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    },
+    {
+      "name": "gradient boosting model",
+      "canonical": null
+    },
+    {
+      "name": "transformer model",
+      "canonical": null
+    },
+    {
+      "name": "experiment tracking",
+      "canonical": null
+    },
+    {
+      "name": "model registry",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Intel",
+      "title": "ML Engineer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Fine-tuned a pretrained PyTorch model on 600K labelled catalog examples.",
+        "Reduced training cost by 16% by moving from full retraining to incremental updates.",
+        "Ran error analysis on catalog predictions and closed the top 16 failure modes.",
+        "Deployed the billing model behind a REST endpoint serving 40K predictions per day.",
+        "Cut inference latency from 320ms to 80ms through quantisation and batching."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Machine Learning Engineer",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2022,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Cut inference latency from 320ms to 110ms through quantisation and batching.",
+        "Built an NLP pipeline over 600K documents for inventory classification using TensorFlow.",
+        "Ran error analysis on payments predictions and closed the top 12 failure modes."
+      ]
+    },
+    {
+      "company": "Fractal Analytics",
+      "title": "Applied Scientist",
+      "start_year": 2020,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Cut inference latency from 320ms to 110ms through quantisation and batching.",
+        "Ran error analysis on catalog predictions and closed the top 20 failure modes.",
+        "Set up experiment tracking and model registry so 7 engineers could reproduce runs.",
+        "Trained and shipped a gradient boosting model for payments, improving recall from 28% to 35%."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Applied Scientist",
+      "start_year": 2016,
+      "start_month": null,
+      "end_year": 2020,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Set up experiment tracking and model registry so 4 engineers could reproduce runs.",
+        "Trained and shipped a transformer model for risk, improving F1 from 12% to 27%.",
+        "Fine-tuned a pretrained PyTorch model on 40K labelled payments examples."
+      ]
+    },
+    {
+      "company": "Adobe",
+      "title": "ML Engineer",
+      "start_year": 2014,
+      "start_month": null,
+      "end_year": 2016,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Ran error analysis on claims predictions and closed the top 10 failure modes.",
+        "Fine-tuned a pretrained PyTorch model on 1.2M labelled catalog examples.",
+        "Cut inference latency from 610ms to 110ms through quantisation and batching.",
+        "Set up experiment tracking and model registry so 12 engineers could reproduce runs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Crestwood College of Engineering",
+      "start_year": 2010,
+      "end_year": 2014
+    }
+  ],
+  "certifications": []
+}

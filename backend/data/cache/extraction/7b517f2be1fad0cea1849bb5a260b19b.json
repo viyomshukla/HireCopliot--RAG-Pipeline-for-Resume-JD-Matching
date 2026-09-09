@@ -1,0 +1,137 @@
+{
+  "full_name": "Dra. Catarina Silva",
+  "email": "xborges@example.org",
+  "phone": "(021) 0407-6384",
+  "location": "Barbosa",
+  "headline": "Quantitative Analyst",
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "sklearn",
+      "canonical": null
+    },
+    {
+      "name": "A/B Testing",
+      "canonical": null
+    },
+    {
+      "name": "data viz",
+      "canonical": null
+    },
+    {
+      "name": "experiment design",
+      "canonical": null
+    },
+    {
+      "name": "logistic regression",
+      "canonical": null
+    },
+    {
+      "name": "backtesting",
+      "canonical": null
+    },
+    {
+      "name": "causal impact estimates",
+      "canonical": null
+    },
+    {
+      "name": "segmentation",
+      "canonical": null
+    },
+    {
+      "name": "experimentation framework",
+      "canonical": null
+    },
+    {
+      "name": "power calculations",
+      "canonical": null
+    },
+    {
+      "name": "risk scoring",
+      "canonical": null
+    },
+    {
+      "name": "survival model",
+      "canonical": null
+    },
+    {
+      "name": "R",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ola",
+      "title": "Quantitative Analyst",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Built a logistic regression model for search that improved precision by 21% over the existing baseline.",
+        "Backtested the logistics model on 15 historical quarters before rollout.",
+        "Built causal impact estimates for the billing launch when a clean A/B split was not possible.",
+        "Segmented 220K customers into 16 behavioural clusters that drove the onboarding campaign."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Quantitative Analyst",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and analysed 24 experiments on billing, of which 2 shipped.",
+        "Built causal impact estimates for the claims launch when a clean A/B split was not possible.",
+        "Communicated billing model limitations and failure modes to non-technical leadership."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Quantitative Analyst",
+      "start_year": 2015,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote the metric definitions and power calculations for the search experimentation framework.",
+        "Communicated claims model limitations and failure modes to non-technical leadership.",
+        "Productionised the risk scoring pipeline with 5 engineers and monitored it post-launch.",
+        "Backtested the inventory model on 12 historical quarters before rollout."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Savitribai Phule Pune University",
+      "start_year": 2011,
+      "end_year": 2015
+    },
+    {
+      "degree": "Senior Secondary (Class XII), CBSE",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Delhi Public School",
+      "start_year": 2009,
+      "end_year": 2011
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Microsoft Certified: Azure Data Scientist Associate"
+  ]
+}

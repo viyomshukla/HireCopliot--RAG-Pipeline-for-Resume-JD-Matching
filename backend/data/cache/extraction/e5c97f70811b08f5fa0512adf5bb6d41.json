@@ -1,0 +1,135 @@
+{
+  "full_name": "Gilbert Briand",
+  "email": "marthelesage@example.net",
+  "phone": "+33 2 18 77 57 18",
+  "location": "Petit",
+  "headline": "Senior ML Engineer",
+  "skills": [
+    {
+      "name": "ML platform engineering",
+      "canonical": null
+    },
+    {
+      "name": "scikit-learn pipelines",
+      "canonical": null
+    },
+    {
+      "name": "DL",
+      "canonical": null
+    },
+    {
+      "name": "Python 3",
+      "canonical": null
+    },
+    {
+      "name": "ML modelling",
+      "canonical": null
+    },
+    {
+      "name": "NLP",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "random forest",
+      "canonical": null
+    },
+    {
+      "name": "spaCy",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Intel",
+      "title": "Senior ML Engineer",
+      "start_year": 2023,
+      "start_month": 6,
+      "end_year": 2025,
+      "end_month": 8,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced training cost by 57% by moving from full retraining to incremental updates.",
+        "Built an NLP pipeline over 3M documents for inventory classification using TensorFlow.",
+        "Deployed the catalog model behind a REST endpoint serving 150K predictions per day."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "ML Engineer",
+      "start_year": 2019,
+      "start_month": 11,
+      "end_year": 2023,
+      "end_month": 6,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote drift monitoring that alerted on a 29% distribution shift in claims inputs.",
+        "Built an NLP pipeline over 40K documents for logistics classification using TensorFlow.",
+        "Reduced training cost by 59% by moving from full retraining to incremental updates."
+      ]
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Machine Learning Engineer",
+      "start_year": 2014,
+      "start_month": 12,
+      "end_year": 2018,
+      "end_month": 9,
+      "is_current": false,
+      "responsibilities": [
+        "Built the feature pipeline feeding 13 features from MongoDB into the catalog model.",
+        "Trained and shipped a random forest model for billing, improving precision from 20% to 50%.",
+        "Built an NLP pipeline over 40K documents for onboarding classification using TensorFlow."
+      ]
+    },
+    {
+      "company": "Qualcomm",
+      "title": "Applied Scientist",
+      "start_year": 2012,
+      "start_month": 2,
+      "end_year": 2013,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Built an NLP pipeline over 12K documents for claims classification using spaCy.",
+        "Built the feature pipeline feeding 16 features from PostgreSQL into the claims model.",
+        "Fine-tuned a pretrained Hugging Face Transformers model on 220K labelled catalog examples.",
+        "Wrote drift monitoring that alerted on a 16% distribution shift in inventory inputs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science",
+      "level": "master",
+      "field_of_study": "Computer Science",
+      "institution": "Greenfield College of Engineering",
+      "start_year": 2010,
+      "end_year": 2012
+    },
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Lakeview Institute of Technology",
+      "start_year": 2007,
+      "end_year": 2010
+    }
+  ],
+  "certifications": []
+}

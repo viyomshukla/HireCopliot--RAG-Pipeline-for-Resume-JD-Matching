@@ -1,0 +1,135 @@
+{
+  "full_name": "Imelda Serna Vila",
+  "email": "zporta@example.com",
+  "phone": "+34975031145",
+  "location": "Cáceres",
+  "headline": "Senior Backend Developer",
+  "skills": [
+    {
+      "name": "Node (Express)",
+      "canonical": null
+    },
+    {
+      "name": "async Python APIs (FastAPI)",
+      "canonical": null
+    },
+    {
+      "name": "Postgres",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "version control (Git)",
+      "canonical": null
+    },
+    {
+      "name": "ECS",
+      "canonical": null
+    },
+    {
+      "name": "API-key authentication",
+      "canonical": null
+    },
+    {
+      "name": "rate limiting",
+      "canonical": null
+    },
+    {
+      "name": "integration tests",
+      "canonical": null
+    },
+    {
+      "name": "Kotlin",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "message queue",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "OAuth2",
+      "canonical": null
+    },
+    {
+      "name": "FHIR",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "CRED",
+      "title": "Senior Backend Developer",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": 2024,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Containerised the notifications stack and moved CI/CD onto ECS.",
+        "Built API-key authentication and rate limiting for 15 public API consumers.",
+        "Instrumented the logistics service with metrics and alerts, cutting incident detection to under 3 minutes.",
+        "Wrote integration tests covering 34% of the search endpoints and gated deploys on them."
+      ]
+    },
+    {
+      "company": "PhonePe",
+      "title": "Backend Engineer",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and shipped 18 REST endpoints for the catalog service in Kotlin.",
+        "Modelled the notifications schema in MongoDB and tuned indexes to cut query time by 61%.",
+        "Implemented idempotent logistics processing with a message queue to survive retries.",
+        "Built JWT-based authentication and rate limiting for 22 public API consumers.",
+        "Instrumented the search service with metrics and alerts, cutting incident detection to under 18 minutes."
+      ]
+    },
+    {
+      "company": "Paytm",
+      "title": "Backend Developer",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and shipped 12 REST endpoints for the catalog service in Java.",
+        "Led the migration of risk data from Snowflake to a partitioned schema without downtime.",
+        "Instrumented the risk service with metrics and alerts, cutting incident detection to under 22 minutes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Crestwood College of Engineering",
+      "start_year": 2014,
+      "end_year": 2017
+    }
+  ],
+  "certifications": []
+}

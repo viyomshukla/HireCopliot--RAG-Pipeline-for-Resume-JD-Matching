@@ -1,0 +1,118 @@
+{
+  "full_name": "Mitesh Dhaliwal",
+  "email": "upadhritisehgal@example.org",
+  "phone": "+917135325717",
+  "location": "Nadiad",
+  "headline": "Quantitative Analyst",
+  "skills": [
+    {
+      "name": "experiment design",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "sklearn",
+      "canonical": null
+    },
+    {
+      "name": "Data Visualization",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Flipkart",
+      "title": "Quantitative Analyst",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": 2025,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Backtested the billing model on 4 historical quarters before rollout.",
+        "Performed exploratory analysis on 150K rows of claims data to size a new product bet.",
+        "Built causal impact estimates for the onboarding launch when a clean A/B split was not possible.",
+        "Replaced a heuristic inventory rule with a learned model, cutting false positives by 34%."
+      ]
+    },
+    {
+      "company": "Myntra",
+      "title": "Quantitative Analyst",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2022,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote the metric definitions and power calculations for the search experimentation framework.",
+        "Performed exploratory analysis on 12K rows of onboarding data to size a new product bet.",
+        "Designed and analysed 6 experiments on risk, of which 2 shipped.",
+        "Communicated payments model limitations and failure modes to non-technical leadership."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Data Scientist",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Communicated onboarding model limitations and failure modes to non-technical leadership.",
+        "Replaced a heuristic notifications rule with a learned model, cutting false positives by 30%.",
+        "Wrote the metric definitions and power calculations for the inventory experimentation framework."
+      ]
+    },
+    {
+      "company": "Walmart",
+      "title": "Quantitative Analyst",
+      "start_year": 2013,
+      "start_month": null,
+      "end_year": 2017,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built causal impact estimates for the search launch when a clean A/B split was not possible.",
+        "Productionised the billing scoring pipeline with 5 engineers and monitored it post-launch.",
+        "Performed exploratory analysis on 12K rows of notifications data to size a new product bet.",
+        "Wrote the metric definitions and power calculations for the risk experimentation framework.",
+        "Backtested the onboarding model on 10 historical quarters before rollout."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MCA",
+      "level": "master",
+      "field_of_study": null,
+      "institution": "Savitribai Phule Pune University",
+      "start_year": 2011,
+      "end_year": 2013
+    },
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "VIT Vellore",
+      "start_year": 2008,
+      "end_year": 2011
+    },
+    {
+      "degree": "Senior Secondary (Class XII)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Delhi Public School",
+      "start_year": 2006,
+      "end_year": 2008
+    }
+  ],
+  "certifications": []
+}

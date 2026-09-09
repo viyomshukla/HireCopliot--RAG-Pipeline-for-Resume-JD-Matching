@@ -1,0 +1,140 @@
+{
+  "full_name": "Damyanti Tata",
+  "email": "nimratsaraf@example.org",
+  "phone": "02695536709",
+  "location": "Narasaraopet",
+  "headline": "Software Development Engineer",
+  "skills": [
+    {
+      "name": "REST/HTTP API design",
+      "canonical": null
+    },
+    {
+      "name": "automated testing",
+      "canonical": null
+    },
+    {
+      "name": "Git / GitHub",
+      "canonical": null
+    },
+    {
+      "name": "Docker & docker-compose",
+      "canonical": null
+    },
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "Java 17",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "ECS",
+      "canonical": null
+    },
+    {
+      "name": "Redis",
+      "canonical": null
+    },
+    {
+      "name": "SAML authentication",
+      "canonical": null
+    },
+    {
+      "name": "role-based access control",
+      "canonical": null
+    },
+    {
+      "name": "JWT-based authentication",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "TCS",
+      "title": "Senior Software Engineer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Built and maintained 13 Java microservices handling 220K requests per day for the notifications platform.",
+        "Reduced p95 API latency from 610ms to 160ms by adding an in-process LRU caching and rewriting the hottest query path.",
+        "Implemented JWT-based authentication and role-based access control for the internal logistics tooling.",
+        "Designed the billing data model in MySQL and wrote the migration scripts for a 1.2M-row backfill.",
+        "Containerised 21 legacy services with Docker and moved deployment to GitHub Actions."
+      ]
+    },
+    {
+      "company": "Zoho",
+      "title": "Backend Software Engineer",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Introduced structured logging and tracing across the logistics stack, cutting mean time to diagnosis by 16%.",
+        "Implemented JWT-based authentication and role-based access control for the internal catalog tooling.",
+        "Built and maintained 4 Java microservices handling 150K requests per day for the notifications platform."
+      ]
+    },
+    {
+      "company": "Infosys",
+      "title": "Software Development Engineer",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Reviewed roughly 13 pull requests per month and mentored 3 junior engineers.",
+        "Containerised 5 legacy services with Docker and moved deployment to ECS.",
+        "Raised unit test coverage on the risk module from 30% to 29% and wired it into the CI gate.",
+        "Reduced p95 API latency from 480ms to 210ms by adding Redis caching and rewriting the hottest query path.",
+        "Implemented SAML authentication and role-based access control for the internal billing tooling."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science",
+      "level": "master",
+      "field_of_study": "Computer Science",
+      "institution": "Manipal Institute of Technology",
+      "start_year": 2015,
+      "end_year": 2017
+    },
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Jadavpur University",
+      "start_year": 2011,
+      "end_year": 2015
+    }
+  ],
+  "certifications": []
+}

@@ -1,0 +1,134 @@
+{
+  "full_name": "Jeffery Palmer",
+  "email": "james31@example.net",
+  "phone": "599.990.9489",
+  "location": "Samueltown",
+  "headline": "Applied Scientist",
+  "skills": [
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "Deep Learning",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "NLP",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow 2",
+      "canonical": null
+    },
+    {
+      "name": "model deployment & monitoring",
+      "canonical": null
+    },
+    {
+      "name": "Torch",
+      "canonical": null
+    },
+    {
+      "name": "PyTorch",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "spaCy",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "IBM",
+      "title": "Applied Scientist",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Cut inference latency from 320ms to 160ms through quantisation and batching.",
+        "Fine-tuned a pretrained PyTorch model on 220K labelled inventory examples.",
+        "Wrote drift monitoring that alerted on a 31% distribution shift in notifications inputs."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "ML Engineer",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built the feature pipeline feeding 5 features from MySQL into the payments model.",
+        "Deployed the notifications model behind a REST endpoint serving 3M predictions per day.",
+        "Trained and shipped a random forest model for catalog, improving recall from 12% to 16%."
+      ]
+    },
+    {
+      "company": "Fractal Analytics",
+      "title": "Machine Learning Engineer",
+      "start_year": 2018,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote drift monitoring that alerted on a 44% distribution shift in risk inputs.",
+        "Fine-tuned a pretrained TensorFlow model on 3M labelled claims examples.",
+        "Deployed the search model behind a REST endpoint serving 600K predictions per day.",
+        "Built the feature pipeline feeding 18 features from Snowflake into the inventory model."
+      ]
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Applied Scientist",
+      "start_year": 2016,
+      "start_month": null,
+      "end_year": 2018,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced training cost by 51% by moving from full retraining to incremental updates.",
+        "Built an NLP pipeline over 3M documents for risk classification using spaCy.",
+        "Trained and shipped a logistic regression model for search, improving precision from 24% to 64%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "VIT Vellore",
+      "start_year": 2013,
+      "end_year": 2016
+    }
+  ],
+  "certifications": [
+    "Google Professional Data Engineer",
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

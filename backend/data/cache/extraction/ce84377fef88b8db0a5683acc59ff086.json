@@ -1,0 +1,106 @@
+{
+  "full_name": "Brian Ellison",
+  "email": "mirandabaldwin@example.com",
+  "phone": "+1-729-410-8533x402",
+  "location": "Mcmillanland",
+  "headline": "Analytics Specialist",
+  "skills": [
+    {
+      "name": "Excel (pivot tables, Power Query)",
+      "canonical": null
+    },
+    {
+      "name": "Tableau Desktop",
+      "canonical": null
+    },
+    {
+      "name": "Power BI",
+      "canonical": null
+    },
+    {
+      "name": "ELT pipelines",
+      "canonical": null
+    },
+    {
+      "name": "applied statistics",
+      "canonical": null
+    },
+    {
+      "name": "dashboarding",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "ETL",
+      "canonical": null
+    },
+    {
+      "name": "A/B test",
+      "canonical": null
+    },
+    {
+      "name": "R",
+      "canonical": null
+    },
+    {
+      "name": "Metabase",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Accenture",
+      "title": "Analytics Specialist",
+      "start_year": 2024,
+      "start_month": 4,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Defined 10 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Investigated a 19% anomaly in catalog volumes and traced it to a broken upstream ETL job.",
+        "Ran an A/B test on catalog conversion that lifted the metric by 35% at 95% significance."
+      ]
+    },
+    {
+      "company": "Swiggy",
+      "title": "Data Analyst",
+      "start_year": 2020,
+      "start_month": 12,
+      "end_year": 2024,
+      "end_month": 4,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote BigQuery queries against a 40K-row warehouse to size the billing opportunity, informing a 52% budget shift.",
+        "Presented monthly search findings to 8 business leads and translated them into tracked actions.",
+        "Partnered with engineering to instrument 22 new events for catalog funnel analysis.",
+        "Automated a weekly catalog report that previously took 6 hours of manual work."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "IIT Madras",
+      "start_year": 2016,
+      "end_year": 2020
+    }
+  ],
+  "certifications": [
+    "Databricks Certified Data Engineer",
+    "Google Professional Data Engineer"
+  ]
+}

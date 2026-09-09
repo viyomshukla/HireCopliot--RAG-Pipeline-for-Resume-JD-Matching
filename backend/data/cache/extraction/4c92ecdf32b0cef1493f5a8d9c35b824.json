@@ -1,0 +1,122 @@
+{
+  "full_name": "Sra. Emanuella Oliveira",
+  "email": "ecavalcanti@example.com",
+  "phone": "+55 (071) 0508-7446",
+  "location": "Sá",
+  "headline": "Applied Data Scientist",
+  "skills": [
+    {
+      "name": "experiment design",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "scikit-learn pipelines",
+      "canonical": null
+    },
+    {
+      "name": "statistical inference",
+      "canonical": null
+    },
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "causal impact estimates",
+      "canonical": null
+    },
+    {
+      "name": "A/B split",
+      "canonical": null
+    },
+    {
+      "name": "metric definitions",
+      "canonical": null
+    },
+    {
+      "name": "power calculations",
+      "canonical": null
+    },
+    {
+      "name": "random forest model",
+      "canonical": null
+    },
+    {
+      "name": "notifications scoring pipeline",
+      "canonical": null
+    },
+    {
+      "name": "behavioural clusters",
+      "canonical": null
+    },
+    {
+      "name": "search experimentation framework",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Google",
+      "title": "Applied Data Scientist",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": 2025,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Replaced a heuristic catalog rule with a learned model, cutting false positives by 57%.",
+        "Designed and analysed 7 experiments on notifications, of which 4 shipped.",
+        "Built causal impact estimates for the billing launch when a clean A/B split was not possible."
+      ]
+    },
+    {
+      "company": "Flipkart",
+      "title": "Quantitative Analyst",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Communicated notifications model limitations and failure modes to non-technical leadership.",
+        "Built causal impact estimates for the payments launch when a clean A/B split was not possible.",
+        "Wrote the metric definitions and power calculations for the search experimentation framework."
+      ]
+    },
+    {
+      "company": "IBM",
+      "title": "Quantitative Analyst",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2018,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Communicated onboarding model limitations and failure modes to non-technical leadership.",
+        "Built a random forest model for inventory that improved accuracy by 37% over the existing baseline.",
+        "Replaced a heuristic onboarding rule with a learned model, cutting false positives by 55%.",
+        "Productionised the notifications scoring pipeline with 11 engineers and monitored it post-launch.",
+        "Segmented 12K customers into 19 behavioural clusters that drove the inventory campaign."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Anna University",
+      "start_year": 2013,
+      "end_year": 2017
+    }
+  ],
+  "certifications": [
+    "Google Professional Data Engineer",
+    "Tableau Desktop Specialist",
+    "Certified Kubernetes Application Developer (CKAD)"
+  ]
+}

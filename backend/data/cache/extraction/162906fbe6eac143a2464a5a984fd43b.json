@@ -1,0 +1,131 @@
+{
+  "full_name": "Mr Roger Parker",
+  "email": "traceybuckley@example.com",
+  "phone": "0306 999 0152",
+  "location": "New Mohammed",
+  "headline": "Data Analyst",
+  "skills": [
+    {
+      "name": "ELT pipelines",
+      "canonical": null
+    },
+    {
+      "name": "split testing",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "Excel",
+      "canonical": null
+    },
+    {
+      "name": "Statistics",
+      "canonical": null
+    },
+    {
+      "name": "Tableau dashboards",
+      "canonical": null
+    },
+    {
+      "name": "R",
+      "canonical": null
+    },
+    {
+      "name": "Looker",
+      "canonical": null
+    },
+    {
+      "name": "Power BI",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "Metabase",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "EY",
+      "title": "Data Analyst",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Built a cohort retention model in R that identified a 40% drop-off at week 17.",
+        "Built 23 Looker dashboards tracking inventory performance for a team of 2 stakeholders.",
+        "Defined 24 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Presented monthly billing findings to 2 business leads and translated them into tracked actions."
+      ]
+    },
+    {
+      "company": "Walmart",
+      "title": "Data Analyst",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2022,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built a cohort retention model in Python that identified a 26% drop-off at week 6.",
+        "Built 3 Tableau dashboards tracking billing performance for a team of 6 stakeholders.",
+        "Automated a weekly billing report that previously took 5 hours of manual work.",
+        "Presented monthly notifications findings to 8 business leads and translated them into tracked actions.",
+        "Ran an A/B test on inventory conversion that lifted the metric by 43% at 90% significance."
+      ]
+    },
+    {
+      "company": "Capgemini",
+      "title": "Senior Data Analyst",
+      "start_year": 2020,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Partnered with engineering to instrument 20 new events for onboarding funnel analysis.",
+        "Automated a weekly inventory report that previously took 14 hours of manual work.",
+        "Wrote Snowflake queries against a 600K-row warehouse to size the onboarding opportunity, informing a 60% budget shift.",
+        "Built 19 Power BI dashboards tracking logistics performance for a team of 4 stakeholders."
+      ]
+    },
+    {
+      "company": "Deloitte",
+      "title": "Analytics Specialist",
+      "start_year": 2018,
+      "start_month": null,
+      "end_year": 2020,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote Snowflake queries against a 12K-row warehouse to size the claims opportunity, informing a 20% budget shift.",
+        "Partnered with engineering to instrument 16 new events for risk funnel analysis.",
+        "Built 3 Metabase dashboards tracking risk performance for a team of 11 stakeholders.",
+        "Built a cohort retention model in R that identified a 50% drop-off at week 3."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "VIT Vellore",
+      "start_year": 2015,
+      "end_year": 2018
+    }
+  ],
+  "certifications": []
+}

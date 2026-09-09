@@ -1,0 +1,199 @@
+{
+  "full_name": "Nadine Römer",
+  "email": "anna-marie24@example.org",
+  "phone": "(09243) 82801",
+  "location": "Neuruppin",
+  "headline": "Applied Data Scientist",
+  "skills": [
+    {
+      "name": "NumPy vectorisation",
+      "canonical": null
+    },
+    {
+      "name": "Experimentation",
+      "canonical": null
+    },
+    {
+      "name": "pandas / numpy",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "applied ML",
+      "canonical": null
+    },
+    {
+      "name": "online experimentation",
+      "canonical": null
+    },
+    {
+      "name": "metric definitions",
+      "canonical": null
+    },
+    {
+      "name": "power calculations",
+      "canonical": null
+    },
+    {
+      "name": "exploratory analysis",
+      "canonical": null
+    },
+    {
+      "name": "logistics model",
+      "canonical": null
+    },
+    {
+      "name": "search model",
+      "canonical": null
+    },
+    {
+      "name": "heuristic inventory rule",
+      "canonical": null
+    },
+    {
+      "name": "transformer model",
+      "canonical": null
+    },
+    {
+      "name": "billing",
+      "canonical": null
+    },
+    {
+      "name": "AUC",
+      "canonical": null
+    },
+    {
+      "name": "gradient boosting",
+      "canonical": null
+    },
+    {
+      "name": "F1",
+      "canonical": null
+    },
+    {
+      "name": "causal impact",
+      "canonical": null
+    },
+    {
+      "name": "catalog model",
+      "canonical": null
+    },
+    {
+      "name": "notifications model",
+      "canonical": null
+    },
+    {
+      "name": "payments model",
+      "canonical": null
+    },
+    {
+      "name": "onboarding model",
+      "canonical": null
+    },
+    {
+      "name": "experiments",
+      "canonical": null
+    },
+    {
+      "name": "clustering",
+      "canonical": null
+    },
+    {
+      "name": "customer segmentation",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ola",
+      "title": "Applied Data Scientist",
+      "start_year": 2023,
+      "start_month": 6,
+      "end_year": 2025,
+      "end_month": 11,
+      "is_current": false,
+      "responsibilities": [
+        "Built a gradient boosting model for onboarding that improved F1 by 21% over the existing baseline.",
+        "Communicated catalog model limitations and failure modes to non-technical leadership.",
+        "Segmented 3M customers into 20 behavioural clusters that drove the logistics campaign.",
+        "Built causal impact estimates for the notifications launch when a clean A/B split was not possible."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Data Scientist",
+      "start_year": 2019,
+      "start_month": 7,
+      "end_year": 2023,
+      "end_month": 6,
+      "is_current": false,
+      "responsibilities": [
+        "Communicated onboarding model limitations and failure modes to non-technical leadership.",
+        "Segmented 12K customers into 24 behavioural clusters that drove the logistics campaign.",
+        "Designed and analysed 19 experiments on notifications, of which 1 shipped."
+      ]
+    },
+    {
+      "company": "Uber",
+      "title": "Data Scientist",
+      "start_year": 2016,
+      "start_month": 2,
+      "end_year": 2019,
+      "end_month": 5,
+      "is_current": false,
+      "responsibilities": [
+        "Replaced a heuristic risk rule with a learned model, cutting false positives by 23%.",
+        "Backtested the notifications model on 7 historical quarters before rollout.",
+        "Designed and analysed 12 experiments on payments, of which 1 shipped."
+      ]
+    },
+    {
+      "company": "IBM",
+      "title": "Senior Data Scientist",
+      "start_year": 2012,
+      "start_month": 5,
+      "end_year": 2016,
+      "end_month": 2,
+      "is_current": false,
+      "responsibilities": [
+        "Replaced a heuristic inventory rule with a learned model, cutting false positives by 56%.",
+        "Performed exploratory analysis on 3M rows of inventory data to size a new product bet.",
+        "Backtested the payments model on 3 historical quarters before rollout.",
+        "Built a transformer model for billing that improved AUC by 30% over the existing baseline."
+      ]
+    },
+    {
+      "company": "Flipkart",
+      "title": "Applied Data Scientist",
+      "start_year": 2010,
+      "start_month": 3,
+      "end_year": 2012,
+      "end_month": 5,
+      "is_current": false,
+      "responsibilities": [
+        "Segmented 1.2M customers into 15 behavioural clusters that drove the notifications campaign.",
+        "Wrote the metric definitions and power calculations for the payments experimentation framework.",
+        "Performed exploratory analysis on 40K rows of notifications data to size a new product bet.",
+        "Communicated logistics model limitations and failure modes to non-technical leadership.",
+        "Backtested the search model on 11 historical quarters before rollout."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Lakeview Institute of Technology",
+      "start_year": 2006,
+      "end_year": 2010
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Tableau Desktop Specialist"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "full_name": "Peggy Ring-Schuster",
+  "email": "fanny03@example.net",
+  "phone": "03508 987600",
+  "location": "Kitzingen",
+  "headline": "Senior ML Engineer",
+  "skills": [
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "TF/Keras",
+      "canonical": null
+    },
+    {
+      "name": "ML modelling",
+      "canonical": null
+    },
+    {
+      "name": "text mining",
+      "canonical": null
+    },
+    {
+      "name": "PyTorch",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "spaCy",
+      "canonical": null
+    },
+    {
+      "name": "quantisation",
+      "canonical": null
+    },
+    {
+      "name": "batching",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "experiment tracking",
+      "canonical": null
+    },
+    {
+      "name": "model registry",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "incremental updates",
+      "canonical": null
+    },
+    {
+      "name": "transformer",
+      "canonical": null
+    },
+    {
+      "name": "logistic regression",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Adobe",
+      "title": "Applied Scientist",
+      "start_year": 2022,
+      "start_month": 5,
+      "end_year": 2026,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Trained and shipped a logistic regression model for catalog, improving recall from 18% to 56%.",
+        "Reduced training cost by 56% by moving from full retraining to incremental updates.",
+        "Deployed the claims model behind a REST endpoint serving 220K predictions per day.",
+        "Cut inference latency from 1400ms to 45ms through quantisation and batching."
+      ]
+    },
+    {
+      "company": "IBM",
+      "title": "Machine Learning Engineer",
+      "start_year": 2018,
+      "start_month": 8,
+      "end_year": 2022,
+      "end_month": 4,
+      "is_current": false,
+      "responsibilities": [
+        "Ran error analysis on notifications predictions and closed the top 3 failure modes.",
+        "Reduced training cost by 20% by moving from full retraining to incremental updates.",
+        "Set up experiment tracking and model registry so 7 engineers could reproduce runs.",
+        "Trained and shipped a transformer model for claims, improving F1 from 26% to 37%."
+      ]
+    },
+    {
+      "company": "Intel",
+      "title": "Senior ML Engineer",
+      "start_year": 2015,
+      "start_month": 11,
+      "end_year": 2016,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Fine-tuned a pretrained TensorFlow model on 40K labelled risk examples.",
+        "Set up experiment tracking and model registry so 8 engineers could reproduce runs.",
+        "Deployed the payments model behind a REST endpoint serving 600K predictions per day.",
+        "Ran error analysis on billing predictions and closed the top 15 failure modes.",
+        "Built the feature pipeline feeding 3 features from MongoDB into the catalog model."
+      ]
+    },
+    {
+      "company": "Samsung R&D",
+      "title": "Machine Learning Engineer",
+      "start_year": 2013,
+      "start_month": 4,
+      "end_year": 2014,
+      "end_month": 9,
+      "is_current": false,
+      "responsibilities": [
+        "Cut inference latency from 320ms to 110ms through quantisation and batching.",
+        "Built the feature pipeline feeding 9 features from Snowflake into the inventory model.",
+        "Deployed the risk model behind a REST endpoint serving 3M predictions per day.",
+        "Set up experiment tracking and model registry so 8 engineers could reproduce runs."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Senior ML Engineer",
+      "start_year": 2011,
+      "start_month": 7,
+      "end_year": 2013,
+      "end_month": 4,
+      "is_current": false,
+      "responsibilities": [
+        "Ran error analysis on catalog predictions and closed the top 4 failure modes.",
+        "Wrote drift monitoring that alerted on a 57% distribution shift in notifications inputs.",
+        "Trained and shipped a logistic regression model for inventory, improving F1 from 21% to 46%.",
+        "Built the feature pipeline feeding 23 features from BigQuery into the catalog model.",
+        "Built an NLP pipeline over 8M documents for search classification using spaCy."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Northgate Institute of Science",
+      "start_year": 2007,
+      "end_year": 2011
+    }
+  ],
+  "certifications": [
+    "Google Professional Data Engineer"
+  ]
+}

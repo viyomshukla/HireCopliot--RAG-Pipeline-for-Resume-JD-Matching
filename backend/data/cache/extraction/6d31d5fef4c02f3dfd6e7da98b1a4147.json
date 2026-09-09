@@ -1,0 +1,162 @@
+{
+  "full_name": "Crescencia Marcos Esteve",
+  "email": "fanny35@example.net",
+  "phone": "+34987 57 39 55",
+  "location": "Valencia",
+  "headline": "ML Engineer",
+  "skills": [
+    {
+      "name": "PyTorch (training & inference)",
+      "canonical": null
+    },
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "NLP",
+      "canonical": null
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical": null
+    },
+    {
+      "name": "spaCy",
+      "canonical": null
+    },
+    {
+      "name": "gradient boosting",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "experiment tracking",
+      "canonical": null
+    },
+    {
+      "name": "model registry",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "quantisation",
+      "canonical": null
+    },
+    {
+      "name": "batching",
+      "canonical": null
+    },
+    {
+      "name": "drift monitoring",
+      "canonical": null
+    },
+    {
+      "name": "pandas",
+      "canonical": null
+    },
+    {
+      "name": "asyncio",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Microsoft",
+      "title": "ML Engineer",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": 2025,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Fine-tuned a pretrained spaCy model on 3M labelled claims examples.",
+        "Trained and shipped a gradient boosting model for billing, improving recall from 27% to 21%.",
+        "Built the feature pipeline feeding 8 features from BigQuery into the notifications model."
+      ]
+    },
+    {
+      "company": "Qualcomm",
+      "title": "Machine Learning Engineer",
+      "start_year": 2020,
+      "start_month": null,
+      "end_year": 2022,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Fine-tuned a pretrained PyTorch model on 150K labelled payments examples.",
+        "Wrote drift monitoring that alerted on a 25% distribution shift in search inputs.",
+        "Ran error analysis on notifications predictions and closed the top 17 failure modes.",
+        "Built an NLP pipeline over 40K documents for risk classification using Hugging Face Transformers."
+      ]
+    },
+    {
+      "company": "Fractal Analytics",
+      "title": "Applied Scientist",
+      "start_year": 2016,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote drift monitoring that alerted on a 64% distribution shift in risk inputs.",
+        "Deployed the search model behind a REST endpoint serving 3M predictions per day.",
+        "Set up experiment tracking and model registry so 4 engineers could reproduce runs."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Machine Learning Engineer",
+      "start_year": 2012,
+      "start_month": null,
+      "end_year": 2015,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote drift monitoring that alerted on a 40% distribution shift in risk inputs.",
+        "Cut inference latency from 900ms to 45ms through quantisation and batching.",
+        "Built the feature pipeline feeding 7 features from MongoDB into the claims model.",
+        "Fine-tuned a pretrained spaCy model on 600K labelled payments examples."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Lakeview Institute of Technology",
+      "start_year": 2008,
+      "end_year": 2012
+    },
+    {
+      "degree": "Intermediate (12th)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "DAV Public School",
+      "start_year": 2006,
+      "end_year": 2008
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

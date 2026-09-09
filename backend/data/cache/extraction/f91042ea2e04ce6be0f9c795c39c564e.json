@@ -1,0 +1,97 @@
+{
+  "full_name": "Mr Keith Connolly",
+  "email": "omurphy@example.net",
+  "phone": "+44118 4960259",
+  "location": "Emilyside",
+  "headline": "Backend Software Engineer",
+  "skills": [
+    {
+      "name": "Microservices",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "Unit Testing",
+      "canonical": null
+    },
+    {
+      "name": "Docker & docker-compose",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "Kotlin",
+      "canonical": null
+    },
+    {
+      "name": "Memcached",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Zoho",
+      "title": "Senior Software Engineer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Introduced structured logging and tracing across the onboarding stack, cutting mean time to diagnosis by 51%.",
+        "Reviewed roughly 15 pull requests per month and mentored 4 junior engineers.",
+        "Migrated the onboarding service from a monolith to 18 independently deployable services, cutting release time by 65%."
+      ]
+    },
+    {
+      "company": "Freshworks",
+      "title": "Backend Software Engineer",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built and maintained 17 Kotlin microservices handling 600K requests per day for the billing platform.",
+        "Reduced p95 API latency from 900ms to 210ms by adding an in-process LRU caching and rewriting the hottest query path.",
+        "Reviewed roughly 14 pull requests per month and mentored 5 junior engineers.",
+        "Raised unit test coverage on the claims module from 30% to 47% and wired it into the CI gate."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "IIIT Hyderabad",
+      "start_year": 2018,
+      "end_year": 2021
+    },
+    {
+      "degree": "Higher Secondary (Class 12), ICSE",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "St. Xavier's School",
+      "start_year": 2016,
+      "end_year": 2018
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

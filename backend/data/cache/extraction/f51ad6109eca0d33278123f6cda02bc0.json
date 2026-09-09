@@ -1,0 +1,147 @@
+{
+  "full_name": "Rhys Turner",
+  "email": "donaldclayton@example.org",
+  "phone": "+44(0)131 496 0048",
+  "location": "North Valerie",
+  "headline": "Quantitative Analyst",
+  "skills": [
+    {
+      "name": "applied ML",
+      "canonical": null
+    },
+    {
+      "name": "Pandas dataframes",
+      "canonical": null
+    },
+    {
+      "name": "A/B Testing",
+      "canonical": null
+    },
+    {
+      "name": "Experimentation",
+      "canonical": null
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical": null
+    },
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "Statistics",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ola",
+      "title": "Quantitative Analyst",
+      "start_year": 2024,
+      "start_month": 4,
+      "end_year": 2025,
+      "end_month": 11,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote the metric definitions and power calculations for the logistics experimentation framework.",
+        "Replaced a heuristic catalog rule with a learned model, cutting false positives by 33%.",
+        "Communicated onboarding model limitations and failure modes to non-technical leadership.",
+        "Segmented 150K customers into 13 behavioural clusters that drove the payments campaign."
+      ]
+    },
+    {
+      "company": "Walmart",
+      "title": "Data Scientist",
+      "start_year": 2019,
+      "start_month": 10,
+      "end_year": 2023,
+      "end_month": 2,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and analysed 13 experiments on catalog, of which 2 shipped.",
+        "Built causal impact estimates for the onboarding launch when a clean A/B split was not possible.",
+        "Built a transformer model for notifications that improved accuracy by 61% over the existing baseline.",
+        "Wrote the metric definitions and power calculations for the inventory experimentation framework."
+      ]
+    },
+    {
+      "company": "Uber",
+      "title": "Quantitative Analyst",
+      "start_year": 2018,
+      "start_month": 1,
+      "end_year": 2019,
+      "end_month": 9,
+      "is_current": false,
+      "responsibilities": [
+        "Performed exploratory analysis on 40K rows of billing data to size a new product bet.",
+        "Built causal impact estimates for the billing launch when a clean A/B split was not possible.",
+        "Replaced a heuristic notifications rule with a learned model, cutting false positives by 21%."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Senior Data Scientist",
+      "start_year": 2013,
+      "start_month": 12,
+      "end_year": 2016,
+      "end_month": 5,
+      "is_current": false,
+      "responsibilities": [
+        "Performed exploratory analysis on 1.2M rows of onboarding data to size a new product bet.",
+        "Built causal impact estimates for the catalog launch when a clean A/B split was not possible.",
+        "Replaced a heuristic risk rule with a learned model, cutting false positives by 58%.",
+        "Productionised the onboarding scoring pipeline with 7 engineers and monitored it post-launch."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Quantitative Analyst",
+      "start_year": 2012,
+      "start_month": 9,
+      "end_year": 2013,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote the metric definitions and power calculations for the inventory experimentation framework.",
+        "Built causal impact estimates for the payments launch when a clean A/B split was not possible.",
+        "Backtested the logistics model on 21 historical quarters before rollout.",
+        "Productionised the logistics scoring pipeline with 3 engineers and monitored it post-launch."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science",
+      "level": "master",
+      "field_of_study": "Computer Science",
+      "institution": "Crestwood College of Engineering",
+      "start_year": 2010,
+      "end_year": 2012
+    },
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "Sunrise Institute of Technology",
+      "start_year": 2007,
+      "end_year": 2010
+    },
+    {
+      "degree": "Senior Secondary (Class XII), CBSE",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Delhi Public School",
+      "start_year": 2005,
+      "end_year": 2007
+    }
+  ],
+  "certifications": [
+    "Certified Kubernetes Application Developer (CKAD)",
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

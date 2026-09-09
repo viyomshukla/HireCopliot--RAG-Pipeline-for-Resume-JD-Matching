@@ -1,0 +1,162 @@
+{
+  "full_name": "Hans Georg Nerger",
+  "email": "gerardschlosser@example.com",
+  "phone": "0799268936",
+  "location": "Rockenhausen",
+  "headline": "Senior Software Engineer",
+  "skills": [
+    {
+      "name": "version control (Git)",
+      "canonical": null
+    },
+    {
+      "name": "Microservices",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "Core Java",
+      "canonical": null
+    },
+    {
+      "name": "Kubernetes",
+      "canonical": null
+    },
+    {
+      "name": "Redis caching",
+      "canonical": null
+    },
+    {
+      "name": "REST/HTTP API design",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "ECS",
+      "canonical": null
+    },
+    {
+      "name": "Jenkins",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "OAuth2 authentication",
+      "canonical": null
+    },
+    {
+      "name": "role-based access control",
+      "canonical": null
+    },
+    {
+      "name": "CI gate",
+      "canonical": null
+    },
+    {
+      "name": "unit test coverage",
+      "canonical": null
+    },
+    {
+      "name": "LRU caching",
+      "canonical": null
+    },
+    {
+      "name": "structured logging",
+      "canonical": null
+    },
+    {
+      "name": "tracing",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Infosys",
+      "title": "Senior Software Engineer",
+      "start_year": 2023,
+      "start_month": 5,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Debugged and fixed a production incident affecting 3M users, then wrote the postmortem and added alerting.",
+        "Raised unit test coverage on the catalog module from 23% to 34% and wired it into the CI gate.",
+        "Reviewed roughly 15 pull requests per month and mentored 3 junior engineers.",
+        "Reduced p95 API latency from 320ms to 160ms by adding an in-process LRU caching and rewriting the hottest query path.",
+        "Containerised 9 legacy services with Docker and moved deployment to ECS."
+      ]
+    },
+    {
+      "company": "Freshworks",
+      "title": "Backend Software Engineer",
+      "start_year": 2019,
+      "start_month": 7,
+      "end_year": 2022,
+      "end_month": 11,
+      "is_current": false,
+      "responsibilities": [
+        "Migrated the risk service from a monolith to 19 independently deployable services, cutting release time by 32%.",
+        "Debugged and fixed a production incident affecting 1.2M users, then wrote the postmortem and added alerting.",
+        "Containerised 13 legacy services with Docker and moved deployment to Jenkins."
+      ]
+    },
+    {
+      "company": "Cognizant",
+      "title": "Software Engineer",
+      "start_year": 2015,
+      "start_month": 3,
+      "end_year": 2019,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Introduced structured logging and tracing across the logistics stack, cutting mean time to diagnosis by 38%.",
+        "Containerised 19 legacy services with Docker and moved deployment to ECS.",
+        "Designed the onboarding data model in BigQuery and wrote the migration scripts for a 8M-row backfill."
+      ]
+    },
+    {
+      "company": "Zoho",
+      "title": "Senior Software Engineer",
+      "start_year": 2013,
+      "start_month": 4,
+      "end_year": 2015,
+      "end_month": 3,
+      "is_current": false,
+      "responsibilities": [
+        "Debugged and fixed a production incident affecting 12K users, then wrote the postmortem and added alerting.",
+        "Migrated the billing service from a monolith to 21 independently deployable services, cutting release time by 58%.",
+        "Introduced structured logging and tracing across the catalog stack, cutting mean time to diagnosis by 30%.",
+        "Implemented OAuth2 authentication and role-based access control for the internal catalog tooling.",
+        "Raised unit test coverage on the billing module from 16% to 31% and wired it into the CI gate."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. in Data Science",
+      "level": "master",
+      "field_of_study": "Data Science",
+      "institution": "Savitribai Phule Pune University",
+      "start_year": 2011,
+      "end_year": 2013
+    },
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "Delhi Technological University",
+      "start_year": 2008,
+      "end_year": 2011
+    }
+  ],
+  "certifications": []
+}

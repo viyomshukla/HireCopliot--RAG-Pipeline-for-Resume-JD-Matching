@@ -1,0 +1,171 @@
+{
+  "full_name": "Clímaco Milla Miguel",
+  "email": "fduran@example.com",
+  "phone": "+34 748 873 248",
+  "location": "Zaragoza",
+  "headline": "Software Development Engineer",
+  "skills": [
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "pytest",
+      "canonical": null
+    },
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "container orchestration (Kubernetes)",
+      "canonical": null
+    },
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "Git / GitHub",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "pandas",
+      "canonical": null
+    },
+    {
+      "name": "asyncio",
+      "canonical": null
+    },
+    {
+      "name": "Kubernetes",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "ECS",
+      "canonical": null
+    },
+    {
+      "name": "Kotlin",
+      "canonical": null
+    },
+    {
+      "name": "Redis",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "Jenkins",
+      "canonical": null
+    },
+    {
+      "name": "Memcached",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "TCS",
+      "title": "Software Development Engineer",
+      "start_year": 2024,
+      "start_month": null,
+      "end_year": 2026,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Raised unit test coverage on the claims module from 7% to 62% and wired it into the CI gate.",
+        "Designed the claims data model in PostgreSQL and wrote the migration scripts for a 3M-row backfill.",
+        "Containerised 8 legacy services with Docker and moved deployment to ECS.",
+        "Reduced p95 API latency from 320ms to 110ms by adding an in-process LRU caching and rewriting the hottest query path.",
+        "Migrated the inventory service from a monolith to 3 independently deployable services, cutting release time by 38%."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Software Development Engineer",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2024,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Raised unit test coverage on the notifications module from 24% to 54% and wired it into the CI gate.",
+        "Implemented API-key authentication and role-based access control for the internal catalog tooling.",
+        "Debugged and fixed a production incident affecting 3M users, then wrote the postmortem and added alerting.",
+        "Reduced p95 API latency from 320ms to 80ms by adding an in-process LRU caching and rewriting the hottest query path."
+      ]
+    },
+    {
+      "company": "Freshworks",
+      "title": "Senior Software Engineer",
+      "start_year": 2018,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Implemented API-key authentication and role-based access control for the internal catalog tooling.",
+        "Debugged and fixed a production incident affecting 220K users, then wrote the postmortem and added alerting.",
+        "Raised unit test coverage on the logistics module from 28% to 28% and wired it into the CI gate.",
+        "Built and maintained 10 Kotlin microservices handling 1.2M requests per day for the claims platform.",
+        "Reduced p95 API latency from 900ms to 45ms by adding Redis caching and rewriting the hottest query path."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Backend Software Engineer",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2018,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built and maintained 9 Kotlin microservices handling 12K requests per day for the logistics platform.",
+        "Implemented JWT-based authentication and role-based access control for the internal billing tooling.",
+        "Containerised 15 legacy services with Docker and moved deployment to Jenkins.",
+        "Designed the notifications data model in MongoDB and wrote the migration scripts for a 40K-row backfill.",
+        "Migrated the notifications service from a monolith to 24 independently deployable services, cutting release time by 19%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "BITS Pilani",
+      "start_year": 2014,
+      "end_year": 2017
+    }
+  ],
+  "certifications": [
+    "Tableau Desktop Specialist"
+  ]
+}

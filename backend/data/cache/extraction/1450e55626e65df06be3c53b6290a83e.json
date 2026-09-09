@@ -1,0 +1,110 @@
+{
+  "full_name": "Jordana Catalán Abascal",
+  "email": "leonfuertes@example.org",
+  "phone": "+34953183932",
+  "location": "Cádiz",
+  "headline": "Senior Data Analyst",
+  "skills": [
+    {
+      "name": "Data Visualization",
+      "canonical": null
+    },
+    {
+      "name": "data pipelines",
+      "canonical": null
+    },
+    {
+      "name": "Tableau",
+      "canonical": null
+    },
+    {
+      "name": "Power BI (DAX)",
+      "canonical": null
+    },
+    {
+      "name": "Advanced Excel",
+      "canonical": null
+    },
+    {
+      "name": "Pandas",
+      "canonical": null
+    },
+    {
+      "name": "A/B Testing",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "A/B test",
+      "canonical": null
+    },
+    {
+      "name": "Power BI",
+      "canonical": null
+    },
+    {
+      "name": "Metabase",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Swiggy",
+      "title": "Senior Data Analyst",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": 2025,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Presented monthly payments findings to 3 business leads and translated them into tracked actions.",
+        "Automated a weekly notifications report that previously took 15 hours of manual work.",
+        "Built a cohort retention model in Python that identified a 49% drop-off at week 13.",
+        "Wrote MySQL queries against a 40K-row warehouse to size the billing opportunity, informing a 26% budget shift.",
+        "Defined 11 core metrics and their SQL definitions so reporting stopped disagreeing across teams."
+      ]
+    },
+    {
+      "company": "Accenture",
+      "title": "Senior Data Analyst",
+      "start_year": 2020,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Presented monthly inventory findings to 4 business leads and translated them into tracked actions.",
+        "Ran an A/B test on notifications conversion that lifted the metric by 62% at 99% significance.",
+        "Partnered with engineering to instrument 17 new events for logistics funnel analysis.",
+        "Built 8 Power BI dashboards tracking inventory performance for a team of 8 stakeholders.",
+        "Defined 15 core metrics and their SQL definitions so reporting stopped disagreeing across teams."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Greenfield College of Engineering",
+      "start_year": 2016,
+      "end_year": 2020
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure Data Scientist Associate",
+    "Certified Kubernetes Application Developer (CKAD)",
+    "Databricks Certified Data Engineer"
+  ]
+}

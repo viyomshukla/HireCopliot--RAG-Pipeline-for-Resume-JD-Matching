@@ -1,0 +1,118 @@
+{
+  "full_name": "Ralph Zobel",
+  "email": "patberghilde@example.com",
+  "phone": "+49(0)3919 333071",
+  "location": "Schwerin",
+  "headline": "Backend Developer",
+  "skills": [
+    {
+      "name": "Python 3",
+      "canonical": null
+    },
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL (partitioning, indexing)",
+      "canonical": null
+    },
+    {
+      "name": "Git / GitHub",
+      "canonical": null
+    },
+    {
+      "name": "FastAPI",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "in-memory caching (Redis)",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Kotlin",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Paytm",
+      "title": "Backend Developer",
+      "start_year": 2024,
+      "start_month": 2,
+      "end_year": 2026,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and shipped 16 REST endpoints for the onboarding service in Kotlin.",
+        "Implemented idempotent notifications processing with a message queue to survive retries.",
+        "Reduced background job failure rate from 23% to under 1% by adding dead-letter handling.",
+        "Instrumented the search service with metrics and alerts, cutting incident detection to under 19 minutes."
+      ]
+    },
+    {
+      "company": "Meesho",
+      "title": "Backend Engineer",
+      "start_year": 2021,
+      "start_month": 2,
+      "end_year": 2022,
+      "end_month": 6,
+      "is_current": false,
+      "responsibilities": [
+        "Implemented idempotent claims processing with a message queue to survive retries.",
+        "Modelled the search schema in Snowflake and tuned indexes to cut query time by 36%.",
+        "Built JWT-based authentication and rate limiting for 12 public API consumers.",
+        "Instrumented the notifications service with metrics and alerts, cutting incident detection to under 15 minutes.",
+        "Wrote integration tests covering 20% of the risk endpoints and gated deploys on them."
+      ]
+    },
+    {
+      "company": "Zerodha",
+      "title": "Backend Developer",
+      "start_year": 2019,
+      "start_month": 6,
+      "end_year": 2020,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced background job failure rate from 5% to under 0.5% by adding dead-letter handling.",
+        "Added an in-process LRU caching in front of the claims read path, absorbing 600K requests per day.",
+        "Designed and shipped 12 REST endpoints for the logistics service in Kotlin."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Manipal Institute of Technology",
+      "start_year": 2016,
+      "end_year": 2019
+    }
+  ],
+  "certifications": [
+    "Tableau Desktop Specialist",
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

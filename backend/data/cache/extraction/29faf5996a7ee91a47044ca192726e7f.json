@@ -1,0 +1,123 @@
+{
+  "full_name": "Rajeshri Rau",
+  "email": "niharikagrover@example.net",
+  "phone": "05412486874",
+  "location": "Karnal",
+  "headline": "Backend Engineer",
+  "skills": [
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "FastAPI",
+      "canonical": null
+    },
+    {
+      "name": "async messaging",
+      "canonical": null
+    },
+    {
+      "name": "Postgres",
+      "canonical": null
+    },
+    {
+      "name": "Redis",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "OAuth2",
+      "canonical": null
+    },
+    {
+      "name": "ECS",
+      "canonical": null
+    },
+    {
+      "name": "REST",
+      "canonical": null
+    },
+    {
+      "name": "Jenkins",
+      "canonical": null
+    },
+    {
+      "name": "Go",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "PhonePe",
+      "title": "Backend Developer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Designed and shipped 5 REST endpoints for the onboarding service in Node.js.",
+        "Instrumented the onboarding service with metrics and alerts, cutting incident detection to under 5 minutes.",
+        "Wrote integration tests covering 50% of the logistics endpoints and gated deploys on them.",
+        "Containerised the inventory stack and moved CI/CD onto Jenkins.",
+        "Added Redis caching in front of the billing read path, absorbing 12K requests per day."
+      ]
+    },
+    {
+      "company": "Zomato",
+      "title": "Senior Backend Developer",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote integration tests covering 54% of the onboarding endpoints and gated deploys on them.",
+        "Instrumented the logistics service with metrics and alerts, cutting incident detection to under 15 minutes.",
+        "Reduced background job failure rate from 12% to under 1% by adding dead-letter handling."
+      ]
+    },
+    {
+      "company": "Swiggy",
+      "title": "Backend Engineer",
+      "start_year": 2018,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced background job failure rate from 29% to under 2% by adding dead-letter handling.",
+        "Built OAuth2 authentication and rate limiting for 9 public API consumers.",
+        "Wrote integration tests covering 30% of the inventory endpoints and gated deploys on them.",
+        "Containerised the inventory stack and moved CI/CD onto ECS.",
+        "Designed and shipped 13 REST endpoints for the notifications service in Python."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "Northgate Institute of Science",
+      "start_year": 2015,
+      "end_year": 2018
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Tableau Desktop Specialist"
+  ]
+}

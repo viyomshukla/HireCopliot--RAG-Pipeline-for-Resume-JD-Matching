@@ -1,0 +1,162 @@
+{
+  "full_name": "Vilma Agustín Mayol",
+  "email": "qmarti@example.com",
+  "phone": "+34944 021 301",
+  "location": "Tarragona",
+  "headline": "ML Engineer",
+  "skills": [
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "neural networks",
+      "canonical": null
+    },
+    {
+      "name": "NLP",
+      "canonical": null
+    },
+    {
+      "name": "TF/Keras",
+      "canonical": null
+    },
+    {
+      "name": "ML platform engineering",
+      "canonical": null
+    },
+    {
+      "name": "quantisation",
+      "canonical": null
+    },
+    {
+      "name": "batching",
+      "canonical": null
+    },
+    {
+      "name": "experiment tracking",
+      "canonical": null
+    },
+    {
+      "name": "model registry",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "random forest",
+      "canonical": null
+    },
+    {
+      "name": "precision",
+      "canonical": null
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "canonical": null
+    },
+    {
+      "name": "incremental updates",
+      "canonical": null
+    },
+    {
+      "name": "NLP pipeline",
+      "canonical": null
+    },
+    {
+      "name": "risk classification",
+      "canonical": null
+    },
+    {
+      "name": "feature pipeline",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "payments model",
+      "canonical": null
+    },
+    {
+      "name": "onboarding model",
+      "canonical": null
+    },
+    {
+      "name": "PyTorch",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Amazon",
+      "title": "Senior ML Engineer",
+      "start_year": 2022,
+      "start_month": 12,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Built the feature pipeline feeding 5 features from PostgreSQL into the payments model.",
+        "Deployed the onboarding model behind a REST endpoint serving 1.2M predictions per day.",
+        "Fine-tuned a pretrained PyTorch model on 600K labelled onboarding examples."
+      ]
+    },
+    {
+      "company": "Intel",
+      "title": "Senior ML Engineer",
+      "start_year": 2019,
+      "start_month": 8,
+      "end_year": 2022,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced training cost by 58% by moving from full retraining to incremental updates.",
+        "Deployed the notifications model behind a REST endpoint serving 150K predictions per day.",
+        "Built an NLP pipeline over 150K documents for risk classification using Hugging Face Transformers."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "ML Engineer",
+      "start_year": 2014,
+      "start_month": 5,
+      "end_year": 2017,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Cut inference latency from 480ms to 110ms through quantisation and batching.",
+        "Set up experiment tracking and model registry so 4 engineers could reproduce runs.",
+        "Deployed the search model behind a REST endpoint serving 3M predictions per day.",
+        "Trained and shipped a random forest model for claims, improving precision from 23% to 55%.",
+        "Fine-tuned a pretrained Hugging Face Transformers model on 40K labelled logistics examples."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MBA in Business Analytics",
+      "level": "master",
+      "field_of_study": "Business Analytics",
+      "institution": "Lakeview Institute of Technology",
+      "start_year": 2012,
+      "end_year": 2014
+    },
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "Crestwood College of Engineering",
+      "start_year": 2009,
+      "end_year": 2012
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Databricks Certified Data Engineer",
+    "Tableau Desktop Specialist"
+  ]
+}

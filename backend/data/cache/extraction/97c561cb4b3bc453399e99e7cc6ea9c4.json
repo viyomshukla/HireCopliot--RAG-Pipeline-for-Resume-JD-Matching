@@ -1,0 +1,109 @@
+{
+  "full_name": "Anika Chada",
+  "email": "acharyaubika@example.org",
+  "phone": "07443489581",
+  "location": "Kozhikode",
+  "headline": "Senior ML Engineer",
+  "skills": [
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "ML platform engineering",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "DL",
+      "canonical": null
+    },
+    {
+      "name": "scikit-learn pipelines",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow 2",
+      "canonical": null
+    },
+    {
+      "name": "Natural Language Processing",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "PyTorch",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Qualcomm",
+      "title": "Senior ML Engineer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Reduced training cost by 19% by moving from full retraining to incremental updates.",
+        "Built an NLP pipeline over 8M documents for search classification using TensorFlow.",
+        "Wrote drift monitoring that alerted on a 27% distribution shift in notifications inputs."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Machine Learning Engineer",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote drift monitoring that alerted on a 49% distribution shift in billing inputs.",
+        "Deployed the notifications model behind a REST endpoint serving 40K predictions per day.",
+        "Ran error analysis on onboarding predictions and closed the top 22 failure modes.",
+        "Built the feature pipeline feeding 11 features from Snowflake into the billing model."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Anna University",
+      "start_year": 2018,
+      "end_year": 2021
+    },
+    {
+      "degree": "Intermediate (12th)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "DAV Public School",
+      "start_year": 2016,
+      "end_year": 2018
+    }
+  ],
+  "certifications": [
+    "Tableau Desktop Specialist"
+  ]
+}

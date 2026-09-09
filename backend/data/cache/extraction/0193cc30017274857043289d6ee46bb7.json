@@ -1,0 +1,119 @@
+{
+  "full_name": "Mr Oliver Rowley",
+  "email": "julia46@example.org",
+  "phone": "+44(0)20 7496 0587",
+  "location": "South Rhysfort",
+  "headline": "Business Data Analyst",
+  "skills": [
+    {
+      "name": "dashboarding",
+      "canonical": null
+    },
+    {
+      "name": "data pipelines",
+      "canonical": null
+    },
+    {
+      "name": "Advanced Excel",
+      "canonical": null
+    },
+    {
+      "name": "Tableau Desktop",
+      "canonical": null
+    },
+    {
+      "name": "Statistics",
+      "canonical": null
+    },
+    {
+      "name": "online experimentation",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "Looker",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "Metabase",
+      "canonical": null
+    },
+    {
+      "name": "R",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Accenture",
+      "title": "Business Data Analyst",
+      "start_year": 2022,
+      "start_month": 12,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Cleaned and reconciled 220K rows of onboarding data across 10 source systems.",
+        "Wrote Snowflake queries against a 150K-row warehouse to size the inventory opportunity, informing a 54% budget shift.",
+        "Automated a weekly notifications report that previously took 20 hours of manual work.",
+        "Defined 6 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Built 14 Looker dashboards tracking billing performance for a team of 6 stakeholders."
+      ]
+    },
+    {
+      "company": "Swiggy",
+      "title": "Analytics Specialist",
+      "start_year": 2019,
+      "start_month": 8,
+      "end_year": 2022,
+      "end_month": 11,
+      "is_current": false,
+      "responsibilities": [
+        "Presented monthly risk findings to 10 business leads and translated them into tracked actions.",
+        "Wrote MongoDB queries against a 8M-row warehouse to size the notifications opportunity, informing a 36% budget shift.",
+        "Built 10 Metabase dashboards tracking onboarding performance for a team of 4 stakeholders.",
+        "Defined 9 core metrics and their SQL definitions so reporting stopped disagreeing across teams."
+      ]
+    },
+    {
+      "company": "EY",
+      "title": "Senior Data Analyst",
+      "start_year": 2018,
+      "start_month": 4,
+      "end_year": 2019,
+      "end_month": 8,
+      "is_current": false,
+      "responsibilities": [
+        "Presented monthly notifications findings to 7 business leads and translated them into tracked actions.",
+        "Built a cohort retention model in SQL that identified a 51% drop-off at week 15.",
+        "Partnered with engineering to instrument 15 new events for claims funnel analysis."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Jadavpur University",
+      "start_year": 2014,
+      "end_year": 2018
+    }
+  ],
+  "certifications": [
+    "Certified Kubernetes Application Developer (CKAD)",
+    "Google Professional Data Engineer",
+    "Databricks Certified Data Engineer"
+  ]
+}

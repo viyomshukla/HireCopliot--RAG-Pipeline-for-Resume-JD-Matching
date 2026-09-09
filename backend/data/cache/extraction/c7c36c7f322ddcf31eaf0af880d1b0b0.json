@@ -1,0 +1,202 @@
+{
+  "full_name": "Susan Carpenter",
+  "email": "nicolemeadows@example.org",
+  "phone": "+1-494-706-5361x69243",
+  "location": "East Kimberly",
+  "headline": "Senior Data Scientist",
+  "skills": [
+    {
+      "name": "applied ML",
+      "canonical": null
+    },
+    {
+      "name": "causal inference",
+      "canonical": null
+    },
+    {
+      "name": "data viz",
+      "canonical": null
+    },
+    {
+      "name": "NumPy",
+      "canonical": null
+    },
+    {
+      "name": "Statistics",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "scikit-learn pipelines",
+      "canonical": null
+    },
+    {
+      "name": "A/B split",
+      "canonical": null
+    },
+    {
+      "name": "transformer model",
+      "canonical": null
+    },
+    {
+      "name": "random forest model",
+      "canonical": null
+    },
+    {
+      "name": "F1",
+      "canonical": null
+    },
+    {
+      "name": "precision",
+      "canonical": null
+    },
+    {
+      "name": "risk",
+      "canonical": null
+    },
+    {
+      "name": "behavioural clusters",
+      "canonical": null
+    },
+    {
+      "name": "payments model",
+      "canonical": null
+    },
+    {
+      "name": "claims launch",
+      "canonical": null
+    },
+    {
+      "name": "billing model",
+      "canonical": null
+    },
+    {
+      "name": "heuristic billing rule",
+      "canonical": null
+    },
+    {
+      "name": "false positives",
+      "canonical": null
+    },
+    {
+      "name": "onboarding scoring pipeline",
+      "canonical": null
+    },
+    {
+      "name": "metric definitions",
+      "canonical": null
+    },
+    {
+      "name": "power calculations",
+      "canonical": null
+    },
+    {
+      "name": "claims experimentation framework",
+      "canonical": null
+    },
+    {
+      "name": "search campaign",
+      "canonical": null
+    },
+    {
+      "name": "billing campaign",
+      "canonical": null
+    },
+    {
+      "name": "logistics campaign",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Walmart",
+      "title": "Senior Data Scientist",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Communicated payments model limitations and failure modes to non-technical leadership.",
+        "Built causal impact estimates for the claims launch when a clean A/B split was not possible.",
+        "Segmented 1.2M customers into 21 behavioural clusters that drove the search campaign."
+      ]
+    },
+    {
+      "company": "Adobe",
+      "title": "Data Scientist",
+      "start_year": 2018,
+      "start_month": null,
+      "end_year": 2022,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Communicated billing model limitations and failure modes to non-technical leadership.",
+        "Replaced a heuristic billing rule with a learned model, cutting false positives by 39%.",
+        "Segmented 150K customers into 16 behavioural clusters that drove the billing campaign."
+      ]
+    },
+    {
+      "company": "IBM",
+      "title": "Data Scientist",
+      "start_year": 2014,
+      "start_month": null,
+      "end_year": 2018,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Productionised the onboarding scoring pipeline with 7 engineers and monitored it post-launch.",
+        "Wrote the metric definitions and power calculations for the claims experimentation framework.",
+        "Built causal impact estimates for the onboarding launch when a clean A/B split was not possible."
+      ]
+    },
+    {
+      "company": "Flipkart",
+      "title": "Quantitative Analyst",
+      "start_year": 2009,
+      "start_month": null,
+      "end_year": 2013,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built causal impact estimates for the billing launch when a clean A/B split was not possible.",
+        "Performed exploratory analysis on 600K rows of claims data to size a new product bet.",
+        "Built a transformer model for claims that improved precision by 55% over the existing baseline."
+      ]
+    },
+    {
+      "company": "Ola",
+      "title": "Senior Data Scientist",
+      "start_year": 2007,
+      "start_month": null,
+      "end_year": 2008,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Communicated inventory model limitations and failure modes to non-technical leadership.",
+        "Wrote the metric definitions and power calculations for the claims experimentation framework.",
+        "Built a random forest model for risk that improved F1 by 30% over the existing baseline.",
+        "Built causal impact estimates for the payments launch when a clean A/B split was not possible.",
+        "Segmented 8M customers into 16 behavioural clusters that drove the logistics campaign."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "IIT Madras",
+      "start_year": 2003,
+      "end_year": 2007
+    }
+  ],
+  "certifications": []
+}

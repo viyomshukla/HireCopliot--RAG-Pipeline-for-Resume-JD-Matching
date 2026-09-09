@@ -1,0 +1,202 @@
+{
+  "full_name": "Vamakshi Nagarajan",
+  "email": "ikbalnair@example.com",
+  "phone": "03802061855",
+  "location": "Berhampore",
+  "headline": "Backend Software Engineer",
+  "skills": [
+    {
+      "name": "containerisation (Docker)",
+      "canonical": null
+    },
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "version control (Git)",
+      "canonical": null
+    },
+    {
+      "name": "Redis caching",
+      "canonical": null
+    },
+    {
+      "name": "K8s",
+      "canonical": null
+    },
+    {
+      "name": "Unit Testing",
+      "canonical": null
+    },
+    {
+      "name": "Java",
+      "canonical": null
+    },
+    {
+      "name": "service-oriented architecture",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "OAuth2",
+      "canonical": null
+    },
+    {
+      "name": "Memcached",
+      "canonical": null
+    },
+    {
+      "name": "structured logging",
+      "canonical": null
+    },
+    {
+      "name": "tracing",
+      "canonical": null
+    },
+    {
+      "name": "SAML",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "Go",
+      "canonical": null
+    },
+    {
+      "name": "LRU caching",
+      "canonical": null
+    },
+    {
+      "name": "Kubernetes",
+      "canonical": null
+    },
+    {
+      "name": "API-key authentication",
+      "canonical": null
+    },
+    {
+      "name": "role-based access control",
+      "canonical": null
+    },
+    {
+      "name": "OAuth2 authentication",
+      "canonical": null
+    },
+    {
+      "name": "SAML authentication",
+      "canonical": null
+    },
+    {
+      "name": "JWT-based authentication",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Google",
+      "title": "Backend Software Engineer",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Containerised 14 legacy services with Docker and moved deployment to GitHub Actions.",
+        "Designed the search data model in Snowflake and wrote the migration scripts for a 8M-row backfill.",
+        "Implemented OAuth2 authentication and role-based access control for the internal risk tooling.",
+        "Reduced p95 API latency from 320ms to 210ms by adding Memcached caching and rewriting the hottest query path.",
+        "Introduced structured logging and tracing across the notifications stack, cutting mean time to diagnosis by 25%."
+      ]
+    },
+    {
+      "company": "Accenture",
+      "title": "Software Engineer",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Raised unit test coverage on the logistics module from 30% to 23% and wired it into the CI gate.",
+        "Migrated the billing service from a monolith to 5 independently deployable services, cutting release time by 58%.",
+        "Implemented SAML authentication and role-based access control for the internal billing tooling."
+      ]
+    },
+    {
+      "company": "Wipro",
+      "title": "Software Development Engineer",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Reduced p95 API latency from 900ms to 80ms by adding an in-process LRU caching and rewriting the hottest query path.",
+        "Designed the search data model in Snowflake and wrote the migration scripts for a 150K-row backfill.",
+        "Containerised 10 legacy services with Docker and moved deployment to Kubernetes.",
+        "Debugged and fixed a production incident affecting 220K users, then wrote the postmortem and added alerting.",
+        "Implemented JWT-based authentication and role-based access control for the internal billing tooling."
+      ]
+    },
+    {
+      "company": "TCS",
+      "title": "Software Development Engineer",
+      "start_year": 2015,
+      "start_month": null,
+      "end_year": 2017,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Introduced structured logging and tracing across the inventory stack, cutting mean time to diagnosis by 26%.",
+        "Reviewed roughly 12 pull requests per month and mentored 4 junior engineers.",
+        "Migrated the catalog service from a monolith to 21 independently deployable services, cutting release time by 59%."
+      ]
+    },
+    {
+      "company": "Infosys",
+      "title": "Software Engineer",
+      "start_year": 2012,
+      "start_month": null,
+      "end_year": 2015,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built and maintained 4 Python microservices handling 3M requests per day for the onboarding platform.",
+        "Implemented API-key authentication and role-based access control for the internal risk tooling.",
+        "Reviewed roughly 3 pull requests per month and mentored 9 junior engineers.",
+        "Debugged and fixed a production incident affecting 150K users, then wrote the postmortem and added alerting.",
+        "Containerised 19 legacy services with Docker and moved deployment to Kubernetes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "IIIT Hyderabad",
+      "start_year": 2009,
+      "end_year": 2012
+    }
+  ],
+  "certifications": []
+}

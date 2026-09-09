@@ -1,0 +1,131 @@
+{
+  "full_name": "Abdul Hale",
+  "email": "dlane@example.org",
+  "phone": "0191 4960776",
+  "location": "South Marc",
+  "headline": "Quantitative Analyst",
+  "skills": [
+    {
+      "name": "Statistics",
+      "canonical": null
+    },
+    {
+      "name": "Pandas",
+      "canonical": null
+    },
+    {
+      "name": "online experimentation",
+      "canonical": null
+    },
+    {
+      "name": "ML modelling",
+      "canonical": null
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical": null
+    },
+    {
+      "name": "Python 3",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Uber",
+      "title": "Quantitative Analyst",
+      "start_year": 2024,
+      "start_month": null,
+      "end_year": 2026,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Performed exploratory analysis on 3M rows of onboarding data to size a new product bet.",
+        "Replaced a heuristic onboarding rule with a learned model, cutting false positives by 16%.",
+        "Productionised the search scoring pipeline with 5 engineers and monitored it post-launch."
+      ]
+    },
+    {
+      "company": "IBM",
+      "title": "Data Scientist",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2024,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote the metric definitions and power calculations for the inventory experimentation framework.",
+        "Segmented 1.2M customers into 11 behavioural clusters that drove the search campaign.",
+        "Backtested the risk model on 16 historical quarters before rollout."
+      ]
+    },
+    {
+      "company": "Adobe",
+      "title": "Quantitative Analyst",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and analysed 24 experiments on onboarding, of which 2 shipped.",
+        "Backtested the search model on 7 historical quarters before rollout.",
+        "Built a gradient boosting model for inventory that improved precision by 35% over the existing baseline.",
+        "Wrote the metric definitions and power calculations for the billing experimentation framework.",
+        "Communicated search model limitations and failure modes to non-technical leadership."
+      ]
+    },
+    {
+      "company": "Myntra",
+      "title": "Applied Data Scientist",
+      "start_year": 2016,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Segmented 600K customers into 19 behavioural clusters that drove the inventory campaign.",
+        "Productionised the payments scoring pipeline with 5 engineers and monitored it post-launch.",
+        "Performed exploratory analysis on 12K rows of logistics data to size a new product bet.",
+        "Built a gradient boosting model for onboarding that improved precision by 27% over the existing baseline.",
+        "Built causal impact estimates for the notifications launch when a clean A/B split was not possible."
+      ]
+    },
+    {
+      "company": "Flipkart",
+      "title": "Applied Data Scientist",
+      "start_year": 2015,
+      "start_month": null,
+      "end_year": 2016,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built causal impact estimates for the onboarding launch when a clean A/B split was not possible.",
+        "Communicated risk model limitations and failure modes to non-technical leadership.",
+        "Wrote the metric definitions and power calculations for the claims experimentation framework.",
+        "Segmented 220K customers into 8 behavioural clusters that drove the payments campaign."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Jadavpur University",
+      "start_year": 2011,
+      "end_year": 2015
+    },
+    {
+      "degree": "Senior Secondary (Class XII), CBSE",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Delhi Public School",
+      "start_year": 2009,
+      "end_year": 2011
+    }
+  ],
+  "certifications": [
+    "Google Professional Data Engineer"
+  ]
+}

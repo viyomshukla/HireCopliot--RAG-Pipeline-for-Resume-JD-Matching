@@ -1,0 +1,141 @@
+{
+  "full_name": "Josep Salinas Madrigal",
+  "email": "eufemiasarabia@example.com",
+  "phone": "+34982585979",
+  "location": "Guadalajara",
+  "headline": "API Engineer",
+  "skills": [
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Node (Express)",
+      "canonical": null
+    },
+    {
+      "name": "Redis",
+      "canonical": null
+    },
+    {
+      "name": "Git / GitHub",
+      "canonical": null
+    },
+    {
+      "name": "Message Queues",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "Jenkins",
+      "canonical": null
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical": null
+    },
+    {
+      "name": "Kotlin",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "LRU caching",
+      "canonical": null
+    },
+    {
+      "name": "CI/CD",
+      "canonical": null
+    },
+    {
+      "name": "integration tests",
+      "canonical": null
+    },
+    {
+      "name": "dead-letter handling",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Meesho",
+      "title": "API Engineer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Modelled the risk schema in MySQL and tuned indexes to cut query time by 60%.",
+        "Wrote integration tests covering 17% of the logistics endpoints and gated deploys on them.",
+        "Implemented idempotent notifications processing with a message queue to survive retries.",
+        "Containerised the billing stack and moved CI/CD onto Jenkins.",
+        "Reduced background job failure rate from 20% to under 0.5% by adding dead-letter handling."
+      ]
+    },
+    {
+      "company": "Razorpay",
+      "title": "Senior Backend Developer",
+      "start_year": 2019,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Implemented idempotent risk processing with a message queue to survive retries.",
+        "Containerised the search stack and moved CI/CD onto GitHub Actions.",
+        "Reduced background job failure rate from 25% to under 0.5% by adding dead-letter handling.",
+        "Led the migration of billing data from MongoDB to a partitioned schema without downtime."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Backend Developer",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and shipped 23 REST endpoints for the payments service in Kotlin.",
+        "Reduced background job failure rate from 30% to under 0.5% by adding dead-letter handling.",
+        "Modelled the logistics schema in BigQuery and tuned indexes to cut query time by 18%.",
+        "Added an in-process LRU caching in front of the search read path, absorbing 3M requests per day.",
+        "Led the migration of payments data from PostgreSQL to a partitioned schema without downtime."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Lakeview Institute of Technology",
+      "start_year": 2013,
+      "end_year": 2017
+    },
+    {
+      "degree": "Class XII, State Board",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Kendriya Vidyalaya",
+      "start_year": 2011,
+      "end_year": 2013
+    }
+  ],
+  "certifications": []
+}

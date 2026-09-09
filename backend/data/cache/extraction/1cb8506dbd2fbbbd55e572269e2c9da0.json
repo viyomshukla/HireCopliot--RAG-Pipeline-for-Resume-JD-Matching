@@ -1,0 +1,135 @@
+{
+  "full_name": "Isadora Brito",
+  "email": "maria-sophia88@example.com",
+  "phone": "+55 (081) 0902-6436",
+  "location": "Dias do Sul",
+  "headline": "Data Scientist",
+  "skills": [
+    {
+      "name": "Pandas",
+      "canonical": null
+    },
+    {
+      "name": "sklearn",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "Data Visualization",
+      "canonical": null
+    },
+    {
+      "name": "NumPy",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "statistical inference",
+      "canonical": null
+    },
+    {
+      "name": "gradient boosting",
+      "canonical": null
+    },
+    {
+      "name": "causal impact",
+      "canonical": null
+    },
+    {
+      "name": "A/B testing",
+      "canonical": null
+    },
+    {
+      "name": "exploratory analysis",
+      "canonical": null
+    },
+    {
+      "name": "metric definitions",
+      "canonical": null
+    },
+    {
+      "name": "power calculations",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Uber",
+      "title": "Data Scientist",
+      "start_year": 2023,
+      "start_month": 1,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Communicated onboarding model limitations and failure modes to non-technical leadership.",
+        "Designed and analysed 17 experiments on billing, of which 2 shipped.",
+        "Segmented 220K customers into 22 behavioural clusters that drove the inventory campaign.",
+        "Productionised the catalog scoring pipeline with 10 engineers and monitored it post-launch."
+      ]
+    },
+    {
+      "company": "Adobe",
+      "title": "Data Scientist",
+      "start_year": 2018,
+      "start_month": 10,
+      "end_year": 2021,
+      "end_month": 5,
+      "is_current": false,
+      "responsibilities": [
+        "Performed exploratory analysis on 150K rows of payments data to size a new product bet.",
+        "Productionised the inventory scoring pipeline with 10 engineers and monitored it post-launch.",
+        "Built causal impact estimates for the risk launch when a clean A/B split was not possible.",
+        "Communicated payments model limitations and failure modes to non-technical leadership."
+      ]
+    },
+    {
+      "company": "Walmart",
+      "title": "Senior Data Scientist",
+      "start_year": 2015,
+      "start_month": 6,
+      "end_year": 2018,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Communicated notifications model limitations and failure modes to non-technical leadership.",
+        "Backtested the onboarding model on 22 historical quarters before rollout.",
+        "Built a gradient boosting model for risk that improved precision by 65% over the existing baseline.",
+        "Built causal impact estimates for the claims launch when a clean A/B split was not possible."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Data Scientist",
+      "start_year": 2012,
+      "start_month": 11,
+      "end_year": 2015,
+      "end_month": 5,
+      "is_current": false,
+      "responsibilities": [
+        "Segmented 8M customers into 22 behavioural clusters that drove the billing campaign.",
+        "Built causal impact estimates for the risk launch when a clean A/B split was not possible.",
+        "Wrote the metric definitions and power calculations for the onboarding experimentation framework.",
+        "Communicated logistics model limitations and failure modes to non-technical leadership.",
+        "Performed exploratory analysis on 40K rows of onboarding data to size a new product bet."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "IIT Madras",
+      "start_year": 2008,
+      "end_year": 2012
+    }
+  ],
+  "certifications": []
+}

@@ -1,0 +1,200 @@
+{
+  "full_name": "Darren Medina",
+  "email": "craig73@example.net",
+  "phone": "+1-903-492-4681x5985",
+  "location": "Johnsonport",
+  "headline": "Machine Learning Engineer",
+  "skills": [
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    },
+    {
+      "name": "Natural Language Processing",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "PyTorch",
+      "canonical": null
+    },
+    {
+      "name": "MLOps",
+      "canonical": null
+    },
+    {
+      "name": "DL",
+      "canonical": null
+    },
+    {
+      "name": "Docker & docker-compose",
+      "canonical": null
+    },
+    {
+      "name": "ML modelling",
+      "canonical": null
+    },
+    {
+      "name": "spaCy",
+      "canonical": null
+    },
+    {
+      "name": "logistic regression",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Snowflake",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "quantisation",
+      "canonical": null
+    },
+    {
+      "name": "batching",
+      "canonical": null
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "incremental updates",
+      "canonical": null
+    },
+    {
+      "name": "error analysis",
+      "canonical": null
+    },
+    {
+      "name": "drift monitoring",
+      "canonical": null
+    },
+    {
+      "name": "feature pipeline",
+      "canonical": null
+    },
+    {
+      "name": "experiment tracking",
+      "canonical": null
+    },
+    {
+      "name": "model registry",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "NVIDIA",
+      "title": "Machine Learning Engineer",
+      "start_year": 2022,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 4,
+      "is_current": false,
+      "responsibilities": [
+        "Set up experiment tracking and model registry so 9 engineers could reproduce runs.",
+        "Built an NLP pipeline over 8M documents for catalog classification using spaCy.",
+        "Trained and shipped a logistic regression model for claims, improving accuracy from 26% to 18%.",
+        "Fine-tuned a pretrained spaCy model on 3M labelled risk examples.",
+        "Built the feature pipeline feeding 20 features from PostgreSQL into the onboarding model."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Senior ML Engineer",
+      "start_year": 2019,
+      "start_month": 2,
+      "end_year": 2022,
+      "end_month": 8,
+      "is_current": false,
+      "responsibilities": [
+        "Ran error analysis on inventory predictions and closed the top 11 failure modes.",
+        "Fine-tuned a pretrained PyTorch model on 8M labelled payments examples.",
+        "Built the feature pipeline feeding 7 features from Snowflake into the inventory model."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Machine Learning Engineer",
+      "start_year": 2015,
+      "start_month": 10,
+      "end_year": 2018,
+      "end_month": 8,
+      "is_current": false,
+      "responsibilities": [
+        "Deployed the search model behind a REST endpoint serving 220K predictions per day.",
+        "Wrote drift monitoring that alerted on a 54% distribution shift in inventory inputs.",
+        "Set up experiment tracking and model registry so 11 engineers could reproduce runs.",
+        "Cut inference latency from 1400ms to 45ms through quantisation and batching."
+      ]
+    },
+    {
+      "company": "Samsung R&D",
+      "title": "Applied Scientist",
+      "start_year": 2014,
+      "start_month": 1,
+      "end_year": 2015,
+      "end_month": 8,
+      "is_current": false,
+      "responsibilities": [
+        "Built the feature pipeline feeding 6 features from MongoDB into the catalog model.",
+        "Wrote drift monitoring that alerted on a 30% distribution shift in inventory inputs.",
+        "Reduced training cost by 42% by moving from full retraining to incremental updates."
+      ]
+    },
+    {
+      "company": "IBM",
+      "title": "Senior ML Engineer",
+      "start_year": 2012,
+      "start_month": 4,
+      "end_year": 2014,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Built the feature pipeline feeding 13 features from PostgreSQL into the catalog model.",
+        "Fine-tuned a pretrained Hugging Face Transformers model on 150K labelled notifications examples.",
+        "Reduced training cost by 60% by moving from full retraining to incremental updates.",
+        "Ran error analysis on risk predictions and closed the top 22 failure modes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science",
+      "level": "master",
+      "field_of_study": "Computer Science",
+      "institution": "Northgate Institute of Science",
+      "start_year": 2010,
+      "end_year": 2012
+    },
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Greenfield College of Engineering",
+      "start_year": 2006,
+      "end_year": 2010
+    }
+  ],
+  "certifications": [
+    "Databricks Certified Data Engineer",
+    "Certified Kubernetes Application Developer (CKAD)",
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

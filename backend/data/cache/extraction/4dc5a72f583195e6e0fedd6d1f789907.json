@@ -1,0 +1,160 @@
+{
+  "full_name": "Mr Gareth Butcher",
+  "email": "randallgeoffrey@example.com",
+  "phone": "+449098790809",
+  "location": "New Katieside",
+  "headline": "ML Engineer",
+  "skills": [
+    {
+      "name": "NLP",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow 2",
+      "canonical": null
+    },
+    {
+      "name": "PyTorch",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical": null
+    },
+    {
+      "name": "REST",
+      "canonical": null
+    },
+    {
+      "name": "gradient boosting",
+      "canonical": null
+    },
+    {
+      "name": "AUC",
+      "canonical": null
+    },
+    {
+      "name": "error analysis",
+      "canonical": null
+    },
+    {
+      "name": "experiment tracking",
+      "canonical": null
+    },
+    {
+      "name": "model registry",
+      "canonical": null
+    },
+    {
+      "name": "drift monitoring",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "search model",
+      "canonical": null
+    },
+    {
+      "name": "feature pipeline",
+      "canonical": null
+    },
+    {
+      "name": "spaCy",
+      "canonical": null
+    },
+    {
+      "name": "collaborative filtering",
+      "canonical": null
+    },
+    {
+      "name": "time series",
+      "canonical": null
+    },
+    {
+      "name": "forecasting",
+      "canonical": null
+    },
+    {
+      "name": "recommendation engine",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Intel",
+      "title": "ML Engineer",
+      "start_year": 2022,
+      "start_month": 10,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Deployed the billing model behind a REST endpoint serving 3M predictions per day.",
+        "Ran error analysis on notifications predictions and closed the top 8 failure modes.",
+        "Trained and shipped a gradient boosting model for claims, improving AUC from 28% to 50%."
+      ]
+    },
+    {
+      "company": "Fractal Analytics",
+      "title": "ML Engineer",
+      "start_year": 2020,
+      "start_month": 8,
+      "end_year": 2022,
+      "end_month": 8,
+      "is_current": false,
+      "responsibilities": [
+        "Set up experiment tracking and model registry so 5 engineers could reproduce runs.",
+        "Reduced training cost by 16% by moving from full retraining to incremental updates.",
+        "Wrote drift monitoring that alerted on a 65% distribution shift in catalog inputs.",
+        "Built the feature pipeline feeding 21 features from MongoDB into the search model."
+      ]
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior ML Engineer",
+      "start_year": 2018,
+      "start_month": 11,
+      "end_year": 2020,
+      "end_month": 7,
+      "is_current": false,
+      "responsibilities": [
+        "Set up experiment tracking and model registry so 9 engineers could reproduce runs.",
+        "Deployed the search model behind a REST endpoint serving 40K predictions per day.",
+        "Wrote drift monitoring that alerted on a 32% distribution shift in payments inputs.",
+        "Ran error analysis on search predictions and closed the top 22 failure modes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Delhi Technological University",
+      "start_year": 2014,
+      "end_year": 2018
+    }
+  ],
+  "certifications": [
+    "Google Professional Data Engineer"
+  ]
+}

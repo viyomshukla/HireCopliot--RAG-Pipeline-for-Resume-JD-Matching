@@ -1,0 +1,118 @@
+{
+  "full_name": "Anay Contractor",
+  "email": "ethangrover@example.net",
+  "phone": "05711617772",
+  "location": "Ambattur",
+  "headline": "Senior Software Engineer",
+  "skills": [
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "service-oriented architecture",
+      "canonical": null
+    },
+    {
+      "name": "RESTful services",
+      "canonical": null
+    },
+    {
+      "name": "Java 17",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "version control (Git)",
+      "canonical": null
+    },
+    {
+      "name": "SAML authentication",
+      "canonical": null
+    },
+    {
+      "name": "role-based access control",
+      "canonical": null
+    },
+    {
+      "name": "OAuth2 authentication",
+      "canonical": null
+    },
+    {
+      "name": "structured logging and tracing",
+      "canonical": null
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical": null
+    },
+    {
+      "name": "Go",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Accenture",
+      "title": "Senior Software Engineer",
+      "start_year": 2024,
+      "start_month": 11,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Raised unit test coverage on the claims module from 17% to 31% and wired it into the CI gate.",
+        "Implemented SAML authentication and role-based access control for the internal inventory tooling.",
+        "Reviewed roughly 7 pull requests per month and mentored 7 junior engineers."
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer",
+      "start_year": 2023,
+      "start_month": 1,
+      "end_year": 2024,
+      "end_month": 11,
+      "is_current": false,
+      "responsibilities": [
+        "Reviewed roughly 3 pull requests per month and mentored 10 junior engineers.",
+        "Raised unit test coverage on the onboarding module from 6% to 34% and wired it into the CI gate.",
+        "Implemented OAuth2 authentication and role-based access control for the internal claims tooling.",
+        "Introduced structured logging and tracing across the onboarding stack, cutting mean time to diagnosis by 38%."
+      ]
+    },
+    {
+      "company": "TCS",
+      "title": "Software Development Engineer",
+      "start_year": 2020,
+      "start_month": 5,
+      "end_year": 2023,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Migrated the risk service from a monolith to 9 independently deployable services, cutting release time by 26%.",
+        "Containerised 14 legacy services with Docker and moved deployment to GitHub Actions.",
+        "Reviewed roughly 21 pull requests per month and mentored 7 junior engineers.",
+        "Reduced p95 API latency from 900ms to 160ms by adding an in-process LRU caching and rewriting the hottest query path."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Greenfield College of Engineering",
+      "start_year": 2016,
+      "end_year": 2020
+    }
+  ],
+  "certifications": []
+}

@@ -1,0 +1,184 @@
+{
+  "full_name": "Alice Teixeira",
+  "email": "luiz-miguel07@example.org",
+  "phone": "0500 638 6464",
+  "location": "da Rocha de Ramos",
+  "headline": "Backend Software Engineer",
+  "skills": [
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "Java 17",
+      "canonical": null
+    },
+    {
+      "name": "microservice design",
+      "canonical": null
+    },
+    {
+      "name": "REST/HTTP API design",
+      "canonical": null
+    },
+    {
+      "name": "in-memory caching (Redis)",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical": null
+    },
+    {
+      "name": "Memcached",
+      "canonical": null
+    },
+    {
+      "name": "SAML authentication",
+      "canonical": null
+    },
+    {
+      "name": "role-based access control",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "Kubernetes",
+      "canonical": null
+    },
+    {
+      "name": "structured logging and tracing",
+      "canonical": null
+    },
+    {
+      "name": "Go",
+      "canonical": null
+    },
+    {
+      "name": "Redis",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "CI",
+      "canonical": null
+    },
+    {
+      "name": "WebSocket",
+      "canonical": null
+    },
+    {
+      "name": "Kotlin",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Google",
+      "title": "Backend Software Engineer",
+      "start_year": 2023,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Reduced p95 API latency from 320ms to 110ms by adding Memcached caching and rewriting the hottest query path.",
+        "Debugged and fixed a production incident affecting 8M users, then wrote the postmortem and added alerting.",
+        "Containerised 24 legacy services with Docker and moved deployment to GitHub Actions."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Backend Software Engineer",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": 2023,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Containerised 18 legacy services with Docker and moved deployment to Kubernetes.",
+        "Implemented SAML authentication and role-based access control for the internal catalog tooling.",
+        "Introduced structured logging and tracing across the payments stack, cutting mean time to diagnosis by 29%.",
+        "Built and maintained 24 Python microservices handling 8M requests per day for the catalog platform.",
+        "Reviewed roughly 8 pull requests per month and mentored 12 junior engineers."
+      ]
+    },
+    {
+      "company": "Cognizant",
+      "title": "Software Development Engineer",
+      "start_year": 2016,
+      "start_month": null,
+      "end_year": 2020,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Debugged and fixed a production incident affecting 150K users, then wrote the postmortem and added alerting.",
+        "Migrated the search service from a monolith to 18 independently deployable services, cutting release time by 25%.",
+        "Introduced structured logging and tracing across the payments stack, cutting mean time to diagnosis by 65%."
+      ]
+    },
+    {
+      "company": "TCS",
+      "title": "Senior Software Engineer",
+      "start_year": 2013,
+      "start_month": null,
+      "end_year": 2016,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Containerised 22 legacy services with Docker and moved deployment to GitHub Actions.",
+        "Raised unit test coverage on the risk module from 11% to 42% and wired it into the CI gate.",
+        "Reduced p95 API latency from 900ms to 80ms by adding Memcached caching and rewriting the hottest query path.",
+        "Debugged and fixed a production incident affecting 220K users, then wrote the postmortem and added alerting.",
+        "Reviewed roughly 23 pull requests per month and mentored 3 junior engineers."
+      ]
+    },
+    {
+      "company": "Accenture",
+      "title": "Backend Software Engineer",
+      "start_year": 2008,
+      "start_month": null,
+      "end_year": 2012,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Migrated the payments service from a monolith to 21 independently deployable services, cutting release time by 24%.",
+        "Designed the onboarding data model in BigQuery and wrote the migration scripts for a 8M-row backfill.",
+        "Reviewed roughly 13 pull requests per month and mentored 6 junior engineers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Anna University",
+      "start_year": 2004,
+      "end_year": 2008
+    },
+    {
+      "degree": "Higher Secondary (Class 12), ICSE",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "St. Xavier's School",
+      "start_year": 2002,
+      "end_year": 2004
+    }
+  ],
+  "certifications": [
+    "Google Professional Data Engineer",
+    "Certified Kubernetes Application Developer (CKAD)",
+    "AWS Certified Solutions Architect - Associate"
+  ]
+}

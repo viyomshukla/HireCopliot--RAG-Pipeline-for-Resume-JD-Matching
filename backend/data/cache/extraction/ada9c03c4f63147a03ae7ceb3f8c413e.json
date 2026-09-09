@@ -1,0 +1,82 @@
+{
+  "full_name": "Mrs Chelsea Gray",
+  "email": "petercox@example.com",
+  "phone": "+44(0)113 4960841",
+  "location": "South Bernard",
+  "headline": "Business Data Analyst",
+  "skills": [
+    {
+      "name": "pandas / numpy",
+      "canonical": null
+    },
+    {
+      "name": "dashboarding",
+      "canonical": null
+    },
+    {
+      "name": "Power BI (DAX)",
+      "canonical": null
+    },
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "Tableau dashboards",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "Excel",
+      "canonical": null
+    },
+    {
+      "name": "Looker",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Walmart",
+      "title": "Business Data Analyst",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Partnered with engineering to instrument 6 new events for billing funnel analysis.",
+        "Cleaned and reconciled 3M rows of risk data across 22 source systems.",
+        "Ran an A/B test on notifications conversion that lifted the metric by 58% at 95% significance."
+      ]
+    },
+    {
+      "company": "PwC",
+      "title": "Business Data Analyst",
+      "start_year": 2018,
+      "start_month": null,
+      "end_year": 2020,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Defined 5 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Built a cohort retention model in Excel that identified a 47% drop-off at week 4.",
+        "Built 24 Looker dashboards tracking search performance for a team of 2 stakeholders."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "IIIT Hyderabad",
+      "start_year": 2014,
+      "end_year": 2018
+    }
+  ],
+  "certifications": []
+}

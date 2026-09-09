@@ -1,0 +1,171 @@
+{
+  "full_name": "Suzanne Pineau",
+  "email": "evallet@example.org",
+  "phone": "+33 3 66 98 85 96",
+  "location": "Reynaud",
+  "headline": "ML Engineer",
+  "skills": [
+    {
+      "name": "Docker & docker-compose",
+      "canonical": null
+    },
+    {
+      "name": "TF/Keras",
+      "canonical": null
+    },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "DL",
+      "canonical": null
+    },
+    {
+      "name": "ML platform engineering",
+      "canonical": null
+    },
+    {
+      "name": "text mining",
+      "canonical": null
+    },
+    {
+      "name": "random forest",
+      "canonical": null
+    },
+    {
+      "name": "spaCy",
+      "canonical": null
+    },
+    {
+      "name": "REST endpoint",
+      "canonical": null
+    },
+    {
+      "name": "drift monitoring",
+      "canonical": null
+    },
+    {
+      "name": "experiment tracking",
+      "canonical": null
+    },
+    {
+      "name": "model registry",
+      "canonical": null
+    },
+    {
+      "name": "NLP pipeline",
+      "canonical": null
+    },
+    {
+      "name": "payments classification",
+      "canonical": null
+    },
+    {
+      "name": "error analysis",
+      "canonical": null
+    },
+    {
+      "name": "quantisation",
+      "canonical": null
+    },
+    {
+      "name": "batching",
+      "canonical": null
+    },
+    {
+      "name": "incremental updates",
+      "canonical": null
+    },
+    {
+      "name": "collaborative filtering",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Intel",
+      "title": "ML Engineer",
+      "start_year": 2025,
+      "start_month": null,
+      "end_year": null,
+      "end_month": null,
+      "is_current": true,
+      "responsibilities": [
+        "Trained and shipped a random forest model for logistics, improving F1 from 7% to 25%.",
+        "Fine-tuned a pretrained spaCy model on 600K labelled onboarding examples.",
+        "Deployed the inventory model behind a REST endpoint serving 600K predictions per day.",
+        "Wrote drift monitoring that alerted on a 24% distribution shift in risk inputs."
+      ]
+    },
+    {
+      "company": "Fractal Analytics",
+      "title": "Senior ML Engineer",
+      "start_year": 2021,
+      "start_month": null,
+      "end_year": 2024,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Set up experiment tracking and model registry so 10 engineers could reproduce runs.",
+        "Built an NLP pipeline over 150K documents for payments classification using spaCy.",
+        "Ran error analysis on search predictions and closed the top 19 failure modes."
+      ]
+    },
+    {
+      "company": "Qualcomm",
+      "title": "Machine Learning Engineer",
+      "start_year": 2020,
+      "start_month": null,
+      "end_year": 2021,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Ran error analysis on risk predictions and closed the top 11 failure modes.",
+        "Deployed the billing model behind a REST endpoint serving 3M predictions per day.",
+        "Cut inference latency from 1400ms to 45ms through quantisation and batching."
+      ]
+    },
+    {
+      "company": "IBM",
+      "title": "ML Engineer",
+      "start_year": 2017,
+      "start_month": null,
+      "end_year": 2019,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Ran error analysis on risk predictions and closed the top 9 failure modes.",
+        "Reduced training cost by 42% by moving from full retraining to incremental updates.",
+        "Wrote drift monitoring that alerted on a 44% distribution shift in risk inputs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science",
+      "level": "master",
+      "field_of_study": "Computer Science",
+      "institution": "VIT Vellore",
+      "start_year": 2015,
+      "end_year": 2017
+    },
+    {
+      "degree": "B.Tech in Information Technology",
+      "level": "bachelor",
+      "field_of_study": "Information Technology",
+      "institution": "Savitribai Phule Pune University",
+      "start_year": 2011,
+      "end_year": 2015
+    }
+  ],
+  "certifications": []
+}

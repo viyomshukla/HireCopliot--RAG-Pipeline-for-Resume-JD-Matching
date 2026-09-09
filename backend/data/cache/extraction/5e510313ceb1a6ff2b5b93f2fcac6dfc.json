@@ -1,0 +1,133 @@
+{
+  "full_name": "Estefanía Viñas Santiago",
+  "email": "snadal@example.net",
+  "phone": "+34881 786 015",
+  "location": "Badajoz",
+  "headline": "Senior Software Engineer",
+  "skills": [
+    {
+      "name": "Python (pandas, asyncio)",
+      "canonical": null
+    },
+    {
+      "name": "container orchestration (Kubernetes)",
+      "canonical": null
+    },
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "Redis caching",
+      "canonical": null
+    },
+    {
+      "name": "RESTful services",
+      "canonical": null
+    },
+    {
+      "name": "CI",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "Jenkins",
+      "canonical": null
+    },
+    {
+      "name": "Memcached",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "Go",
+      "canonical": null
+    },
+    {
+      "name": "WebSocket",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "structured logging and tracing",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer",
+      "start_year": 2020,
+      "start_month": 12,
+      "end_year": 2024,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Migrated the payments service from a monolith to 16 independently deployable services, cutting release time by 17%.",
+        "Raised unit test coverage on the onboarding module from 4% to 49% and wired it into the CI gate.",
+        "Debugged and fixed a production incident affecting 1.2M users, then wrote the postmortem and added alerting."
+      ]
+    },
+    {
+      "company": "Infosys",
+      "title": "Software Development Engineer",
+      "start_year": 2019,
+      "start_month": 11,
+      "end_year": 2020,
+      "end_month": 12,
+      "is_current": false,
+      "responsibilities": [
+        "Raised unit test coverage on the inventory module from 17% to 18% and wired it into the CI gate.",
+        "Reduced p95 API latency from 610ms to 110ms by adding Redis caching and rewriting the hottest query path.",
+        "Migrated the logistics service from a monolith to 14 independently deployable services, cutting release time by 51%."
+      ]
+    },
+    {
+      "company": "Freshworks",
+      "title": "Software Engineer",
+      "start_year": 2017,
+      "start_month": 10,
+      "end_year": 2019,
+      "end_month": 11,
+      "is_current": false,
+      "responsibilities": [
+        "Reviewed roughly 21 pull requests per month and mentored 3 junior engineers.",
+        "Debugged and fixed a production incident affecting 150K users, then wrote the postmortem and added alerting.",
+        "Reduced p95 API latency from 900ms to 110ms by adding Memcached caching and rewriting the hottest query path.",
+        "Introduced structured logging and tracing across the payments stack, cutting mean time to diagnosis by 51%.",
+        "Containerised 22 legacy services with Docker and moved deployment to Jenkins."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science",
+      "level": "master",
+      "field_of_study": "Computer Science",
+      "institution": "Delhi Technological University",
+      "start_year": 2015,
+      "end_year": 2017
+    },
+    {
+      "degree": "B.E. in Computer Engineering",
+      "level": "bachelor",
+      "field_of_study": "Computer Engineering",
+      "institution": "Anna University",
+      "start_year": 2011,
+      "end_year": 2015
+    }
+  ],
+  "certifications": [
+    "Tableau Desktop Specialist",
+    "Certified Kubernetes Application Developer (CKAD)"
+  ]
+}

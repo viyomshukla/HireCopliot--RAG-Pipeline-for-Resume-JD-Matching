@@ -1,0 +1,136 @@
+{
+  "full_name": "Ing. Ewa Heser B.A.",
+  "email": "heinzottfried@example.org",
+  "phone": "+49(0)3767 50856",
+  "location": "Melsungen",
+  "headline": "Data Analyst",
+  "skills": [
+    {
+      "name": "Data Visualization",
+      "canonical": null
+    },
+    {
+      "name": "ETL",
+      "canonical": null
+    },
+    {
+      "name": "applied statistics",
+      "canonical": null
+    },
+    {
+      "name": "Advanced Excel",
+      "canonical": null
+    },
+    {
+      "name": "Tableau dashboards",
+      "canonical": null
+    },
+    {
+      "name": "Pandas",
+      "canonical": null
+    },
+    {
+      "name": "advanced SQL",
+      "canonical": null
+    },
+    {
+      "name": "online experimentation",
+      "canonical": null
+    },
+    {
+      "name": "BigQuery",
+      "canonical": null
+    },
+    {
+      "name": "Looker",
+      "canonical": null
+    },
+    {
+      "name": "R",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Capgemini",
+      "title": "Data Analyst",
+      "start_year": 2022,
+      "start_month": null,
+      "end_year": 2024,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Cleaned and reconciled 150K rows of inventory data across 6 source systems.",
+        "Ran an A/B test on billing conversion that lifted the metric by 50% at 90% significance.",
+        "Investigated a 28% anomaly in claims volumes and traced it to a broken upstream ETL job."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Senior Data Analyst",
+      "start_year": 2018,
+      "start_month": null,
+      "end_year": 2022,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Wrote BigQuery queries against a 3M-row warehouse to size the logistics opportunity, informing a 38% budget shift.",
+        "Defined 18 core metrics and their SQL definitions so reporting stopped disagreeing across teams.",
+        "Ran an A/B test on logistics conversion that lifted the metric by 44% at 99% significance.",
+        "Cleaned and reconciled 220K rows of billing data across 16 source systems.",
+        "Built 24 Looker dashboards tracking onboarding performance for a team of 11 stakeholders."
+      ]
+    },
+    {
+      "company": "Accenture",
+      "title": "Senior Data Analyst",
+      "start_year": 2014,
+      "start_month": null,
+      "end_year": 2017,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Built a cohort retention model in R that identified a 15% drop-off at week 9.",
+        "Partnered with engineering to instrument 7 new events for onboarding funnel analysis.",
+        "Presented monthly catalog findings to 3 business leads and translated them into tracked actions."
+      ]
+    },
+    {
+      "company": "EY",
+      "title": "Senior Data Analyst",
+      "start_year": 2011,
+      "start_month": null,
+      "end_year": 2014,
+      "end_month": null,
+      "is_current": false,
+      "responsibilities": [
+        "Presented monthly risk findings to 12 business leads and translated them into tracked actions.",
+        "Wrote MongoDB queries against a 3M-row warehouse to size the notifications opportunity, informing a 40% budget shift.",
+        "Automated a weekly claims report that previously took 20 hours of manual work."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BCA",
+      "level": "bachelor",
+      "field_of_study": null,
+      "institution": "BITS Pilani",
+      "start_year": 2008,
+      "end_year": 2011
+    },
+    {
+      "degree": "Intermediate (12th)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "DAV Public School",
+      "start_year": 2006,
+      "end_year": 2008
+    }
+  ],
+  "certifications": []
+}
