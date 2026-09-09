@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit these
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Server runtime artifacts (multer uses memoryStorage; nothing persists here)
+server/uploads/
+
+# Misc
+*.log
+.DS_Store
