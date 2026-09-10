@@ -1,5 +1,5 @@
 """
-Loads extractions.json into the candidate database.
+
 
     python scripts/load_database.py            # load / refresh
     python scripts/load_database.py --reset    # drop and rebuild first
