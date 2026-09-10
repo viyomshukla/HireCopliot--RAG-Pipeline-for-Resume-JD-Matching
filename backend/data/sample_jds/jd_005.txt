@@ -1,0 +1,26 @@
+Senior Software Engineer
+Meridian Labs | Remote (India)
+
+About the role
+We are hiring a Senior Software Engineer to join a small team that owns the payments platform. You will work closely with product and design, and your work will be used by customers from the first month.
+
+What we are looking for
+- 4+ years of professional experience
+- Bachelor's degree in Computer Science or a related field
+- Strong hands-on experience with Python
+- Strong hands-on experience with SQL
+- Has mentored someone more junior through a hard problem
+- Has argued for a simpler solution and won
+
+Nice to have
+- Exposure to Java
+- Exposure to Unit Testing
+- Exposure to REST APIs
+- Exposure to Git
+
+What we offer
+- Flexible hours and a hybrid working pattern
+- A budget for conferences and courses
+- Health cover for you and your family
+
+We review applications on a rolling basis and aim to reply within a week.

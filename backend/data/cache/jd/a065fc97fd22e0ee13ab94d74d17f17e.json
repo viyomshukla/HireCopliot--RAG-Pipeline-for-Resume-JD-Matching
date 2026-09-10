@@ -1,0 +1,118 @@
+{
+  "title": "Senior Software Engineer",
+  "company": "Meridian Labs",
+  "location": "Remote (India)",
+  "seniority": "senior",
+  "requirements": [
+    {
+      "text": "Strong hands-on experience with Python",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "Python",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Python",
+      "search_query": "Strong hands-on experience with Python"
+    },
+    {
+      "text": "Strong hands-on experience with SQL",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "SQL",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "SQL",
+      "search_query": "Strong hands-on experience with SQL"
+    },
+    {
+      "text": "Exposure to Java",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Java",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Java",
+      "search_query": "Exposure to Java"
+    },
+    {
+      "text": "Exposure to Unit Testing",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Unit Testing",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Unit Testing",
+      "search_query": "Exposure to Unit Testing"
+    },
+    {
+      "text": "Exposure to REST APIs",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "REST APIs",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "REST APIs",
+      "search_query": "Exposure to REST APIs"
+    },
+    {
+      "text": "Exposure to Git",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Git",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Git",
+      "search_query": "Exposure to Git"
+    },
+    {
+      "text": "4+ years of professional experience",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "min_years": 4,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "4+ years of professional experience"
+    },
+    {
+      "text": "Bachelor's degree in Computer Science or a related field",
+      "kind": "soft",
+      "category": "education",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": "bachelor",
+      "canonical_skill": null,
+      "search_query": "Bachelor's degree in Computer Science or a related field"
+    },
+    {
+      "text": "Has mentored someone more junior through a hard problem",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Has mentored someone more junior through a hard problem"
+    },
+    {
+      "text": "Has argued for a simpler solution and won",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Has argued for a simpler solution and won"
+    }
+  ]
+}

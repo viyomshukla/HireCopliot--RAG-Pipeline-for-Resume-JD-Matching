@@ -1,0 +1,107 @@
+{
+  "title": "ML Platform Engineer",
+  "company": "Harbour Technologies",
+  "location": "Pune",
+  "seniority": "mid",
+  "requirements": [
+    {
+      "text": "Strong hands-on experience with Python",
+      "kind": "hard",
+      "category": "skill",
+      "weight": 3,
+      "skill": "Python",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Python",
+      "search_query": "Strong hands-on experience with Python"
+    },
+    {
+      "text": "Strong hands-on experience with Machine Learning",
+      "kind": "hard",
+      "category": "skill",
+      "weight": 3,
+      "skill": "Machine Learning",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Machine Learning",
+      "search_query": "Strong hands-on experience with Machine Learning"
+    },
+    {
+      "text": "Exposure to Docker",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Docker",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Docker",
+      "search_query": "Exposure to Docker"
+    },
+    {
+      "text": "Exposure to MLOps",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "MLOps",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "MLOps",
+      "search_query": "Exposure to MLOps"
+    },
+    {
+      "text": "Exposure to Deep Learning",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Deep Learning",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Deep Learning",
+      "search_query": "Exposure to Deep Learning"
+    },
+    {
+      "text": "Exposure to PyTorch",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "PyTorch",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "PyTorch",
+      "search_query": "Exposure to PyTorch"
+    },
+    {
+      "text": "2+ years of professional experience",
+      "kind": "hard",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "min_years": 2,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "2+ years of professional experience"
+    },
+    {
+      "text": "Experience applying language models to unstructured text",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Experience applying language models to unstructured text"
+    },
+    {
+      "text": "Comfortable diagnosing where a model fails rather than only measuring that it does",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Comfortable diagnosing where a model fails rather than only measuring that it does"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Platform Engineer",
+  "company": "Silverpine Digital",
+  "location": "Bengaluru",
+  "seniority": "senior",
+  "requirements": [
+    {
+      "text": "Strong hands-on experience with Python",
+      "kind": "hard",
+      "category": "skill",
+      "weight": 2,
+      "skill": "Python",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Python",
+      "search_query": "Strong hands-on experience with Python"
+    },
+    {
+      "text": "Exposure to Redis",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Redis",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Redis",
+      "search_query": "Exposure to Redis"
+    },
+    {
+      "text": "Exposure to Docker",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Docker",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Docker",
+      "search_query": "Exposure to Docker"
+    },
+    {
+      "text": "Exposure to PostgreSQL",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "PostgreSQL",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "PostgreSQL",
+      "search_query": "Exposure to PostgreSQL"
+    },
+    {
+      "text": "6+ years of professional experience",
+      "kind": "hard",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "min_years": 6,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "6+ years of professional experience"
+    },
+    {
+      "text": "Able to make an unfamiliar codebase safe to change",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Able to make an unfamiliar codebase safe to change"
+    },
+    {
+      "text": "Comfortable reasoning about database performance under load",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Comfortable reasoning about database performance under load"
+    },
+    {
+      "text": "Exposure to Message Queues",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Exposure to Message Queues"
+    },
+    {
+      "text": "Exposure to REST APIs",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Exposure to REST APIs"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "title": "Analytics Partner",
+  "company": "Ironwood Software",
+  "location": "Remote (India)",
+  "seniority": "mid",
+  "requirements": [
+    {
+      "text": "Strong hands-on experience with SQL",
+      "kind": "hard",
+      "category": "skill",
+      "weight": 2,
+      "skill": "SQL",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "SQL",
+      "search_query": "Strong hands-on experience with SQL"
+    },
+    {
+      "text": "Exposure to ETL",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "ETL",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "ETL",
+      "search_query": "Exposure to ETL"
+    },
+    {
+      "text": "Exposure to Excel",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Excel",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Excel",
+      "search_query": "Exposure to Excel"
+    },
+    {
+      "text": "Exposure to Python",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Python",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Python",
+      "search_query": "Exposure to Python"
+    },
+    {
+      "text": "Exposure to Power BI",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Power BI",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Power BI",
+      "search_query": "Exposure to Power BI"
+    },
+    {
+      "text": "Exposure to Statistics",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Statistics",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Statistics",
+      "search_query": "Exposure to Statistics"
+    },
+    {
+      "text": "3+ years of professional experience",
+      "kind": "hard",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "min_years": 3,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "3+ years of professional experience"
+    },
+    {
+      "text": "Master's degree in Computer Science or a related field",
+      "kind": "hard",
+      "category": "education",
+      "weight": 2,
+      "skill": null,
+      "min_years": null,
+      "degree_level": "master",
+      "canonical_skill": null,
+      "search_query": "Master's degree in Computer Science or a related field"
+    },
+    {
+      "text": "Has told a senior stakeholder something they did not want to hear",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Has told a senior stakeholder something they did not want to hear"
+    },
+    {
+      "text": "Comfortable working with data that is incomplete or disagrees with itself",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Comfortable working with data that is incomplete or disagrees with itself"
+    }
+  ]
+}

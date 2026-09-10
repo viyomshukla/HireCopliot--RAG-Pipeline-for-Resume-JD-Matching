@@ -1,0 +1,4698 @@
+[
+  {
+    "jd_id": "jd_001",
+    "role_family": "Backend Developer",
+    "title": "Senior Backend Engineer",
+    "company": "Silverpine Digital",
+    "location": "Remote (India)",
+    "product": "the internal analytics stack",
+    "min_years": 3,
+    "required_degree": null,
+    "must_have": [
+      "Python",
+      "REST APIs"
+    ],
+    "nice_to_have": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "soft_requirements": [
+      "has taken a service from design through to production and stayed on call for it",
+      "able to make an unfamiliar codebase safe to change"
+    ],
+    "relaxations": 1,
+    "labels": {
+      "resume_001": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "rest apis"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_002": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "postgresql",
+            "redis"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_003": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_004": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_005": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "rest apis"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_006": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_008": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "rest apis"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "kubernetes"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_009": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "rest apis"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "docker",
+            "kubernetes",
+            "redis"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_010": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_014": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "rest apis"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "docker",
+            "kubernetes",
+            "redis"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_015": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_016": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_017": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "rest apis"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "redis"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_018": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "rest apis"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "postgresql"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_019": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_020": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_021": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 17,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_023": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_024": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "rest apis"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "postgresql",
+            "redis"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_025": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_027": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_028": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "rest apis"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "docker",
+            "kubernetes",
+            "redis"
+          ],
+          "years": 3,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_029": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "docker",
+            "kubernetes"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_031": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "rest apis"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_032": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_034": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_035": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_036": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_039": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "rest apis"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "redis"
+          ],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_041": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [
+            "postgresql",
+            "redis"
+          ],
+          "years": 9,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_042": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_043": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "rest apis"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "kubernetes",
+            "redis"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_044": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "rest apis"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "kubernetes",
+            "redis"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_048": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_049": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "rest apis"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      }
+    },
+    "n_relevant": 6,
+    "n_highly_relevant": 2
+  },
+  {
+    "jd_id": "jd_002",
+    "role_family": "ML Engineer",
+    "title": "ML Platform Engineer",
+    "company": "Northwind Systems",
+    "location": "Remote (India)",
+    "product": "the data platform",
+    "min_years": 4,
+    "required_degree": null,
+    "must_have": [
+      "Machine Learning"
+    ],
+    "nice_to_have": [
+      "Deep Learning",
+      "Docker",
+      "MLOps",
+      "PyTorch"
+    ],
+    "soft_requirements": [
+      "experience applying language models to unstructured text",
+      "comfortable diagnosing where a model fails rather than only measuring that it does"
+    ],
+    "relaxations": 1,
+    "labels": {
+      "resume_003": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_010": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_015": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "deep learning",
+            "mlops"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_019": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_020": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_021": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 17,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_026": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_027": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_032": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_033": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_038": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "pytorch"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_045": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "pytorch"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_049": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_050": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops",
+            "pytorch"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      }
+    },
+    "n_relevant": 14,
+    "n_highly_relevant": 7
+  },
+  {
+    "jd_id": "jd_003",
+    "role_family": "Data Analyst",
+    "title": "Business Analyst",
+    "company": "Silverpine Digital",
+    "location": "Remote (India)",
+    "product": "the internal analytics stack",
+    "min_years": 3,
+    "required_degree": null,
+    "must_have": [
+      "SQL",
+      "Statistics"
+    ],
+    "nice_to_have": [
+      "Python",
+      "ETL",
+      "Excel",
+      "Power BI"
+    ],
+    "soft_requirements": [
+      "comfortable working with data that is incomplete or disagrees with itself",
+      "has told a senior stakeholder something they did not want to hear"
+    ],
+    "relaxations": 1,
+    "labels": {
+      "resume_001": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_003": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql",
+            "statistics"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_004": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "sql",
+            "statistics"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "etl",
+            "excel",
+            "power bi",
+            "python"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_005": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_006": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_007": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "statistics"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "etl",
+            "excel"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_008": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_010": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "statistics"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_011": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "power bi"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_012": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "statistics"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "etl",
+            "excel",
+            "power bi"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_013": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_016": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_021": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql",
+            "statistics"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 17,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_023": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "statistics"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "etl",
+            "excel",
+            "power bi",
+            "python"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_026": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_027": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_028": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 3,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_029": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_030": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "sql",
+            "statistics"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "etl",
+            "excel"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_031": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_032": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_033": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_034": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "sql",
+            "statistics"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "power bi",
+            "python"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_036": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_037": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_038": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_039": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_040": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_042": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql",
+            "statistics"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_043": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_044": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_045": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_046": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "sql",
+            "statistics"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "etl",
+            "excel"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_047": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_048": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "sql",
+            "statistics"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "excel",
+            "python"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_049": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "statistics"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_050": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "statistics"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      }
+    },
+    "n_relevant": 8,
+    "n_highly_relevant": 5
+  },
+  {
+    "jd_id": "jd_004",
+    "role_family": "Data Scientist",
+    "title": "Data Scientist",
+    "company": "Quantum Ridge",
+    "location": "Bengaluru",
+    "product": "the recommendations service",
+    "min_years": 3,
+    "required_degree": "bachelor",
+    "must_have": [
+      "Python",
+      "SQL"
+    ],
+    "nice_to_have": [
+      "Experimentation",
+      "Scikit-learn",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "soft_requirements": [
+      "has designed an experiment and defended its conclusion",
+      "has replaced a hand-written rule with something learned from data"
+    ],
+    "relaxations": 1,
+    "labels": {
+      "resume_001": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_002": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_003": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "experimentation",
+            "machine learning",
+            "scikit-learn",
+            "statistics"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_004": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "statistics"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_005": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_006": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_008": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_010": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "machine learning",
+            "scikit-learn",
+            "statistics"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_011": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_013": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "scikit-learn"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_015": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "machine learning",
+            "scikit-learn"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_016": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "scikit-learn"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_017": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_019": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "experimentation",
+            "machine learning",
+            "scikit-learn"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_020": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "experimentation",
+            "machine learning"
+          ],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_021": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "experimentation",
+            "machine learning",
+            "scikit-learn",
+            "statistics"
+          ],
+          "years": 17,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_023": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "statistics"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_024": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_025": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "scikit-learn"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_026": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "experimentation",
+            "machine learning",
+            "scikit-learn"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_027": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "machine learning",
+            "scikit-learn"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_028": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 3,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_029": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_030": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "statistics"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_031": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_032": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "machine learning",
+            "scikit-learn"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_033": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "machine learning"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_034": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "statistics"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_035": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_036": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "scikit-learn"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_037": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_038": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "machine learning",
+            "scikit-learn"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_039": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_040": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_041": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 9,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_042": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "experimentation",
+            "scikit-learn",
+            "statistics"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_043": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_044": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_045": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "machine learning"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_046": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "statistics"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_047": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_048": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "statistics"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_049": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "machine learning",
+            "scikit-learn",
+            "statistics"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_050": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "machine learning"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      }
+    },
+    "n_relevant": 16,
+    "n_highly_relevant": 3
+  },
+  {
+    "jd_id": "jd_005",
+    "role_family": "Software Engineer",
+    "title": "Senior Software Engineer",
+    "company": "Meridian Labs",
+    "location": "Remote (India)",
+    "product": "the payments platform",
+    "min_years": 4,
+    "required_degree": "bachelor",
+    "must_have": [
+      "Python",
+      "SQL"
+    ],
+    "nice_to_have": [
+      "Java",
+      "Unit Testing",
+      "REST APIs",
+      "Git"
+    ],
+    "soft_requirements": [
+      "has mentored someone more junior through a hard problem",
+      "has argued for a simpler solution and won"
+    ],
+    "relaxations": 1,
+    "labels": {
+      "resume_001": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "git",
+            "java",
+            "rest apis",
+            "unit testing"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_002": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_003": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_004": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_005": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "java",
+            "rest apis",
+            "unit testing"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_006": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_008": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "git",
+            "java",
+            "rest apis"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_010": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_011": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_013": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_015": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_016": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_017": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "git",
+            "rest apis"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_019": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_020": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_021": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 17,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_023": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_024": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "git",
+            "rest apis"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_025": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_026": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_027": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_029": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "git",
+            "java",
+            "unit testing"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_030": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_031": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "git",
+            "java",
+            "rest apis"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_032": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_033": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_034": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_035": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_036": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_037": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_038": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_039": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "java",
+            "rest apis"
+          ],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_040": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "git",
+            "java",
+            "unit testing"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_041": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [
+            "git"
+          ],
+          "years": 9,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_042": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_043": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "git",
+            "java",
+            "rest apis"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_044": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "rest apis"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_045": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_046": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_047": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "git",
+            "java",
+            "unit testing"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_048": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python",
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_049": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "sql"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_050": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      }
+    },
+    "n_relevant": 16,
+    "n_highly_relevant": 5
+  },
+  {
+    "jd_id": "jd_006",
+    "role_family": "Backend Developer",
+    "title": "Platform Engineer",
+    "company": "Silverpine Digital",
+    "location": "Bengaluru",
+    "product": "the data platform",
+    "min_years": 6,
+    "required_degree": null,
+    "must_have": [
+      "Python"
+    ],
+    "nice_to_have": [
+      "Redis",
+      "Docker",
+      "Message Queues",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "soft_requirements": [
+      "able to make an unfamiliar codebase safe to change",
+      "comfortable reasoning about database performance under load"
+    ],
+    "relaxations": 2,
+    "labels": {
+      "resume_002": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "message queues",
+            "postgresql",
+            "redis"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_003": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_004": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": false,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_005": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "rest apis"
+          ],
+          "years": 4,
+          "years_ok": false,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_006": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_008": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "rest apis"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_010": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_015": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_016": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 4,
+          "years_ok": false,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_017": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "redis",
+            "rest apis"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_019": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_020": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_021": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 17,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_023": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": false,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_024": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "postgresql",
+            "redis",
+            "rest apis"
+          ],
+          "years": 4,
+          "years_ok": false,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_025": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 5,
+          "years_ok": false,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_027": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_029": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_031": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker",
+            "rest apis"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_032": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_034": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_035": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 5,
+          "years_ok": false,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_036": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_041": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "message queues",
+            "postgresql",
+            "redis"
+          ],
+          "years": 9,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_042": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_044": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "redis",
+            "rest apis"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_048": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_049": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      }
+    },
+    "n_relevant": 21,
+    "n_highly_relevant": 3
+  },
+  {
+    "jd_id": "jd_007",
+    "role_family": "ML Engineer",
+    "title": "ML Platform Engineer",
+    "company": "Harbour Technologies",
+    "location": "Pune",
+    "product": "the payments platform",
+    "min_years": 2,
+    "required_degree": null,
+    "must_have": [
+      "Python",
+      "Machine Learning"
+    ],
+    "nice_to_have": [
+      "Docker",
+      "MLOps",
+      "Deep Learning",
+      "PyTorch"
+    ],
+    "soft_requirements": [
+      "experience applying language models to unstructured text",
+      "comfortable diagnosing where a model fails rather than only measuring that it does"
+    ],
+    "relaxations": 1,
+    "labels": {
+      "resume_002": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_003": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_004": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_005": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_006": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops",
+            "pytorch"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_008": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_010": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_015": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "deep learning",
+            "mlops"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_016": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_017": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_019": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_020": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_021": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 17,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_023": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_024": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_025": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "docker",
+            "mlops",
+            "pytorch"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_026": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_027": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_029": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_031": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_032": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_033": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_034": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_035": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "docker"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_036": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [
+            "pytorch"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_038": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "pytorch"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_041": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [],
+          "years": 9,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_042": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_044": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_045": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "docker",
+            "pytorch"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_048": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "python"
+          ],
+          "must_have_missing": [
+            "machine learning"
+          ],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_049": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "machine learning",
+            "python"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_050": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "machine learning"
+          ],
+          "must_have_missing": [
+            "python"
+          ],
+          "nice_to_have_matched": [
+            "deep learning",
+            "docker",
+            "mlops",
+            "pytorch"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      }
+    },
+    "n_relevant": 9,
+    "n_highly_relevant": 3
+  },
+  {
+    "jd_id": "jd_008",
+    "role_family": "Data Analyst",
+    "title": "Analytics Partner",
+    "company": "Ironwood Software",
+    "location": "Remote (India)",
+    "product": "the recommendations service",
+    "min_years": 3,
+    "required_degree": "master",
+    "must_have": [
+      "SQL"
+    ],
+    "nice_to_have": [
+      "ETL",
+      "Excel",
+      "Python",
+      "Power BI",
+      "Statistics"
+    ],
+    "soft_requirements": [
+      "has told a senior stakeholder something they did not want to hear",
+      "comfortable working with data that is incomplete or disagrees with itself"
+    ],
+    "relaxations": 2,
+    "labels": {
+      "resume_001": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_003": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python",
+            "statistics"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_004": {
+        "grade": 3,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "etl",
+            "excel",
+            "power bi",
+            "python",
+            "statistics"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": true
+        }
+      },
+      "resume_005": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_006": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_008": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_011": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "power bi"
+          ],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": true
+        }
+      },
+      "resume_013": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_016": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 4,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_021": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python",
+            "statistics"
+          ],
+          "years": 17,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_026": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_027": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_028": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 3,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_029": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_030": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "etl",
+            "excel",
+            "statistics"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": true
+        }
+      },
+      "resume_031": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_032": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_033": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_034": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "power bi",
+            "python",
+            "statistics"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": true
+        }
+      },
+      "resume_036": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_037": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 10,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_038": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_039": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 15,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_040": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 5,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_042": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python",
+            "statistics"
+          ],
+          "years": 8,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_043": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_044": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "python"
+          ],
+          "years": 7,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      },
+      "resume_045": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_046": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "etl",
+            "excel",
+            "statistics"
+          ],
+          "years": 6,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": true
+        }
+      },
+      "resume_047": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 11,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": false
+        }
+      },
+      "resume_048": {
+        "grade": 1,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [
+            "excel",
+            "python",
+            "statistics"
+          ],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": false,
+          "role_family_match": true
+        }
+      },
+      "resume_050": {
+        "grade": 2,
+        "why": {
+          "must_have_matched": [
+            "sql"
+          ],
+          "must_have_missing": [],
+          "nice_to_have_matched": [],
+          "years": 12,
+          "years_ok": true,
+          "degree_ok": true,
+          "role_family_match": false
+        }
+      }
+    },
+    "n_relevant": 8,
+    "n_highly_relevant": 1
+  }
+]

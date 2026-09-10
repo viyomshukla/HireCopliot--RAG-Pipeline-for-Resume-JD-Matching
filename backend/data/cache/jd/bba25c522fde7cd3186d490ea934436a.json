@@ -1,0 +1,118 @@
+{
+  "title": "Data Scientist",
+  "company": "Quantum Ridge",
+  "location": "Bengaluru",
+  "seniority": "mid",
+  "requirements": [
+    {
+      "text": "Strong hands-on experience with Python",
+      "kind": "hard",
+      "category": "skill",
+      "weight": 2,
+      "skill": "Python",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Python",
+      "search_query": "Strong hands-on experience with Python"
+    },
+    {
+      "text": "Strong hands-on experience with SQL",
+      "kind": "hard",
+      "category": "skill",
+      "weight": 2,
+      "skill": "SQL",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "SQL",
+      "search_query": "Strong hands-on experience with SQL"
+    },
+    {
+      "text": "Exposure to Scikit-learn",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Scikit-learn",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Scikit-learn",
+      "search_query": "Exposure to Scikit-learn"
+    },
+    {
+      "text": "3+ years of professional experience",
+      "kind": "hard",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "min_years": 3,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "3+ years of professional experience"
+    },
+    {
+      "text": "Bachelor's degree in Computer Science or a related field",
+      "kind": "hard",
+      "category": "education",
+      "weight": 2,
+      "skill": null,
+      "min_years": null,
+      "degree_level": "bachelor",
+      "canonical_skill": null,
+      "search_query": "Bachelor's degree in Computer Science or a related field"
+    },
+    {
+      "text": "Has designed an experiment and defended its conclusion",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Has designed an experiment and defended its conclusion"
+    },
+    {
+      "text": "Has replaced a hand-written rule with something learned from data",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Has replaced a hand-written rule with something learned from data"
+    },
+    {
+      "text": "Exposure to Experimentation",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Exposure to Experimentation"
+    },
+    {
+      "text": "Exposure to Statistics",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Exposure to Statistics"
+    },
+    {
+      "text": "Exposure to Machine Learning",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Exposure to Machine Learning"
+    }
+  ]
+}

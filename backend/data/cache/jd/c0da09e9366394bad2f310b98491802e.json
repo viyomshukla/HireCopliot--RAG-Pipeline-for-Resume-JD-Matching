@@ -1,0 +1,107 @@
+{
+  "title": "Senior Backend Engineer",
+  "company": "Silverpine Digital",
+  "location": "Remote (India)",
+  "seniority": "senior",
+  "requirements": [
+    {
+      "text": "Strong hands-on experience with Python",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "Python",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Python",
+      "search_query": "Strong hands-on experience with Python"
+    },
+    {
+      "text": "Strong hands-on experience with REST APIs",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "REST APIs",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "REST APIs",
+      "search_query": "Strong hands-on experience with REST APIs"
+    },
+    {
+      "text": "Exposure to Docker",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Docker",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Docker",
+      "search_query": "Exposure to Docker"
+    },
+    {
+      "text": "Exposure to Kubernetes",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Kubernetes",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Kubernetes",
+      "search_query": "Exposure to Kubernetes"
+    },
+    {
+      "text": "Exposure to Redis",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "Redis",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Redis",
+      "search_query": "Exposure to Redis"
+    },
+    {
+      "text": "Exposure to PostgreSQL",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "PostgreSQL",
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "PostgreSQL",
+      "search_query": "Exposure to PostgreSQL"
+    },
+    {
+      "text": "3+ years of professional experience",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "min_years": 3,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "3+ years of professional experience"
+    },
+    {
+      "text": "Has taken a service from design through to production and stayed on call for it",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Has taken a service from design through to production and stayed on call for it"
+    },
+    {
+      "text": "Able to make an unfamiliar codebase safe to change",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Able to make an unfamiliar codebase safe to change"
+    }
+  ]
+}

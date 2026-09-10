@@ -1,0 +1,24 @@
+ML Platform Engineer
+Northwind Systems | Remote (India)
+
+About the role
+We are hiring a ML Platform Engineer to join a small team that owns the data platform. You will work closely with product and design, and your work will be used by customers from the first month.
+
+What we are looking for
+- 4+ years of professional experience
+- Strong hands-on experience with Machine Learning
+- Experience applying language models to unstructured text
+- Comfortable diagnosing where a model fails rather than only measuring that it does
+
+Nice to have
+- Exposure to Deep Learning
+- Exposure to Docker
+- Exposure to MLOps
+- Exposure to PyTorch
+
+What we offer
+- Flexible hours and a hybrid working pattern
+- A budget for conferences and courses
+- Health cover for you and your family
+
+We review applications on a rolling basis and aim to reply within a week.
