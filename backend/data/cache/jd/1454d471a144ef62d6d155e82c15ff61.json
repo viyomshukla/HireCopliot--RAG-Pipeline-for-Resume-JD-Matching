@@ -1,0 +1,56 @@
+{
+  "title": "Software Developer",
+  "company": null,
+  "location": null,
+  "seniority": null,
+  "requirements": [
+    {
+      "text": "Good in C++",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "C++",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "C++",
+      "search_query": "C++"
+    },
+    {
+      "text": "Good in ML",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "ML",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Machine Learning",
+      "search_query": "ML"
+    },
+    {
+      "text": "Good in AI",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "AI",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "AI"
+    },
+    {
+      "text": "Solved 200+ DSA problems",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 1,
+      "skill": "DSA",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "DSA"
+    }
+  ]
+}

@@ -68,12 +68,26 @@ export interface paths {
         post?: never;
         /**
          * Delete Job
-         * @description Deletes a batch from every store.
+         * @description Deletes a batch from every store: SQL, vectors, files, and the registry.
          *
-         *     All three or none. Deleting SQL rows but leaving vectors behind produces
-         *     orphan chunks that keep surfacing as evidence for a candidate the system
-         *     claims not to have -- which is both a bug and, for personal data, a
-         *     compliance failure.
+         *     Deleting SQL rows but leaving vectors behind produces orphan chunks that
+         *     keep surfacing as evidence for a candidate the system claims not to have --
+         *     which is both a bug and, for personal data, a compliance failure.
+         *
+         *     THE FOUR THINGS THE PREVIOUS VERSION GOT WRONG
+         *     ----------------------------------------------
+         *     1. It never removed the job from the registry, so the batch reappeared in
+         *        /api/jobs straight after a "successful" delete.
+         *     2. It deleted candidates on a raw sqlite3 connection without
+         *        `PRAGMA foreign_keys = ON`, so every ON DELETE CASCADE was ignored and
+         *        skills, experience and education rows were orphaned -- to be inherited
+         *        by the next candidate that reused the id.
+         *     3. It left the cached retriever alone, so BM25 kept returning chunks from
+         *        the deleted batch as evidence.
+         *     4. It would delete a batch mid-pipeline, which the background task then
+         *        half-recreated.
+         *
+         *     Every step is idempotent, so a partial failure is fixed by calling again.
          */
         delete: operations["delete_job_api_jobs__job_id__delete"];
         options?: never;
@@ -157,6 +171,16 @@ export interface components {
             file: string;
             /** Job Id */
             job_id?: string | null;
+        };
+        /**
+         * DuplicateRef
+         * @description Another candidate in this batch with the same name and email.
+         */
+        DuplicateRef: {
+            /** Resume Id */
+            resume_id: string;
+            /** Source File */
+            source_file?: string | null;
         };
         /** EvidenceItem */
         EvidenceItem: {
@@ -333,6 +357,10 @@ export interface components {
             rank?: number | null;
             /** Resume Id */
             resume_id: string;
+            /** Source File */
+            source_file?: string | null;
+            /** Duplicates */
+            duplicates?: components["schemas"]["DuplicateRef"][];
             /** Name */
             name: string;
             /** Headline */

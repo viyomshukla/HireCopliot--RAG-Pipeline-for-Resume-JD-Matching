@@ -11,6 +11,11 @@ fastembed
 chromadb
 rank_bm25
 
+# --- HTTP API ---
+fastapi
+uvicorn
+python-multipart        # required by FastAPI for File/Form uploads
+
 # --- Later weeks (uncomment as we build) ---
 # langgraph
 # langchain

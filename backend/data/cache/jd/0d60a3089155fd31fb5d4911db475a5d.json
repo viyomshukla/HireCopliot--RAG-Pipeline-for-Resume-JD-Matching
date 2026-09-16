@@ -1,0 +1,128 @@
+{
+  "title": null,
+  "company": null,
+  "location": null,
+  "seniority": null,
+  "requirements": [
+    {
+      "text": "Python",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "Python",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Python",
+      "search_query": "Python"
+    },
+    {
+      "text": "Work on real-world AI/ML and software development projects",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Work on real-world AI/ML and software development projects"
+    },
+    {
+      "text": "Build, test, and optimize ML models",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 2,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Build, test, and optimize ML models"
+    },
+    {
+      "text": "Relevant ML frameworks",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Relevant ML frameworks"
+    },
+    {
+      "text": "Work on data preprocessing, model training, and evaluation",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 2,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Work on data preprocessing, model training, and evaluation"
+    },
+    {
+      "text": "Build simple applications and APIs around AI/ML solutions",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 2,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Build simple applications and APIs around AI/ML solutions"
+    },
+    {
+      "text": "Explore technologies such as Generative AI, CV, LLMs, NLP, and RAG",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Explore technologies such as Generative AI, CV, LLMs, NLP, and RAG"
+    },
+    {
+      "text": "Debug, improve, and document your code",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Debug, improve, and document your code"
+    },
+    {
+      "text": "Work closely with experienced engineers and learn industry best practices",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Work closely with experienced engineers and learn industry best practices"
+    },
+    {
+      "text": "Clearly communicate technical concepts, approaches, challenges, and results",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Clearly communicate technical concepts, approaches, challenges, and results"
+    }
+  ]
+}

@@ -91,6 +91,15 @@ class Candidate(Base):
     extracted_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.now)
     n_chunks_used: Mapped[int] = mapped_column(Integer, default=0)
 
+    # Set when an EARLIER candidate in the same batch has the same name and
+    # email: the resume_id of the first one seen. The same person applying twice
+    # under different filenames is common, and a shortlist that counts them as
+    # two people wastes a slot. A flag, never a merge -- two people can share a
+    # name, and only a recruiter should decide the records are one person.
+    # Computed at load time (see app/db/duplicates.py) because it is a
+    # data-quality fact about the batch, not a rendering concern.
+    duplicate_of: Mapped[str | None] = mapped_column(String(64), index=True)
+
     # Soft quality flags, e.g. "experience found but no usable dates". NOT a
     # reason to exclude anyone -- a reason to tell the recruiter that a filter
     # could not be applied to this candidate.

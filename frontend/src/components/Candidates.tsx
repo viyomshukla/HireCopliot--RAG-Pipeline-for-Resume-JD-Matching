@@ -3,6 +3,7 @@ import type { RankedCandidate } from '../api'
 import { degree as degreeLabel, years as yearsLabel } from '../lib/format'
 import { Chevron, MetCount, ScoreMark } from './Chrome'
 import { EvidenceList } from './Evidence'
+import { DuplicateMark, DuplicateNote, FileId } from './Identity'
 
 /**
  * A ledger of people, not a deck of cards.
@@ -68,12 +69,20 @@ function CandidateRow({
         </span>
 
         <span className="min-w-0">
-          <span className="block truncate text-[14px] leading-[1.35] font-medium text-ink">
-            {candidate.name}
+          <span className="flex min-w-0 items-center gap-2">
+            <span className="truncate text-[14px] leading-[1.35] font-medium text-ink">
+              {candidate.name}
+            </span>
+            <DuplicateMark duplicates={candidate.duplicates} />
           </span>
-          {candidate.headline && (
-            <span className="block truncate text-[11.5px] text-ink3">{candidate.headline}</span>
-          )}
+          {/* The file on its own line under the name, with the headline after
+              it, so two people with one name are told apart without a click. */}
+          <span className="flex min-w-0 items-baseline gap-1.5">
+            <FileId candidate={candidate} />
+            {candidate.headline && (
+              <span className="truncate text-[11.5px] text-ink3">· {candidate.headline}</span>
+            )}
+          </span>
         </span>
 
         <span className="hidden text-right font-mono text-[12.5px] text-ink2 md:block">
@@ -107,12 +116,17 @@ function CandidateRow({
             screen readers. */}
         <div inert={!open}>
           <div className="border-t border-rule bg-paper px-4 pb-4 pl-10">
-            <p className="flex flex-wrap items-baseline gap-x-2 pt-3 pb-1 text-[11.5px] text-ink3">
-              Why this candidate scored
-              <span className="font-mono text-ink2">{candidate.score.toFixed(3)}</span>, strongest
-              evidence first.
-              <span className="font-mono">{candidate.resume_id}</span>
-            </p>
+            <div className="pt-3 pb-1">
+              <p className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 text-[11.5px] text-ink3">
+                <span>
+                  Why {candidate.name} scored{' '}
+                  <span className="font-mono text-ink2">{candidate.score.toFixed(3)}</span>,
+                  strongest evidence first.
+                </span>
+                <FileId candidate={candidate} />
+              </p>
+              <DuplicateNote duplicates={candidate.duplicates} />
+            </div>
             {open && <EvidenceList evidence={candidate.evidence} />}
           </div>
         </div>
@@ -193,13 +207,19 @@ export function ExcludedList({ excluded }: { excluded: RankedCandidate[] }) {
                       aria-controls={panelId}
                       className="grid w-full grid-cols-[minmax(0,1fr)_auto] items-start gap-x-3 gap-y-1.5 py-2.5 text-left"
                     >
-                      <span className="flex min-w-0 flex-wrap items-baseline gap-x-2.5">
-                        <span className="text-[13.5px] font-medium text-ink">{c.name}</span>
-                        <span className="font-mono text-[11px] text-ink3">
-                          {yearsLabel(c.years)}
+                      <span className="min-w-0">
+                        <span className="flex min-w-0 flex-wrap items-center gap-x-2.5 gap-y-0.5">
+                          <span className="text-[13.5px] font-medium text-ink">{c.name}</span>
+                          <DuplicateMark duplicates={c.duplicates} />
+                          <span className="font-mono text-[11px] text-ink3">
+                            {yearsLabel(c.years)}
+                          </span>
+                          <span className="text-[11px] text-ink3">
+                            {degreeLabel(c.highest_degree)}
+                          </span>
                         </span>
-                        <span className="text-[11px] text-ink3">
-                          {degreeLabel(c.highest_degree)}
+                        <span className="flex min-w-0">
+                          <FileId candidate={c} />
                         </span>
                       </span>
                       <span className="flex items-center gap-2">

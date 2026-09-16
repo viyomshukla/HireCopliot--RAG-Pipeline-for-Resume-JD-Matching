@@ -27,6 +27,7 @@ sys.path.insert(0, str(BASE))
 
 from sqlalchemy import func, select  # noqa: E402
 
+from app.db.duplicates import find_duplicate_of  # noqa: E402
 from app.db.models import Candidate, Education, Experience, Skill, candidate_skills  # noqa: E402
 from app.db.session import get_session, init_db  # noqa: E402
 from app.extraction.vocabulary import canonicalise, reset_unknown, unknown_skills  # noqa: E402
@@ -49,7 +50,7 @@ def get_or_create_skill(session, canonical: str, known: bool) -> Skill:
     return skill
 
 
-def load_record(session, record: dict) -> tuple[Candidate, int, int]:
+def load_record(session, record: dict, job_id: str | None = None) -> tuple[Candidate, int, int]:
     meta = record["metadata"]
     # Re-validating through pydantic rather than reading the dict directly means
     # the computed properties (merged experience months, highest degree) come
@@ -78,6 +79,10 @@ def load_record(session, record: dict) -> tuple[Candidate, int, int]:
     candidate.model = meta.get("model")
     candidate.n_chunks_used = meta.get("n_chunks_used", 0)
     candidate.issues = meta.get("issues", [])
+    if job_id is not None:
+        # Stamped here, before duplicate detection, because "same person" is
+        # only ever judged within one batch.
+        candidate.job_id = job_id
 
     # Child rows are replaced wholesale rather than diffed. Extraction output is
     # the source of truth and it is cheap to rebuild; a merge would be more code
@@ -85,6 +90,9 @@ def load_record(session, record: dict) -> tuple[Candidate, int, int]:
     candidate.experience.clear()
     candidate.education.clear()
     session.flush()
+
+    # After the flush, so a new candidate has the id the check compares against.
+    candidate.duplicate_of = find_duplicate_of(session, candidate)
 
     for position, exp in enumerate(profile.experience):
         candidate.experience.append(Experience(

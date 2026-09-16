@@ -2,6 +2,11 @@ import type { FileStatus, JobState } from '../api'
 
 export const pct = (n: number) => `${Math.round(n * 100)}%`
 
+/** The original uploaded filename, falling back to resume_id (its stem) for
+ *  records loaded before the filename was carried through. */
+export const fileLabel = (c: { resume_id: string; source_file?: string | null }) =>
+  c.source_file || c.resume_id
+
 export const score3 = (n: number) => n.toFixed(3)
 
 export function years(n: number): string {

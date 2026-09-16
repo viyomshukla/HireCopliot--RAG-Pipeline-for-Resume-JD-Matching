@@ -85,6 +85,12 @@ class CandidateScore:
     passed_filter: bool
     filter_failures: list[str] = field(default_factory=list)
     results: list[RequirementResult] = field(default_factory=list)
+    # The uploaded filename. Names are not unique; the file is what a recruiter
+    # with the folder open can actually find.
+    source_file: Optional[str] = None
+    # resume_id of an earlier candidate in the batch with the same name and
+    # email. See app/db/duplicates.py.
+    duplicate_of: Optional[str] = None
 
     @property
     def score(self) -> float:
@@ -121,8 +127,8 @@ class CandidateScorer:
 
     def load_candidates(self, job_id: Optional[str] = None) -> dict[str, dict]:
         conn = self._connect()
-        sql = ("SELECT id, resume_id, full_name, total_experience_months, "
-               "highest_degree FROM candidates")
+        sql = ("SELECT id, resume_id, full_name, source_file, duplicate_of, "
+               "total_experience_months, highest_degree FROM candidates")
         params: list = []
         if job_id:
             # Without this the scorer ranks every candidate ever uploaded. One
@@ -141,6 +147,8 @@ class CandidateScorer:
             ).fetchall()
             out[r["resume_id"]] = {
                 "name": r["full_name"] or "?",
+                "source_file": r["source_file"],
+                "duplicate_of": r["duplicate_of"],
                 "months": r["total_experience_months"] or 0,
                 "degree": r["highest_degree"] or "unknown",
                 "skills": {s["c"] for s in skills},
@@ -242,6 +250,8 @@ class CandidateScorer:
                 highest_degree=candidate["degree"],
                 passed_filter=not failures,
                 filter_failures=failures,
+                source_file=candidate["source_file"],
+                duplicate_of=candidate["duplicate_of"],
             )
 
             # Only qualifying candidates are scored. Retrieval plus reranking is

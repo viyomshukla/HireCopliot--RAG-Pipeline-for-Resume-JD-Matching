@@ -6,8 +6,10 @@ import {
   type FilterSpec,
   type RankRequest,
   type RankResponse,
+  type RankedCandidate,
 } from '../api'
 import { CandidateTable, ExcludedList } from '../components/Candidates'
+import { fileLabel } from '../lib/format'
 import { BusyBar, Callout, Chip, ErrorNote, Stat } from '../components/Chrome'
 import { RequirementsReview } from '../components/Requirements'
 import { IconArrowRight, IconBatches, IconCheck, IconFairness } from '../components/icons'
@@ -214,6 +216,34 @@ function Summary({ result, onReview }: { result: RankResponse; onReview: () => v
         </Callout>
       )}
     </div>
+  )
+}
+
+/**
+ * The same person twice on one shortlist takes a place someone else should
+ * have had. Counted only where the copies are BOTH shortlisted: a copy that was
+ * filtered out costs nothing, and is flagged on its own row regardless.
+ */
+function DuplicateWarning({ shortlist }: { shortlist: RankedCandidate[] }) {
+  const onList = new Set(shortlist.map((c) => c.resume_id))
+  const affected = shortlist.filter((c) => c.duplicates?.some((d) => onList.has(d.resume_id)))
+  if (!affected.length) return null
+
+  return (
+    <Callout tone="warn" title={`${affected.length} shortlisted rows look like the same people`}>
+      <p>
+        These rows share a name and email with another row on this shortlist, which usually means
+        one person uploaded more than once under different filenames:{' '}
+        {affected.map((c, i) => (
+          <span key={c.resume_id}>
+            {i > 0 && ', '}
+            <span className="font-medium">#{c.rank}</span>{' '}
+            <span className="font-mono text-[12px]">{fileLabel(c)}</span>
+          </span>
+        ))}
+        . Nothing has been merged. Check them before counting the shortlist.
+      </p>
+    </Callout>
   )
 }
 
@@ -466,6 +496,8 @@ export function RankView({
           </div>
 
           <Summary result={result} onReview={() => setStep('review')} />
+
+          <DuplicateWarning shortlist={result.shortlist ?? []} />
 
           {result.passed_filter === 0 ? (
             <NobodyPassed result={result} onReview={() => setStep('review')} />

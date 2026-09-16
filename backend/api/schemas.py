@@ -89,9 +89,22 @@ class EvidenceItem(BaseModel):
     quote: Optional[str] = None
 
 
+class DuplicateRef(BaseModel):
+    """Another candidate in this batch with the same name and email."""
+    resume_id: str
+    source_file: Optional[str] = None
+
+
 class RankedCandidate(BaseModel):
     rank: Optional[int] = None
     resume_id: str
+    # The original uploaded filename (resume_id is only its stem). Names are not
+    # unique, so this is how a recruiter tells two rows apart and finds the file.
+    source_file: Optional[str] = None
+    # Every OTHER candidate in the batch sharing this one's name and email,
+    # whichever side of the ranking they landed on. Empty means no likely
+    # duplicate. A flag for the recruiter, never a merge.
+    duplicates: list[DuplicateRef] = Field(default_factory=list)
     name: str
     headline: Optional[str] = None
     years: float

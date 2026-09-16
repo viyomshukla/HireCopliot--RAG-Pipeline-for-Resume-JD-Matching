@@ -180,11 +180,10 @@ def _load_database(job_id: str, records) -> None:
     with get_session() as session:
         for record in records:
             data = record.model_dump(mode="json")
-            candidate, _n, _u = load_record(session, data)
-            # Stamp the batch so one recruiter's candidates never appear in
-            # another's ranking, and so a retention policy can delete by batch.
-            if hasattr(candidate, "job_id"):
-                candidate.job_id = job_id
+            # The batch is stamped inside load_record so one recruiter's
+            # candidates never appear in another's ranking, a retention policy
+            # can delete by batch, and duplicate detection stays within it.
+            load_record(session, data, job_id=job_id)
 
 
 def _index(job_id: str) -> None:

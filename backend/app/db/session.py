@@ -21,7 +21,7 @@ from __future__ import annotations
 from contextlib import contextmanager
 from pathlib import Path
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, event, inspect, text
 from sqlalchemy.orm import Session, sessionmaker
 
 from app.db.models import Base
@@ -44,7 +44,48 @@ engine = create_engine(
     echo=False,   # set True to watch the SQL being generated; good for learning
 )
 
+@event.listens_for(engine, "connect")
+def _enable_foreign_keys(dbapi_connection, _record) -> None:
+    """SQLite ignores foreign keys unless asked, per connection.
+
+    Without this every `ON DELETE CASCADE` in models.py is decoration: deleting
+    a candidate leaves its skills, experience and education rows behind. And
+    because SQLite reuses the highest freed rowid, the NEXT candidate inserted
+    can be given that id and silently inherit a stranger's skills.
+    """
+    cursor = dbapi_connection.cursor()
+    cursor.execute("PRAGMA foreign_keys = ON")
+    cursor.close()
+
+
 SessionLocal = sessionmaker(bind=engine, autoflush=False, expire_on_commit=False)
+
+
+# Columns added after the first release. create_all() only creates missing
+# TABLES, never missing columns, so an existing database would otherwise fail
+# with "no such column" on the first query that names one.
+_ADDED_COLUMNS = {
+    "candidates": {
+        "job_id": "VARCHAR(64)",
+        "duplicate_of": "VARCHAR(64)",
+    },
+}
+
+
+def _add_missing_columns() -> list[str]:
+    added = []
+    inspector = inspect(engine)
+    tables = set(inspector.get_table_names())
+    with engine.begin() as conn:
+        for table, columns in _ADDED_COLUMNS.items():
+            if table not in tables:
+                continue
+            present = {c["name"] for c in inspector.get_columns(table)}
+            for name, ddl in columns.items():
+                if name not in present:
+                    conn.execute(text(f"ALTER TABLE {table} ADD COLUMN {name} {ddl}"))
+                    added.append(f"{table}.{name}")
+    return added
 
 
 def init_db(drop: bool = False) -> None:
@@ -58,6 +99,14 @@ def init_db(drop: bool = False) -> None:
     if drop:
         Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
+
+    added = _add_missing_columns()
+    if "candidates.duplicate_of" in added:
+        # A freshly added column is NULL for every existing row, which would
+        # read as "no duplicates" rather than "never checked". Compute it once.
+        from app.db.duplicates import backfill_duplicates
+        with get_session() as session:
+            backfill_duplicates(session)
 
 
 @contextmanager

@@ -38,6 +38,7 @@ import shutil
 import sys
 import time
 import uuid
+from contextlib import asynccontextmanager
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -58,18 +59,32 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from api.pipeline import chunks_path, registry, run_pipeline
 from api.schemas import (
-    AttributeAuditResponse, AuditResponse, EvidenceItem, GroupStat, JobStatus,
-    ParsedRequirement, RankRequest, RankResponse, RankedCandidate, UploadResponse,
+    AttributeAuditResponse, AuditResponse, DuplicateRef, EvidenceItem, GroupStat,
+    JobStatus, ParsedRequirement, RankRequest, RankResponse, RankedCandidate,
+    UploadResponse,
 )
 
 DATA = BASE / "data"
 UPLOAD_DIR = DATA / "uploads"
 MAX_UPLOAD_BYTES = 200 * 1024 * 1024
 
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    # Brings an existing database up to the current schema before the first
+    # request. The ranker selects columns added after release (duplicate_of);
+    # without this, ranking fails on an old database until someone happens to
+    # upload a batch, which is the only other path that calls init_db().
+    from app.db.session import init_db
+    init_db()
+    yield
+
+
 app = FastAPI(
-    title="Hiring Copilot API",
+    title="HireMind API",
     description="Ranks candidates against a job description with cited evidence.",
     version="0.1.0",
+    lifespan=lifespan,
 )
 
 # The Next.js dev server runs on a different port, so the browser treats it as a
@@ -130,7 +145,10 @@ def health() -> dict:
 async def upload(
     background: BackgroundTasks,
     file: UploadFile = File(..., description="A .zip of .pdf and .docx resumes"),
-    job_id = f"job_{datetime.now():%Y%m%d_%H%M%S}_{uuid.uuid4().hex[:6]}"
+    # Optional, and generated per request below. A default written as an
+    # f-string in the signature is evaluated ONCE, at import: every upload in a
+    # server session got the same id, and the second one failed with 409.
+    job_id: Optional[str] = Form(None),
 ) -> UploadResponse:
     if not file.filename or not file.filename.lower().endswith(".zip"):
         raise HTTPException(400, "upload a .zip file")
@@ -178,45 +196,106 @@ def job_status(job_id: str) -> JobStatus:
 
 @app.delete("/api/jobs/{job_id}")
 def delete_job(job_id: str) -> dict:
-    """Deletes a batch from every store.
+    """Deletes a batch from every store: SQL, vectors, files, and the registry.
 
-    All three or none. Deleting SQL rows but leaving vectors behind produces
-    orphan chunks that keep surfacing as evidence for a candidate the system
-    claims not to have -- which is both a bug and, for personal data, a
-    compliance failure.
+    Deleting SQL rows but leaving vectors behind produces orphan chunks that
+    keep surfacing as evidence for a candidate the system claims not to have --
+    which is both a bug and, for personal data, a compliance failure.
+
+    THE FOUR THINGS THE PREVIOUS VERSION GOT WRONG
+    ----------------------------------------------
+    1. It never removed the job from the registry, so the batch reappeared in
+       /api/jobs straight after a "successful" delete.
+    2. It deleted candidates on a raw sqlite3 connection without
+       `PRAGMA foreign_keys = ON`, so every ON DELETE CASCADE was ignored and
+       skills, experience and education rows were orphaned -- to be inherited
+       by the next candidate that reused the id.
+    3. It left the cached retriever alone, so BM25 kept returning chunks from
+       the deleted batch as evidence.
+    4. It would delete a batch mid-pipeline, which the background task then
+       half-recreated.
+
+    Every step is idempotent, so a partial failure is fixed by calling again.
     """
     import sqlite3
     from app.retrieval.vector_store import VectorStore
 
-    deleted = {"chunks": 0, "vectors": 0, "candidates": 0, "files": 0}
+    status = registry.get(job_id)
+    if status is not None and status.state not in ("ready", "failed"):
+        raise HTTPException(
+            409, f"batch '{job_id}' is still {status.state}; wait for it to finish, then delete it"
+        )
 
-    store = VectorStore()
-    got = store.collection.get(where={"job_id": job_id}, include=[])
-    if got["ids"]:
-        store.collection.delete(ids=got["ids"])
-        deleted["vectors"] = len(got["ids"])
+    deleted = {"candidates": 0, "orphans": 0, "vectors": 0, "files": 0}
+    problems: list[str] = []
 
+    # --- 1. SQL, in one transaction ---
     db = DATA / "candidates.db"
     if db.exists():
         conn = sqlite3.connect(db)
         try:
-            cur = conn.execute("DELETE FROM candidates WHERE job_id = ?", (job_id,))
-            deleted["candidates"] = cur.rowcount
-            conn.commit()
-        except sqlite3.OperationalError:
-            pass    # job_id column not added yet
-        conn.close()
+            # Per connection, and before the transaction opens, or it is ignored.
+            conn.execute("PRAGMA foreign_keys = ON")
+            with conn:
+                cur = conn.execute("DELETE FROM candidates WHERE job_id = ?", (job_id,))
+                deleted["candidates"] = max(cur.rowcount, 0)
+                # Sweep child rows whose candidate no longer exists. With the
+                # pragma on, this finds nothing new; it clears rows orphaned by
+                # deletes made before foreign keys were enforced.
+                for table in ("candidate_skills", "experience", "education"):
+                    cur = conn.execute(
+                        f"DELETE FROM {table} WHERE candidate_id NOT IN (SELECT id FROM candidates)"
+                    )
+                    deleted["orphans"] += max(cur.rowcount, 0)
+        except sqlite3.Error as exc:
+            problems.append(f"database: {exc}")
+        finally:
+            conn.close()
 
+    # --- 2. vectors ---
+    try:
+        store = VectorStore()
+        got = store.collection.get(where={"job_id": job_id}, include=[])
+        if got["ids"]:
+            store.collection.delete(ids=got["ids"])
+            deleted["vectors"] = len(got["ids"])
+    except Exception as exc:  # chroma raises several unrelated types
+        problems.append(f"vector store: {type(exc).__name__}: {exc}")
+
+    # --- 3. files ---
     for path in [chunks_path(job_id), DATA / f"extractions_{job_id}.json",
                  UPLOAD_DIR / f"{job_id}.zip"]:
-        if path.exists():
-            path.unlink()
-            deleted["files"] += 1
+        try:
+            if path.exists():
+                path.unlink()
+                deleted["files"] += 1
+        except OSError as exc:
+            # On Windows a file still held open elsewhere cannot be removed.
+            problems.append(f"{path.name}: {exc}")
     workdir = UPLOAD_DIR / job_id
-    if workdir.is_dir():
-        shutil.rmtree(workdir)
-        deleted["files"] += 1
+    try:
+        if workdir.is_dir():
+            shutil.rmtree(workdir)
+            deleted["files"] += 1
+    except OSError as exc:
+        problems.append(f"{workdir.name}/: {exc}")
 
+    # BM25 is built from the chunk files that existed when the retriever was
+    # first constructed. Drop it so the next ranking cannot cite deleted text.
+    global _retriever
+    _retriever = None
+
+    if problems:
+        # The job stays listed, so the recruiter can see it and try again.
+        raise HTTPException(500, "batch only partly deleted - " + "; ".join(problems))
+
+    found_anything = status is not None or any(
+        deleted[k] for k in ("candidates", "vectors", "files")
+    )
+    if not found_anything:
+        raise HTTPException(404, f"unknown batch '{job_id}'")
+
+    registry.remove(job_id)
     return {"job_id": job_id, "deleted": deleted}
 
 
@@ -243,10 +322,27 @@ def rank(request: RankRequest) -> RankResponse:
         raise HTTPException(503, f"LLM provider unavailable: {exc}")
     ranked = CandidateScorer(get_retriever()).rank(jd, job_id=request.job_id)
 
+    # Likely-duplicate groups, across the whole batch rather than the shortlist
+    # alone: a copy that was filtered out is still worth knowing about. Every
+    # copy points at the same root (see app/db/duplicates.py), so grouping by
+    # root is one pass.
+    groups: dict[str, list] = {}
+    for c in ranked:
+        groups.setdefault(c.duplicate_of or c.resume_id, []).append(c)
+
+    def duplicates_of(c) -> list[DuplicateRef]:
+        return [
+            DuplicateRef(resume_id=m.resume_id, source_file=m.source_file)
+            for m in groups[c.duplicate_of or c.resume_id]
+            if m.resume_id != c.resume_id
+        ]
+
     def to_response(c, rank_position: Optional[int]) -> RankedCandidate:
         return RankedCandidate(
             rank=rank_position,
             resume_id=c.resume_id,
+            source_file=c.source_file,
+            duplicates=duplicates_of(c),
             name=c.name,
             years=c.years,
             highest_degree=c.highest_degree,
