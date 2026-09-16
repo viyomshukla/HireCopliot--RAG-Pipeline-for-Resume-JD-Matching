@@ -1,0 +1,196 @@
+{
+  "full_name": "Viyom Shukla",
+  "email": "Viyomshukla21@gmail.com",
+  "phone": "+91-6397333481",
+  "location": "Noida, India",
+  "headline": "Web Developer Intern",
+  "skills": [
+    {
+      "name": "C++",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "C",
+      "canonical": null
+    },
+    {
+      "name": "JavaScript",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "Bash",
+      "canonical": null
+    },
+    {
+      "name": "AWS",
+      "canonical": null
+    },
+    {
+      "name": "Elastic Beanstalk",
+      "canonical": null
+    },
+    {
+      "name": "EC2",
+      "canonical": null
+    },
+    {
+      "name": "S3",
+      "canonical": null
+    },
+    {
+      "name": "Docker",
+      "canonical": null
+    },
+    {
+      "name": "Cloudinary",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "GitHub",
+      "canonical": null
+    },
+    {
+      "name": "React.js",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Express.js",
+      "canonical": null
+    },
+    {
+      "name": "Tailwind CSS",
+      "canonical": null
+    },
+    {
+      "name": "HTML/CSS",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB Atlas",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "superbase",
+      "canonical": null
+    },
+    {
+      "name": "fiebase",
+      "canonical": null
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "canonical": null
+    },
+    {
+      "name": "Operating Systems",
+      "canonical": null
+    },
+    {
+      "name": "Computer Networks",
+      "canonical": null
+    },
+    {
+      "name": "DBMS",
+      "canonical": null
+    },
+    {
+      "name": "Distributed & Scalable Systems",
+      "canonical": null
+    },
+    {
+      "name": "OOP",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "MERN",
+      "canonical": null
+    },
+    {
+      "name": "Twilio",
+      "canonical": null
+    },
+    {
+      "name": "Gemini API",
+      "canonical": null
+    },
+    {
+      "name": "Replicate API",
+      "canonical": null
+    },
+    {
+      "name": "PyMuPDF",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Distance Connect Remote",
+      "title": "Web Developer Intern",
+      "start_year": 2025,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Scalable Architecture: Designed and developed a scalable web application using React.js and Node.js in a multi-tier architecture.",
+        "Distributed Systems: Built and integrated REST APIs enabling efficient data processing and real-time communication across services.",
+        "Performance & Reliability: Optimized frontend rendering and system performance, enhancing scalability and user experience by 40%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+      "level": "master",
+      "field_of_study": "Computer Science Engineering",
+      "institution": "Jaypee Institute of Information Technology Noida, India",
+      "start_year": 2022,
+      "end_year": 2027
+    },
+    {
+      "degree": "Class XII (CBSE)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Gayatri Public School Agra, India",
+      "start_year": null,
+      "end_year": null
+    },
+    {
+      "degree": "Class X (CBSE)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Gayatri Public School Agra, India",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "certifications": []
+}

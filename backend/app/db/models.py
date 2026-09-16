@@ -66,7 +66,7 @@ class Candidate(Base):
     __tablename__ = "candidates"
 
     id: Mapped[int] = mapped_column(primary_key=True)
-
+    job_id: Mapped[str | None] = mapped_column(String(64), index=True)
     # The resume file's stem. Unique, and the join key to the vector store --
     # every chunk in Chroma carries this same resume_id in its metadata, which
     # is what lets the ranker search inside one candidate's chunks.

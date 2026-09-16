@@ -1,0 +1,522 @@
+@import 'tailwindcss';
+
+/* ============================================================================
+   DESIGN TOKENS
+
+   Two palettes, one set of names. Raw values live on `--c-*` and are swapped
+   wholesale by theme; the `@theme inline` block below maps them onto Tailwind
+   utilities, so `bg-surface` resolves through the variable and follows the
+   theme without a single `dark:` variant anywhere in the components.
+
+   The character is instrument panel, not dashboard template: dense, calm,
+   tabular. Depth is used sparingly and only where it means something - a
+   raised surface is a thing you act on, a sunk one is a container.
+   ============================================================================ */
+
+:root {
+  color-scheme: light;
+
+  /* --- grounds --- */
+  --c-canvas: #eef1f5;
+  --c-paper: #f7f9fb;
+  --c-surface: #ffffff;
+  --c-sunk: #eef1f5;
+  --c-raised: #ffffff;
+
+  /* --- text --- */
+  --c-ink: #0f1a22;
+  --c-ink2: #4e5c69;
+  --c-ink3: #7c8b98;
+
+  /* --- lines --- */
+  --c-rule: #e3e8ee;
+  --c-rule-strong: #cfd7e0;
+
+  /* --- accent: deep teal. Institutional, not consumer-app blue. --- */
+  --c-accent: #0d5f72;
+  --c-accent-mid: #10798f;
+  --c-accent-bright: #1596b1;
+  --c-accent-soft: #e3f0f4;
+  --c-accent-ink: #ffffff;
+
+  /* --- semantics --- */
+  --c-blood: #a02525;
+  --c-blood-soft: #fdecec;
+  --c-amber: #8a6312;
+  --c-amber-soft: #fdf3dd;
+  --c-moss: #2f6b43;
+  --c-moss-soft: #e6f4ea;
+
+  /* --- elevation, tinted with the ink hue so shadows never read as grey --- */
+  --shadow-xs: 0 1px 2px rgb(15 26 34 / 0.05);
+  --shadow-sm: 0 1px 2px rgb(15 26 34 / 0.06), 0 1px 3px rgb(15 26 34 / 0.05);
+  --shadow-md: 0 2px 4px rgb(15 26 34 / 0.05), 0 6px 16px -4px rgb(15 26 34 / 0.09);
+  --shadow-lg: 0 8px 28px -6px rgb(15 26 34 / 0.16), 0 2px 6px rgb(15 26 34 / 0.05);
+  --ring-accent: 0 0 0 3px rgb(21 150 177 / 0.22);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --c-canvas: #0a1014;
+  --c-paper: #0d151a;
+  --c-surface: #121c22;
+  --c-sunk: #18242b;
+  --c-raised: #17232a;
+
+  --c-ink: #e8f0f4;
+  --c-ink2: #a3b4bf;
+  --c-ink3: #71858f;
+
+  --c-rule: #223138;
+  --c-rule-strong: #31444e;
+
+  --c-accent: #2aa3bd;
+  --c-accent-mid: #37b6cc;
+  --c-accent-bright: #4fc9dd;
+  --c-accent-soft: #10323c;
+  --c-accent-ink: #04161c;
+
+  --c-blood: #f08a8a;
+  --c-blood-soft: #2e1618;
+  --c-amber: #e0b457;
+  --c-amber-soft: #2c2312;
+  --c-moss: #74c68f;
+  --c-moss-soft: #10281a;
+
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.45), 0 1px 3px rgb(0 0 0 / 0.35);
+  --shadow-md: 0 2px 4px rgb(0 0 0 / 0.35), 0 6px 16px -4px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 8px 28px -6px rgb(0 0 0 / 0.6), 0 2px 6px rgb(0 0 0 / 0.4);
+  --ring-accent: 0 0 0 3px rgb(79 201 221 / 0.25);
+}
+
+/* Follows the OS when the user has expressed no preference of their own.
+   Guarded so an explicit light choice still wins on a dark system. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+
+    --c-canvas: #0a1014;
+    --c-paper: #0d151a;
+    --c-surface: #121c22;
+    --c-sunk: #18242b;
+    --c-raised: #17232a;
+
+    --c-ink: #e8f0f4;
+    --c-ink2: #a3b4bf;
+    --c-ink3: #71858f;
+
+    --c-rule: #223138;
+    --c-rule-strong: #31444e;
+
+    --c-accent: #2aa3bd;
+    --c-accent-mid: #37b6cc;
+    --c-accent-bright: #4fc9dd;
+    --c-accent-soft: #10323c;
+    --c-accent-ink: #04161c;
+
+    --c-blood: #f08a8a;
+    --c-blood-soft: #2e1618;
+    --c-amber: #e0b457;
+    --c-amber-soft: #2c2312;
+    --c-moss: #74c68f;
+    --c-moss-soft: #10281a;
+
+    --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.4);
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.45), 0 1px 3px rgb(0 0 0 / 0.35);
+    --shadow-md: 0 2px 4px rgb(0 0 0 / 0.35), 0 6px 16px -4px rgb(0 0 0 / 0.5);
+    --shadow-lg: 0 8px 28px -6px rgb(0 0 0 / 0.6), 0 2px 6px rgb(0 0 0 / 0.4);
+    --ring-accent: 0 0 0 3px rgb(79 201 221 / 0.25);
+  }
+}
+
+@theme inline {
+  --font-sans: 'Inter', 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+  --font-quote: 'Newsreader', ui-serif, Georgia, serif;
+
+  --color-canvas: var(--c-canvas);
+  --color-paper: var(--c-paper);
+  --color-surface: var(--c-surface);
+  --color-sunk: var(--c-sunk);
+  --color-raised: var(--c-raised);
+
+  --color-ink: var(--c-ink);
+  --color-ink2: var(--c-ink2);
+  --color-ink3: var(--c-ink3);
+
+  --color-rule: var(--c-rule);
+  --color-rule-strong: var(--c-rule-strong);
+
+  --color-accent: var(--c-accent);
+  --color-accent-mid: var(--c-accent-mid);
+  --color-accent-bright: var(--c-accent-bright);
+  --color-accent-soft: var(--c-accent-soft);
+  --color-accent-ink: var(--c-accent-ink);
+
+  --color-blood: var(--c-blood);
+  --color-blood-soft: var(--c-blood-soft);
+  --color-amber: var(--c-amber);
+  --color-amber-soft: var(--c-amber-soft);
+  --color-moss: var(--c-moss);
+  --color-moss-soft: var(--c-moss-soft);
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 14px;
+}
+
+/* ============================================================================
+   BASE
+   ============================================================================ */
+
+@layer base {
+  * {
+    border-color: var(--c-rule);
+  }
+
+  html {
+    background: var(--c-canvas);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--c-canvas);
+    color: var(--c-ink);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Figures line up in a column; prose does not need to. */
+  .font-mono,
+  .tabular-nums,
+  table {
+    font-variant-numeric: tabular-nums;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--c-accent-bright);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  ::selection {
+    background: var(--c-accent-soft);
+    color: var(--c-ink);
+  }
+
+  input,
+  textarea,
+  button,
+  select {
+    font: inherit;
+    color: inherit;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 600;
+    letter-spacing: -0.014em;
+    text-wrap: balance;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  /* A scrollbar that belongs to the theme rather than to the OS. */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--c-rule-strong) transparent;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--c-rule-strong);
+    border: 3px solid transparent;
+    background-clip: content-box;
+    border-radius: 99px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--c-ink3);
+    background-clip: content-box;
+  }
+}
+
+/* ============================================================================
+   COMPONENTS
+   ============================================================================ */
+
+@layer components {
+  /* --- surfaces ------------------------------------------------------- */
+
+  .card {
+    background: var(--c-surface);
+    border: 1px solid var(--c-rule);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .card-flat {
+    background: var(--c-surface);
+    border: 1px solid var(--c-rule);
+    border-radius: var(--radius-lg);
+  }
+
+  /* Header strip inside a card: a shade down, so the card reads as one unit. */
+  .card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--c-rule);
+    background: color-mix(in oklab, var(--c-sunk) 55%, var(--c-surface));
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  }
+
+  /* --- buttons -------------------------------------------------------- */
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0.45rem 0.85rem;
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 1.25rem;
+    white-space: nowrap;
+    border: 1px solid var(--c-rule-strong);
+    border-radius: var(--radius-md);
+    background: var(--c-surface);
+    color: var(--c-ink);
+    box-shadow: var(--shadow-xs);
+    cursor: pointer;
+    transition:
+      background-color 120ms ease,
+      border-color 120ms ease,
+      box-shadow 120ms ease,
+      transform 80ms ease;
+  }
+  .btn:hover:not(:disabled) {
+    background: var(--c-sunk);
+    border-color: var(--c-ink3);
+  }
+  .btn:active:not(:disabled) {
+    transform: translateY(0.5px);
+    box-shadow: none;
+  }
+  .btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+
+  .btn-primary {
+    background: var(--c-accent);
+    border-color: var(--c-accent);
+    color: var(--c-accent-ink);
+    box-shadow: var(--shadow-sm);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--c-accent-mid);
+    border-color: var(--c-accent-mid);
+  }
+  .btn-primary:focus-visible {
+    box-shadow: var(--ring-accent);
+  }
+
+  .btn-danger {
+    border-color: color-mix(in oklab, var(--c-blood) 45%, transparent);
+    color: var(--c-blood);
+    background: var(--c-surface);
+  }
+  .btn-danger:hover:not(:disabled) {
+    background: var(--c-blood-soft);
+    border-color: var(--c-blood);
+  }
+
+  /* Borderless, for dense rows where a full button would shout. */
+  .btn-ghost {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+    color: var(--c-ink2);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    background: var(--c-sunk);
+    border-color: transparent;
+    color: var(--c-ink);
+  }
+
+  .btn-sm {
+    padding: 0.28rem 0.6rem;
+    font-size: 12.5px;
+    gap: 0.35rem;
+  }
+  .btn-lg {
+    padding: 0.58rem 1.15rem;
+    font-size: 14.5px;
+  }
+  .btn-icon {
+    padding: 0.4rem;
+    gap: 0;
+  }
+
+  /* --- form controls -------------------------------------------------- */
+
+  .field {
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    background: var(--c-surface);
+    border: 1px solid var(--c-rule-strong);
+    border-radius: var(--radius-md);
+    color: var(--c-ink);
+    transition:
+      border-color 120ms ease,
+      box-shadow 120ms ease;
+  }
+  .field::placeholder {
+    color: var(--c-ink3);
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--c-accent-bright);
+    box-shadow: var(--ring-accent);
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--c-ink);
+  }
+
+  .hint {
+    margin-top: 0.35rem;
+    font-size: 12px;
+    color: var(--c-ink3);
+  }
+
+  /* --- eyebrow: the one place small caps earn their keep --------------- */
+
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--c-ink3);
+  }
+
+  /* --- hatching marks a figure too small to interpret ------------------ */
+
+  .hatch {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      var(--c-rule-strong) 0 3px,
+      transparent 3px 6px
+    );
+  }
+
+  /* --- the evidence drawer: 0fr -> 1fr, so it opens to its real height -- */
+
+  .drawer {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 240ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .drawer[data-open='true'] {
+    grid-template-rows: 1fr;
+  }
+  .drawer > * {
+    overflow: hidden;
+  }
+
+  /* --- skeleton, for first paint only --------------------------------- */
+
+  .skeleton {
+    border-radius: var(--radius-sm);
+    background: linear-gradient(
+      90deg,
+      var(--c-sunk) 25%,
+      color-mix(in oklab, var(--c-sunk) 55%, var(--c-surface)) 37%,
+      var(--c-sunk) 63%
+    );
+    background-size: 400% 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+  }
+}
+
+/* ============================================================================
+   MOTION
+   Every animation here is tied to a state change. Nothing loops for decoration.
+   ============================================================================ */
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(340%);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.animate-rise {
+  animation: rise 260ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

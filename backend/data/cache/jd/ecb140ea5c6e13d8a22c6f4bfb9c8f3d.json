@@ -1,0 +1,123 @@
+{
+  "title": "Cloud Engineer",
+  "company": null,
+  "location": null,
+  "seniority": null,
+  "requirements": [
+    {
+      "text": "Deploy and manage cloud infrastructure and services.",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 2,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Deploy and manage cloud infrastructure and services."
+    },
+    {
+      "text": "Monitor system performance, security, and availability.",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Monitor system performance, security, and availability."
+    },
+    {
+      "text": "Automate deployments and infrastructure processes.",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Automate deployments and infrastructure processes."
+    },
+    {
+      "text": "Troubleshoot cloud and application issues.",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Troubleshoot cloud and application issues."
+    },
+    {
+      "text": "Collaborate with development and DevOps teams.",
+      "kind": "soft",
+      "category": "responsibility",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Collaborate with development and DevOps teams."
+    },
+    {
+      "text": "Knowledge of AWS/Azure/GCP.",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 3,
+      "skill": null,
+      "skill_alternatives": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Knowledge of AWS/Azure/GCP."
+    },
+    {
+      "text": "Understanding of networking.",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "networking",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Understanding of networking."
+    },
+    {
+      "text": "Understanding of cloud security.",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "cloud security",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Understanding of cloud security."
+    },
+    {
+      "text": "Basic scripting knowledge (Python/Bash) is a plus.",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [
+        "Python",
+        "Bash"
+      ],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Basic scripting knowledge (Python/Bash) is a plus."
+    }
+  ]
+}

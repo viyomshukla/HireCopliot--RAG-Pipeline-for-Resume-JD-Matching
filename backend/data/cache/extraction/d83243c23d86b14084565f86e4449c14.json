@@ -1,0 +1,192 @@
+{
+  "full_name": "Viyom Shukla",
+  "email": "Viyomshukla21@gmail.com",
+  "phone": "+91 63973 32481",
+  "location": "Noida, India",
+  "headline": "Web Developer Intern",
+  "skills": [
+    {
+      "name": "JavaScript (ES6+)",
+      "canonical": null
+    },
+    {
+      "name": "HTML5",
+      "canonical": null
+    },
+    {
+      "name": "CSS3",
+      "canonical": null
+    },
+    {
+      "name": "React.js",
+      "canonical": null
+    },
+    {
+      "name": "Hooks",
+      "canonical": null
+    },
+    {
+      "name": "Component Architecture",
+      "canonical": null
+    },
+    {
+      "name": "Tailwind CSS",
+      "canonical": null
+    },
+    {
+      "name": "Bootstrap",
+      "canonical": null
+    },
+    {
+      "name": "Material Design",
+      "canonical": null
+    },
+    {
+      "name": "Responsive & Cross-Platform Layouts",
+      "canonical": null
+    },
+    {
+      "name": "Lazy Loading",
+      "canonical": null
+    },
+    {
+      "name": "Code Splitting",
+      "canonical": null
+    },
+    {
+      "name": "Memoization",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Express.js",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "Webhooks",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "Cloudinary",
+      "canonical": null
+    },
+    {
+      "name": "C",
+      "canonical": null
+    },
+    {
+      "name": "C++",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "GitHub",
+      "canonical": null
+    },
+    {
+      "name": "Postman",
+      "canonical": null
+    },
+    {
+      "name": "Vercel CI/CD",
+      "canonical": null
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "canonical": null
+    },
+    {
+      "name": "OOP",
+      "canonical": null
+    },
+    {
+      "name": "DBMS",
+      "canonical": null
+    },
+    {
+      "name": "Operating Systems",
+      "canonical": null
+    },
+    {
+      "name": "Computer Networks",
+      "canonical": null
+    },
+    {
+      "name": "HTML",
+      "canonical": null
+    },
+    {
+      "name": "CSS",
+      "canonical": null
+    },
+    {
+      "name": "Razorpay",
+      "canonical": null
+    },
+    {
+      "name": "Twilio",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Distance Connect",
+      "title": "Web Developer Intern",
+      "start_year": 2025,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Built responsive, cross-platform React.js UI, consolidating repeated page markup into a shared Bootstrap-styled component set to keep behaviour consistent across screens.",
+        "Integrated REST APIs into React views so the interface rendered live data from backend services.",
+        "Cut frontend load time by 40% using lazy loading, memoization and component-level code splitting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+      "level": "master",
+      "field_of_study": "Computer Science Engineering",
+      "institution": "Jaypee Institute of Information Technology, Noida",
+      "start_year": 2022,
+      "end_year": 2027
+    }
+  ],
+  "certifications": []
+}

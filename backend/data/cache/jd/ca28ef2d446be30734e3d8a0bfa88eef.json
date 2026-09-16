@@ -1,0 +1,128 @@
+{
+  "title": "AI/ML Student / Intern",
+  "company": null,
+  "location": null,
+  "seniority": "junior",
+  "requirements": [
+    {
+      "text": "Hands-on experience with Python",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "Python",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Python",
+      "search_query": "Hands-on experience with Python"
+    },
+    {
+      "text": "Hands-on experience with machine learning",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "Machine Learning",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": "Machine Learning",
+      "search_query": "Hands-on experience with machine learning"
+    },
+    {
+      "text": "Final-year engineering student specializing in Artificial Intelligence and Machine Learning (AI/ML)",
+      "kind": "hard",
+      "category": "education",
+      "weight": 3,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": "bachelor",
+      "canonical_skill": null,
+      "search_query": "Final-year engineering student specializing in Artificial Intelligence and Machine Learning (AI/ML)"
+    },
+    {
+      "text": "Strong technical fundamentals",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Strong technical fundamentals"
+    },
+    {
+      "text": "Excellent software development skills",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Excellent software development skills"
+    },
+    {
+      "text": "Excellent communication skills",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Excellent communication skills"
+    },
+    {
+      "text": "Passionate about building real-world AI/ML solutions",
+      "kind": "soft",
+      "category": "other",
+      "weight": 1,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Passionate about building real-world AI/ML solutions"
+    },
+    {
+      "text": "Hands-on experience with data science",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 2,
+      "skill": "Data Science",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Hands-on experience with data science"
+    },
+    {
+      "text": "Hands-on experience with APIs",
+      "kind": "soft",
+      "category": "skill",
+      "weight": 1,
+      "skill": "APIs",
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Hands-on experience with APIs"
+    },
+    {
+      "text": "Hands-on experience with software development",
+      "kind": "soft",
+      "category": "experience",
+      "weight": 2,
+      "skill": null,
+      "skill_alternatives": [],
+      "min_years": null,
+      "degree_level": null,
+      "canonical_skill": null,
+      "search_query": "Hands-on experience with software development"
+    }
+  ]
+}

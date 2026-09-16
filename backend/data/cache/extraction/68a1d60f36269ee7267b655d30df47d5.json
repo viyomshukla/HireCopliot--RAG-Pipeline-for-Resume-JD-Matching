@@ -1,0 +1,204 @@
+{
+  "full_name": "Viyom Shukla",
+  "email": "Viyomshukla21@gmail.com",
+  "phone": "+91 63973 33481",
+  "location": "Noida, India",
+  "headline": "Web Developer Intern",
+  "skills": [
+    {
+      "name": "C",
+      "canonical": null
+    },
+    {
+      "name": "C++",
+      "canonical": null
+    },
+    {
+      "name": "JavaScript",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "HTML",
+      "canonical": null
+    },
+    {
+      "name": "CSS",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "React.js",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Express.js",
+      "canonical": null
+    },
+    {
+      "name": "Tailwind CSS",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "GitHub",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical": null
+    },
+    {
+      "name": "VS Code",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "Notion",
+      "canonical": null
+    },
+    {
+      "name": "Slack",
+      "canonical": null
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "canonical": null
+    },
+    {
+      "name": "Object-Oriented Design",
+      "canonical": null
+    },
+    {
+      "name": "Problem Solving",
+      "canonical": null
+    },
+    {
+      "name": "Complexity Analysis",
+      "canonical": null
+    },
+    {
+      "name": "DistributedSystems",
+      "canonical": null
+    },
+    {
+      "name": "ScalableSystems",
+      "canonical": null
+    },
+    {
+      "name": "DatabaseManagementSystems",
+      "canonical": null
+    },
+    {
+      "name": "OperatingSystems",
+      "canonical": null
+    },
+    {
+      "name": "ComputerNetworks",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "Data Mining",
+      "canonical": null
+    },
+    {
+      "name": "MERN",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "Gemini",
+      "canonical": null
+    },
+    {
+      "name": "Replicate",
+      "canonical": null
+    },
+    {
+      "name": "Twilio API",
+      "canonical": null
+    },
+    {
+      "name": "GANs",
+      "canonical": null
+    },
+    {
+      "name": "Generative Adversarial Networks",
+      "canonical": null
+    },
+    {
+      "name": "Conditional GANs",
+      "canonical": null
+    },
+    {
+      "name": "Random Forest",
+      "canonical": null
+    },
+    {
+      "name": "SVM",
+      "canonical": null
+    },
+    {
+      "name": "Neural Networks",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Distance Connect",
+      "title": "Web Developer Intern",
+      "start_year": 2025,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and developed scalable web application using React.js and Node.js in a multi-tier architecture.",
+        "Built and integrated APIs enabling efficient data processing and real-time communication in distributed systems.",
+        "Reduced frontend load time by 40% through lazy loading, memoization, and component-level code splitting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+      "level": "master",
+      "field_of_study": "Computer Science Engineering",
+      "institution": "Jaypee Institute of Information Technology, Noida",
+      "start_year": 2022,
+      "end_year": 2027
+    }
+  ],
+  "certifications": []
+}

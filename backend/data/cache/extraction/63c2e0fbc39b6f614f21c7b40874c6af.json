@@ -1,0 +1,208 @@
+{
+  "full_name": "Viyom Shukla",
+  "email": "Viyomshukla21@gmail.com",
+  "phone": "+91-6397332481",
+  "location": "Noida, India",
+  "headline": "Web Developer Intern",
+  "skills": [
+    {
+      "name": "C++",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "JavaScript",
+      "canonical": null
+    },
+    {
+      "name": "C",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "React.js",
+      "canonical": null
+    },
+    {
+      "name": "Tailwind CSS",
+      "canonical": null
+    },
+    {
+      "name": "HTML/CSS",
+      "canonical": null
+    },
+    {
+      "name": "Chrome Extensions",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Express.js",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "Google OAuth 2.0",
+      "canonical": null
+    },
+    {
+      "name": "JWT Authentication",
+      "canonical": null
+    },
+    {
+      "name": "Razorpay",
+      "canonical": null
+    },
+    {
+      "name": "Twilio",
+      "canonical": null
+    },
+    {
+      "name": "Gemini/Replicate APIs",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB Atlas",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "Firebase",
+      "canonical": null
+    },
+    {
+      "name": "AWS (EC2, S3)",
+      "canonical": null
+    },
+    {
+      "name": "Cloudinary",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "GitHub",
+      "canonical": null
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "canonical": null
+    },
+    {
+      "name": "Operating Systems",
+      "canonical": null
+    },
+    {
+      "name": "Computer Networks",
+      "canonical": null
+    },
+    {
+      "name": "DBMS",
+      "canonical": null
+    },
+    {
+      "name": "Distributed & Scalable Systems",
+      "canonical": null
+    },
+    {
+      "name": "OOP",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "Google Meet API",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "TUI Image Editor",
+      "canonical": null
+    },
+    {
+      "name": "Cloudinary CDN",
+      "canonical": null
+    },
+    {
+      "name": "pandas",
+      "canonical": null
+    },
+    {
+      "name": "scikit-learn",
+      "canonical": null
+    },
+    {
+      "name": "GAN",
+      "canonical": null
+    },
+    {
+      "name": "PyTorch",
+      "canonical": null
+    },
+    {
+      "name": "Qiskit",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Distance Connect Remote",
+      "title": "Web Developer Intern",
+      "start_year": 2025,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Platform UI & Architecture:: Spearheaded frontend development for an early-stage EdTech startup connecting students with IIT and AIIMS mentors, comprehensively revamping the user interface to enhance student engagement.",
+        "AI Chatbot Integration:: Engineered and deployed an AI-powered conversational interface to automate student onboarding and rapidly resolve queries, significantly reducing manual support overhead.",
+        "Real-Time Mentorship Pipeline:: Architected a seamless video consultation flow by integrating the Google Meet API, enabling secure 1:1 virtual mentoring sessions directly within the platform."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+      "level": "master",
+      "field_of_study": "Computer Science Engineering",
+      "institution": "Jaypee Institute of Information Technology",
+      "start_year": 2022,
+      "end_year": 2027
+    },
+    {
+      "degree": "Class XII (CBSE)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Gayatri Public School",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "certifications": []
+}

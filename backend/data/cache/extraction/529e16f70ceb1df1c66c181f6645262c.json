@@ -1,0 +1,202 @@
+{
+  "full_name": "Viyom Shukla",
+  "email": "Viyomshukla21@gmail.com",
+  "phone": "+91-6397332481",
+  "location": "Noida, India",
+  "headline": "Full Stack Web Intern",
+  "skills": [
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "C",
+      "canonical": null
+    },
+    {
+      "name": "C++",
+      "canonical": null
+    },
+    {
+      "name": "Pandas",
+      "canonical": null
+    },
+    {
+      "name": "NumPy",
+      "canonical": null
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical": null
+    },
+    {
+      "name": "Matplotlib",
+      "canonical": null
+    },
+    {
+      "name": "Seaborn",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "canonical": null
+    },
+    {
+      "name": "DBMS",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "Exploratory Data Analysis",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "GitHub",
+      "canonical": null
+    },
+    {
+      "name": "VS Code",
+      "canonical": null
+    },
+    {
+      "name": "Jupyter Notebook",
+      "canonical": null
+    },
+    {
+      "name": "Postman",
+      "canonical": null
+    },
+    {
+      "name": "Notion",
+      "canonical": null
+    },
+    {
+      "name": "Slack",
+      "canonical": null
+    },
+    {
+      "name": "TensorFlow",
+      "canonical": null
+    },
+    {
+      "name": "XGBoost",
+      "canonical": null
+    },
+    {
+      "name": "Generative AI",
+      "canonical": null
+    },
+    {
+      "name": "React.js",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "Cloudinary",
+      "canonical": null
+    },
+    {
+      "name": "OAuth 2.0",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "Razorpay",
+      "canonical": null
+    },
+    {
+      "name": "Express",
+      "canonical": null
+    },
+    {
+      "name": "Random Forest",
+      "canonical": null
+    },
+    {
+      "name": "SVM",
+      "canonical": null
+    },
+    {
+      "name": "AdaBoost",
+      "canonical": null
+    },
+    {
+      "name": "Gradient Boosting",
+      "canonical": null
+    },
+    {
+      "name": "Conditional GANs",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Distance Connect Remote",
+      "title": "Full Stack Web Intern",
+      "start_year": 2025,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Cross-Functional Product Development: Collaborated directly with founders at an early-stage EdTech startup to redesign the platform UI, translating ambiguous, evolving requirements into a shipped product that improved student engagement.",
+        "Process Automation: Engineered an AI-powered chatbot to automate student onboarding and query resolution, reducing manual support workload and improving turnaround time for user queries.",
+        "Third-Party API Integration: Integrated the Google Meet API to build a secure, real-time 1:1 mentorship video pipeline, working independently to debug and deliver within a fast-paced startup environment."
+      ]
+    },
+    {
+      "company": "Student Placement Committee, JIIT Noida",
+      "title": "Coordinator",
+      "start_year": 2024,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies actively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+      "level": "master",
+      "field_of_study": "Computer Science Engineering",
+      "institution": "Jaypee Institute of Information Technology",
+      "start_year": 2022,
+      "end_year": 2027
+    }
+  ],
+  "certifications": [
+    "HackerRank SQL Certified"
+  ]
+}

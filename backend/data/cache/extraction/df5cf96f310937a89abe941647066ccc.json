@@ -1,0 +1,192 @@
+{
+  "full_name": "Viyom Shukla",
+  "email": "Viyomshukla21@gmail.com",
+  "phone": "+91 63973 33481",
+  "location": "Noida, India",
+  "headline": "Web Developer Intern",
+  "skills": [
+    {
+      "name": "C",
+      "canonical": null
+    },
+    {
+      "name": "C++",
+      "canonical": null
+    },
+    {
+      "name": "JavaScript",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "HTML",
+      "canonical": null
+    },
+    {
+      "name": "CSS",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "React.js",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Express.js",
+      "canonical": null
+    },
+    {
+      "name": "Tailwind CSS",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "GitHub",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "API",
+      "canonical": null
+    },
+    {
+      "name": "VS Code",
+      "canonical": null
+    },
+    {
+      "name": "Notion",
+      "canonical": null
+    },
+    {
+      "name": "Slack",
+      "canonical": null
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "canonical": null
+    },
+    {
+      "name": "Object-Oriented Design",
+      "canonical": null
+    },
+    {
+      "name": "Problem Solving",
+      "canonical": null
+    },
+    {
+      "name": "Complexity Analysis",
+      "canonical": null
+    },
+    {
+      "name": "Distributed Systems",
+      "canonical": null
+    },
+    {
+      "name": "Scalable Systems",
+      "canonical": null
+    },
+    {
+      "name": "Database Management Systems",
+      "canonical": null
+    },
+    {
+      "name": "Operating Systems",
+      "canonical": null
+    },
+    {
+      "name": "Computer Networks",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "Data Mining",
+      "canonical": null
+    },
+    {
+      "name": "MERN stack",
+      "canonical": null
+    },
+    {
+      "name": "Gemini API",
+      "canonical": null
+    },
+    {
+      "name": "Replicate API",
+      "canonical": null
+    },
+    {
+      "name": "Twilio API",
+      "canonical": null
+    },
+    {
+      "name": "Generative Adversarial Networks (GANs)",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "Random Forest",
+      "canonical": null
+    },
+    {
+      "name": "SVM",
+      "canonical": null
+    },
+    {
+      "name": "Neural Networks",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Distance Connect",
+      "title": "Web Developer Intern",
+      "start_year": 2025,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "Designed and developed scalable web application using React.js and Node.js in a multi-tier architecture.",
+        "Built and integrated APIs enabling efficient data processing and real-time communication in distributed systems.",
+        "Improved system performance and optimized frontend rendering, enhancing scalability and user experience by 40%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+      "level": "master",
+      "field_of_study": "Computer Science Engineering",
+      "institution": "Jaypee Institute of Information Technology, Noida",
+      "start_year": 2022,
+      "end_year": 2027
+    }
+  ],
+  "certifications": []
+}

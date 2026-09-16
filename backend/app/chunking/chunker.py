@@ -99,6 +99,9 @@ BULLET_CHARS = ("\u2022", "\u25aa", "\u25e6", "\u2023", "-", "*", "\u00b7", "\u2
 # candidate wrote "Employment History".
 
 CANONICAL_SECTIONS = {
+    "SKILLS SUMMARY": "SKILLS",
+    "TECHNICAL SKILLS SUMMARY": "SKILLS",
+    "SKILLS & INTERESTS": "SKILLS",
     "SUMMARY": "SUMMARY", "PROFESSIONAL SUMMARY": "SUMMARY", "PROFILE": "SUMMARY",
     "OBJECTIVE": "SUMMARY", "CAREER OBJECTIVE": "SUMMARY", "ABOUT ME": "SUMMARY",
 
@@ -444,7 +447,13 @@ def split_into_sections(
         # "MCA" are bold, one word and uppercase, and were being promoted to
         # section headings -- which silently tore the EDUCATION section apart.
         bigger = bool(body_size) and line.font_size >= body_size + 1.0
-        return line.is_bold and bigger
+        # Some PDFs express headings only through SIZE -- their fonts carry no
+        # "Bold" in the PostScript name, so is_bold is False for every line
+        # including the candidate's name at 17pt. Requiring bold meant unknown
+        # headings were undetectable on those files, and their content silently
+        # merged into the previous section.
+        much_bigger = bool(body_size) and line.font_size >= body_size + 2.0
+        return much_bigger or (line.is_bold and bigger)
 
     for line in doc.lines:
         canonical = CANONICAL_SECTIONS.get(_normalise_heading(line.text))
@@ -610,7 +619,7 @@ def chunk_resume(path: Path) -> tuple[list[dict], dict]:
                 # section gives the vector something to anchor on -- the same
                 # idea as Anthropic's "contextual retrieval". The raw text is
                 # kept separately so the recruiter still sees clean evidence.
-                prefix = f"[{candidate_name} | {section_name}]" if candidate_name else f"[{section_name}]"
+                prefix = f"[{section_name}]" if candidate_name else f"[{section_name}]"
 
                 chunks.append({
                     "chunk_id": f"{path.stem}_{section_name.lower()}_{item_index}_{part_index}",

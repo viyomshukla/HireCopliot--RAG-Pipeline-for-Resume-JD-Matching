@@ -1,0 +1,204 @@
+{
+  "full_name": "Viyom Shukla",
+  "email": "Viyomshukla21@gmail.com",
+  "phone": "+91-6397332481",
+  "location": "Noida, India",
+  "headline": "Full Stack Intern — Backend (Python) & Frontend",
+  "skills": [
+    {
+      "name": "C++",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "JavaScript",
+      "canonical": null
+    },
+    {
+      "name": "C",
+      "canonical": null
+    },
+    {
+      "name": "Golang",
+      "canonical": null
+    },
+    {
+      "name": "SQL",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Express.js",
+      "canonical": null
+    },
+    {
+      "name": "REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "JWT",
+      "canonical": null
+    },
+    {
+      "name": "OAuth 2.0",
+      "canonical": null
+    },
+    {
+      "name": "Webhooks",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "MySQL",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "GitHub",
+      "canonical": null
+    },
+    {
+      "name": "AWS",
+      "canonical": null
+    },
+    {
+      "name": "Postman",
+      "canonical": null
+    },
+    {
+      "name": "Firebase",
+      "canonical": null
+    },
+    {
+      "name": "Cloudinary",
+      "canonical": null
+    },
+    {
+      "name": "React.js",
+      "canonical": null
+    },
+    {
+      "name": "Tailwind CSS",
+      "canonical": null
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "canonical": null
+    },
+    {
+      "name": "Operating Systems",
+      "canonical": null
+    },
+    {
+      "name": "Computer Networks",
+      "canonical": null
+    },
+    {
+      "name": "DBMS",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "Replicate REST APIs",
+      "canonical": null
+    },
+    {
+      "name": "Razorpay",
+      "canonical": null
+    },
+    {
+      "name": "Twilio",
+      "canonical": null
+    },
+    {
+      "name": "Generative AI",
+      "canonical": null
+    },
+    {
+      "name": "Conditional GAN",
+      "canonical": null
+    },
+    {
+      "name": "Random Forest",
+      "canonical": null
+    },
+    {
+      "name": "SVM",
+      "canonical": null
+    },
+    {
+      "name": "Neural Network",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Distance Connect Remote",
+      "title": "Full Stack Intern — Backend (Python) & Frontend",
+      "start_year": 2025,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 10,
+      "is_current": false,
+      "responsibilities": [
+        "End-to-End Feature Ownership: Designed and developed platform features end-to-end for an early-stage EdTech startup connecting students with IIT and AIIMS mentors, building Python backend services and the REST APIs consumed by the client layer.",
+        "Python Backend Service: Engineered and deployed a reliable, scalable Python backend service powering an AI conversational interface, automating student onboarding and query resolution to reduce manual support overhead.",
+        "Third-Party REST API Integration: IntegratedtheGoogleMeetRESTAPItobuildasecure1:1videoconsultation flow end-to-end, enabling virtual mentoring sessions directly within the platform."
+      ]
+    },
+    {
+      "company": "Student Placement Committee, JIIT Noida",
+      "title": "Coordinator",
+      "start_year": 2024,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 1,
+      "is_current": false,
+      "responsibilities": [
+        "Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies actively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+      "level": "master",
+      "field_of_study": "Computer Science Engineering",
+      "institution": "Jaypee Institute of Information Technology",
+      "start_year": 2022,
+      "end_year": 2027
+    },
+    {
+      "degree": "Class XII (CBSE)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Gayatri Public School",
+      "start_year": null,
+      "end_year": null
+    },
+    {
+      "degree": "Class X (CBSE)",
+      "level": "school",
+      "field_of_study": null,
+      "institution": "Gayatri Public School",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "certifications": []
+}

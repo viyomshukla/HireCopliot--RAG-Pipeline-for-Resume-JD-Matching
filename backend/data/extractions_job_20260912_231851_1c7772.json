@@ -1,0 +1,2208 @@
+[
+  {
+    "metadata": {
+      "resume_id": "Resume_Cloud",
+      "source_file": "Resume_Cloud.pdf",
+      "source_type": "pdf",
+      "model": "gemini-3.6-flash",
+      "extracted_at": "2026-09-12T23:19:57.009446",
+      "n_chunks_used": 11,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91-6397333481",
+      "location": "Noida, India",
+      "headline": "Web Developer Intern",
+      "skills": [
+        {
+          "name": "C++",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "Bash",
+          "canonical": null
+        },
+        {
+          "name": "AWS",
+          "canonical": null
+        },
+        {
+          "name": "Elastic Beanstalk",
+          "canonical": null
+        },
+        {
+          "name": "EC2",
+          "canonical": null
+        },
+        {
+          "name": "S3",
+          "canonical": null
+        },
+        {
+          "name": "Docker",
+          "canonical": null
+        },
+        {
+          "name": "Cloudinary",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "HTML/CSS",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB Atlas",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "superbase",
+          "canonical": null
+        },
+        {
+          "name": "fiebase",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Operating Systems",
+          "canonical": null
+        },
+        {
+          "name": "Computer Networks",
+          "canonical": null
+        },
+        {
+          "name": "DBMS",
+          "canonical": null
+        },
+        {
+          "name": "Distributed & Scalable Systems",
+          "canonical": null
+        },
+        {
+          "name": "OOP",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "REST APIs",
+          "canonical": null
+        },
+        {
+          "name": "MERN",
+          "canonical": null
+        },
+        {
+          "name": "Twilio",
+          "canonical": null
+        },
+        {
+          "name": "Gemini API",
+          "canonical": null
+        },
+        {
+          "name": "Replicate API",
+          "canonical": null
+        },
+        {
+          "name": "PyMuPDF",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect Remote",
+          "title": "Web Developer Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Scalable Architecture: Designed and developed a scalable web application using React.js and Node.js in a multi-tier architecture.",
+            "Distributed Systems: Built and integrated REST APIs enabling efficient data processing and real-time communication across services.",
+            "Performance & Reliability: Optimized frontend rendering and system performance, enhancing scalability and user experience by 40%."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology Noida, India",
+          "start_year": 2022,
+          "end_year": 2027
+        },
+        {
+          "degree": "Class XII (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School Agra, India",
+          "start_year": null,
+          "end_year": null
+        },
+        {
+          "degree": "Class X (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School Agra, India",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "Resume_Josh",
+      "source_file": "Resume_Josh.pdf",
+      "source_type": "pdf",
+      "model": "cache",
+      "extracted_at": "2026-09-12T23:19:30.592655",
+      "n_chunks_used": 10,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91 63973 33481",
+      "location": "Noida, India",
+      "headline": "Web Developer Intern",
+      "skills": [
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "C++",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "HTML",
+          "canonical": null
+        },
+        {
+          "name": "CSS",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "PostgreSQL",
+          "canonical": null
+        },
+        {
+          "name": "VS Code",
+          "canonical": null
+        },
+        {
+          "name": "REST APIs",
+          "canonical": null
+        },
+        {
+          "name": "Notion",
+          "canonical": null
+        },
+        {
+          "name": "Slack",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Object-Oriented Design",
+          "canonical": null
+        },
+        {
+          "name": "Problem Solving",
+          "canonical": null
+        },
+        {
+          "name": "Complexity Analysis",
+          "canonical": null
+        },
+        {
+          "name": "DistributedSystems",
+          "canonical": null
+        },
+        {
+          "name": "ScalableSystems",
+          "canonical": null
+        },
+        {
+          "name": "DatabaseManagementSystems",
+          "canonical": null
+        },
+        {
+          "name": "OperatingSystems",
+          "canonical": null
+        },
+        {
+          "name": "ComputerNetworks",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "Data Mining",
+          "canonical": null
+        },
+        {
+          "name": "MERN",
+          "canonical": null
+        },
+        {
+          "name": "JWT",
+          "canonical": null
+        },
+        {
+          "name": "Gemini",
+          "canonical": null
+        },
+        {
+          "name": "Replicate",
+          "canonical": null
+        },
+        {
+          "name": "Twilio API",
+          "canonical": null
+        },
+        {
+          "name": "GANs",
+          "canonical": null
+        },
+        {
+          "name": "Generative Adversarial Networks",
+          "canonical": null
+        },
+        {
+          "name": "Conditional GANs",
+          "canonical": null
+        },
+        {
+          "name": "Random Forest",
+          "canonical": null
+        },
+        {
+          "name": "SVM",
+          "canonical": null
+        },
+        {
+          "name": "Neural Networks",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect",
+          "title": "Web Developer Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Designed and developed scalable web application using React.js and Node.js in a multi-tier architecture.",
+            "Built and integrated APIs enabling efficient data processing and real-time communication in distributed systems.",
+            "Reduced frontend load time by 40% through lazy loading, memoization, and component-level code splitting."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology, Noida",
+          "start_year": 2022,
+          "end_year": 2027
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "ViyomShukla",
+      "source_file": "ViyomShukla.pdf",
+      "source_type": "pdf",
+      "model": "cache",
+      "extracted_at": "2026-09-12T23:19:30.622296",
+      "n_chunks_used": 13,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91-6397332481",
+      "location": "Noida, India",
+      "headline": "Full Stack Web Intern",
+      "skills": [
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "C++",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "HTML",
+          "canonical": null
+        },
+        {
+          "name": "CSS",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "API",
+          "canonical": null
+        },
+        {
+          "name": "VS Code",
+          "canonical": null
+        },
+        {
+          "name": "Firebase",
+          "canonical": null
+        },
+        {
+          "name": "Cloudinary",
+          "canonical": null
+        },
+        {
+          "name": "Postman",
+          "canonical": null
+        },
+        {
+          "name": "Notion",
+          "canonical": null
+        },
+        {
+          "name": "Slack",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Operating Systems",
+          "canonical": null
+        },
+        {
+          "name": "Computer Networks",
+          "canonical": null
+        },
+        {
+          "name": "DBMS",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "Google Meet API",
+          "canonical": null
+        },
+        {
+          "name": "REST APIs",
+          "canonical": null
+        },
+        {
+          "name": "Replicate APIs",
+          "canonical": null
+        },
+        {
+          "name": "Razorpay",
+          "canonical": null
+        },
+        {
+          "name": "Twilio",
+          "canonical": null
+        },
+        {
+          "name": "Google OAuth 2.0",
+          "canonical": null
+        },
+        {
+          "name": "JWT",
+          "canonical": null
+        },
+        {
+          "name": "Generative AI",
+          "canonical": null
+        },
+        {
+          "name": "Conditional GANs",
+          "canonical": null
+        },
+        {
+          "name": "Random Forest",
+          "canonical": null
+        },
+        {
+          "name": "SVM",
+          "canonical": null
+        },
+        {
+          "name": "Neural Network",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect Remote",
+          "title": "Full Stack Web Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Platform UI & Architecture:: Spearheaded frontend development for an early-stage EdTech startup connecting students with IIT and AIIMS mentors, comprehensively revamping the user interface to enhance student engagement.",
+            "AI Chatbot Integration:: Engineered and deployed an AI-powered conversational interface to automate student onboarding and rapidly resolve queries, significantly reducing manual support overhead.",
+            "Real-Time Mentorship Pipeline:: Architected a seamless video consultation flow by integrating the Google Meet API, enabling secure 1:1 virtual mentoring sessions directly within the platform."
+          ]
+        },
+        {
+          "company": "Student Placement Committee, JIIT Noida",
+          "title": "Coordinator",
+          "start_year": 2024,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 1,
+          "is_current": false,
+          "responsibilities": [
+            "Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies actively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology",
+          "start_year": 2022,
+          "end_year": 2027
+        },
+        {
+          "degree": "Class XII (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School",
+          "start_year": null,
+          "end_year": null
+        },
+        {
+          "degree": "Class X (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "ViyomShukla_Accenture",
+      "source_file": "ViyomShukla_Accenture.pdf",
+      "source_type": "pdf",
+      "model": "cache",
+      "extracted_at": "2026-09-12T23:19:30.646007",
+      "n_chunks_used": 13,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91-6397332481",
+      "location": "Noida, India",
+      "headline": "Full Stack Web Intern",
+      "skills": [
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "C++ (Proficient)",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "HTML",
+          "canonical": null
+        },
+        {
+          "name": "CSS",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "API",
+          "canonical": null
+        },
+        {
+          "name": "VS Code",
+          "canonical": null
+        },
+        {
+          "name": "Firebase",
+          "canonical": null
+        },
+        {
+          "name": "Cloudinary",
+          "canonical": null
+        },
+        {
+          "name": "Postman",
+          "canonical": null
+        },
+        {
+          "name": "Notion",
+          "canonical": null
+        },
+        {
+          "name": "Slack",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Operating Systems",
+          "canonical": null
+        },
+        {
+          "name": "Computer Networks",
+          "canonical": null
+        },
+        {
+          "name": "DBMS",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "REST APIs",
+          "canonical": null
+        },
+        {
+          "name": "Replicate APIs",
+          "canonical": null
+        },
+        {
+          "name": "Razorpay",
+          "canonical": null
+        },
+        {
+          "name": "Twilio",
+          "canonical": null
+        },
+        {
+          "name": "Google OAuth 2.0",
+          "canonical": null
+        },
+        {
+          "name": "JWT",
+          "canonical": null
+        },
+        {
+          "name": "ML",
+          "canonical": null
+        },
+        {
+          "name": "Generative AI",
+          "canonical": null
+        },
+        {
+          "name": "Conditional GAN",
+          "canonical": null
+        },
+        {
+          "name": "CGAN",
+          "canonical": null
+        },
+        {
+          "name": "Random Forest",
+          "canonical": null
+        },
+        {
+          "name": "SVM",
+          "canonical": null
+        },
+        {
+          "name": "Neural Network",
+          "canonical": null
+        },
+        {
+          "name": "Google Meet API",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect Remote",
+          "title": "Full Stack Web Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Platform UI & Architecture:: Spearheaded frontend development for an early-stage EdTech startup connecting students with IIT and AIIMS mentors, comprehensively revamping the user interface to enhance student engagement.",
+            "AI Chatbot Integration:: Engineered and deployed an AI-powered conversational interface to automate student onboarding and rapidly resolve queries, significantly reducing manual support overhead.",
+            "Real-Time Mentorship Pipeline:: Architected a seamless video consultation flow by integrating the Google Meet API, enabling secure 1:1 virtual mentoring sessions directly within the platform."
+          ]
+        },
+        {
+          "company": "Student Placement Committee, JIIT Noida",
+          "title": "Coordinator",
+          "start_year": 2024,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 1,
+          "is_current": false,
+          "responsibilities": [
+            "Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies actively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology",
+          "start_year": 2022,
+          "end_year": 2027
+        },
+        {
+          "degree": "Class XII (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School",
+          "start_year": null,
+          "end_year": null
+        },
+        {
+          "degree": "Class X (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "ViyomShukla_LatestResume",
+      "source_file": "ViyomShukla_LatestResume.pdf",
+      "source_type": "pdf",
+      "model": "cache",
+      "extracted_at": "2026-09-12T23:19:30.670109",
+      "n_chunks_used": 10,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91 6397332481",
+      "location": "Noida, India",
+      "headline": "Web Developer Intern",
+      "skills": [
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "C++",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "HTML",
+          "canonical": null
+        },
+        {
+          "name": "CSS",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "API",
+          "canonical": null
+        },
+        {
+          "name": "VS Code",
+          "canonical": null
+        },
+        {
+          "name": "Firebase",
+          "canonical": null
+        },
+        {
+          "name": "Cloudinary",
+          "canonical": null
+        },
+        {
+          "name": "AWS",
+          "canonical": null
+        },
+        {
+          "name": "Notion",
+          "canonical": null
+        },
+        {
+          "name": "Slack",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Object-Oriented Design",
+          "canonical": null
+        },
+        {
+          "name": "Problem Solving",
+          "canonical": null
+        },
+        {
+          "name": "Complexity Analysis",
+          "canonical": null
+        },
+        {
+          "name": "Distributed Systems",
+          "canonical": null
+        },
+        {
+          "name": "Scalable Systems",
+          "canonical": null
+        },
+        {
+          "name": "Database Management Systems",
+          "canonical": null
+        },
+        {
+          "name": "Operating Systems",
+          "canonical": null
+        },
+        {
+          "name": "Computer Networks",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "Data Mining",
+          "canonical": null
+        },
+        {
+          "name": "MERN stack",
+          "canonical": null
+        },
+        {
+          "name": "Gemini",
+          "canonical": null
+        },
+        {
+          "name": "Replicate",
+          "canonical": null
+        },
+        {
+          "name": "Twilio API",
+          "canonical": null
+        },
+        {
+          "name": "Generative Adversarial Networks (GANs)",
+          "canonical": null
+        },
+        {
+          "name": "JWT",
+          "canonical": null
+        },
+        {
+          "name": "Conditional GANs",
+          "canonical": null
+        },
+        {
+          "name": "Random Forest",
+          "canonical": null
+        },
+        {
+          "name": "SVM",
+          "canonical": null
+        },
+        {
+          "name": "Neural Networks",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect",
+          "title": "Web Developer Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Designed and developed scalable web application using React.js and Node.js in a multi-tier architecture.",
+            "Built and integrated APIs enabling efficient data processing and real-time communication in distributed systems.",
+            "Improved system performance and optimized frontend rendering, enhancing scalability and user experience by 40%."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology, Noida",
+          "start_year": 2022,
+          "end_year": 2027
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume",
+      "source_file": "ViyomShukla_Resume.pdf",
+      "source_type": "pdf",
+      "model": "cache",
+      "extracted_at": "2026-09-12T23:19:30.691927",
+      "n_chunks_used": 10,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91 63973 33481",
+      "location": "Noida, India",
+      "headline": "Software Developer Intern",
+      "skills": [
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "C++",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "HTML/CSS",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "Reactjs",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "VS Code",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB",
+          "canonical": null
+        },
+        {
+          "name": "Firebase",
+          "canonical": null
+        },
+        {
+          "name": "Notion",
+          "canonical": null
+        },
+        {
+          "name": "Slack",
+          "canonical": null
+        },
+        {
+          "name": "MERN Stack",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Gemini API",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Gemini/NanoBananaAPI",
+          "canonical": null
+        },
+        {
+          "name": "PollinationAI",
+          "canonical": null
+        },
+        {
+          "name": "Razorpay",
+          "canonical": null
+        },
+        {
+          "name": "GANs",
+          "canonical": null
+        },
+        {
+          "name": "Generative Adversarial Networks",
+          "canonical": null
+        },
+        {
+          "name": "MERN-stack",
+          "canonical": null
+        },
+        {
+          "name": "React",
+          "canonical": null
+        },
+        {
+          "name": "JWT-based authentication",
+          "canonical": null
+        },
+        {
+          "name": "Conditional GANs (cGAN)",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect",
+          "title": "Software Developer Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 9,
+          "is_current": false,
+          "responsibilities": [
+            "Developed a responsive web interface to facilitate seamless connections between students and mentors.",
+            "Integrated Gemini API to build an intelligent chatbot providing real-time guidance and support to users.",
+            "Optimized frontend performance and UI/UX using React.js for better accessibility and user engagement."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science",
+          "level": "master",
+          "field_of_study": "Computer Science",
+          "institution": "Jaypee Institute of Information Technology, Noida",
+          "start_year": 2022,
+          "end_year": 2027
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume(Software Engineer)",
+      "source_file": "ViyomShukla_Resume(Software Engineer).pdf",
+      "source_type": "pdf",
+      "model": "gemini-3.6-flash",
+      "extracted_at": "2026-09-12T23:20:04.091946",
+      "n_chunks_used": 12,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91-6397332481",
+      "location": "Noida, India",
+      "headline": "Web Developer Intern",
+      "skills": [
+        {
+          "name": "C++",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "HTML/CSS",
+          "canonical": null
+        },
+        {
+          "name": "Chrome Extensions",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "REST APIs",
+          "canonical": null
+        },
+        {
+          "name": "Google OAuth 2.0",
+          "canonical": null
+        },
+        {
+          "name": "JWT Authentication",
+          "canonical": null
+        },
+        {
+          "name": "Razorpay",
+          "canonical": null
+        },
+        {
+          "name": "Twilio",
+          "canonical": null
+        },
+        {
+          "name": "Gemini/Replicate APIs",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB Atlas",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "Firebase",
+          "canonical": null
+        },
+        {
+          "name": "AWS (EC2, S3)",
+          "canonical": null
+        },
+        {
+          "name": "Cloudinary",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Operating Systems",
+          "canonical": null
+        },
+        {
+          "name": "Computer Networks",
+          "canonical": null
+        },
+        {
+          "name": "DBMS",
+          "canonical": null
+        },
+        {
+          "name": "Distributed & Scalable Systems",
+          "canonical": null
+        },
+        {
+          "name": "OOP",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "Google Meet API",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB",
+          "canonical": null
+        },
+        {
+          "name": "TUI Image Editor",
+          "canonical": null
+        },
+        {
+          "name": "pandas",
+          "canonical": null
+        },
+        {
+          "name": "scikit-learn",
+          "canonical": null
+        },
+        {
+          "name": "GAN",
+          "canonical": null
+        },
+        {
+          "name": "Conditional GAN (CGAN)",
+          "canonical": null
+        },
+        {
+          "name": "Quantum GAN (QGAN)",
+          "canonical": null
+        },
+        {
+          "name": "PyTorch",
+          "canonical": null
+        },
+        {
+          "name": "Random Forest",
+          "canonical": null
+        },
+        {
+          "name": "SVM",
+          "canonical": null
+        },
+        {
+          "name": "Neural Network",
+          "canonical": null
+        },
+        {
+          "name": "Quantum SVM",
+          "canonical": null
+        },
+        {
+          "name": "Quantum k-NN",
+          "canonical": null
+        },
+        {
+          "name": "Quantum Decision Tree",
+          "canonical": null
+        },
+        {
+          "name": "Qiskit",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect Remote",
+          "title": "Web Developer Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Platform UI & Architecture:: Spearheaded frontend development for an early-stage EdTech startup connecting students with IIT and AIIMS mentors, comprehensively revamping the user interface to enhance student engagement.",
+            "AI Chatbot Integration:: Engineered and deployed an AI-powered conversational interface to automate student onboarding and rapidly resolve queries, significantly reducing manual support overhead.",
+            "Real-Time Mentorship Pipeline:: Architected a seamless video consultation flow by integrating the Google Meet API, enabling secure 1:1 virtual mentoring sessions directly within the platform."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology",
+          "start_year": 2022,
+          "end_year": 2027
+        },
+        {
+          "degree": "Class XII (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School",
+          "start_year": null,
+          "end_year": null
+        },
+        {
+          "degree": "Class X (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume_Latest",
+      "source_file": "ViyomShukla_Resume_Latest.pdf",
+      "source_type": "pdf",
+      "model": "cache",
+      "extracted_at": "2026-09-12T23:19:57.033556",
+      "n_chunks_used": 13,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91-6397332481",
+      "location": "Noida, India",
+      "headline": "Full Stack Web Intern",
+      "skills": [
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "C++ (Proficient)",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "HTML",
+          "canonical": null
+        },
+        {
+          "name": "CSS",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "API",
+          "canonical": null
+        },
+        {
+          "name": "VS Code",
+          "canonical": null
+        },
+        {
+          "name": "Firebase",
+          "canonical": null
+        },
+        {
+          "name": "Cloudinary",
+          "canonical": null
+        },
+        {
+          "name": "AWS(Basic)",
+          "canonical": null
+        },
+        {
+          "name": "Postman",
+          "canonical": null
+        },
+        {
+          "name": "Notion",
+          "canonical": null
+        },
+        {
+          "name": "Slack",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Operating Systems",
+          "canonical": null
+        },
+        {
+          "name": "Computer Networks",
+          "canonical": null
+        },
+        {
+          "name": "DBMS",
+          "canonical": null
+        },
+        {
+          "name": "OOP",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "Google Meet API",
+          "canonical": null
+        },
+        {
+          "name": "REST APIs",
+          "canonical": null
+        },
+        {
+          "name": "Replicate APIs",
+          "canonical": null
+        },
+        {
+          "name": "Razorpay",
+          "canonical": null
+        },
+        {
+          "name": "Twilio",
+          "canonical": null
+        },
+        {
+          "name": "WhatsApp",
+          "canonical": null
+        },
+        {
+          "name": "Google OAuth 2.0",
+          "canonical": null
+        },
+        {
+          "name": "JWT",
+          "canonical": null
+        },
+        {
+          "name": "Generative AI",
+          "canonical": null
+        },
+        {
+          "name": "Conditional GANs",
+          "canonical": null
+        },
+        {
+          "name": "Random Forest",
+          "canonical": null
+        },
+        {
+          "name": "SVM",
+          "canonical": null
+        },
+        {
+          "name": "Neural Network",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect Remote",
+          "title": "Full Stack Web Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Platform UI & Architecture:: Spearheaded frontend development for an early-stage EdTech startup connecting students with IIT and AIIMS mentors, comprehensively revamping the user interface to enhance student engagement.",
+            "AI Chatbot Integration:: Engineered and deployed an AI-powered conversational interface to automate student onboarding and rapidly resolve queries, significantly reducing manual support overhead.",
+            "Real-Time Mentorship Pipeline:: Architected a seamless video consultation flow by integrating the Google Meet API, enabling secure 1:1 virtual mentoring sessions directly within the platform."
+          ]
+        },
+        {
+          "company": "Student Placement Committee, JIIT Noida",
+          "title": "Coordinator",
+          "start_year": 2024,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 1,
+          "is_current": false,
+          "responsibilities": [
+            "Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies actively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology",
+          "start_year": 2022,
+          "end_year": 2027
+        },
+        {
+          "degree": "Class XII (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School",
+          "start_year": null,
+          "end_year": null
+        },
+        {
+          "degree": "Class X (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "ViyomShukla_SDE",
+      "source_file": "ViyomShukla_SDE.pdf",
+      "source_type": "pdf",
+      "model": "gemini-3.6-flash",
+      "extracted_at": "2026-09-12T23:20:20.379411",
+      "n_chunks_used": 13,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91-6397332481",
+      "location": "Noida, India",
+      "headline": "Web Developer Intern",
+      "skills": [
+        {
+          "name": "C++",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "HTML/CSS",
+          "canonical": null
+        },
+        {
+          "name": "Chrome Extensions",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "REST APIs",
+          "canonical": null
+        },
+        {
+          "name": "Google OAuth 2.0",
+          "canonical": null
+        },
+        {
+          "name": "JWT Authentication",
+          "canonical": null
+        },
+        {
+          "name": "Razorpay",
+          "canonical": null
+        },
+        {
+          "name": "Twilio",
+          "canonical": null
+        },
+        {
+          "name": "Gemini/Replicate APIs",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB Atlas",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "Firebase",
+          "canonical": null
+        },
+        {
+          "name": "AWS (EC2, S3)",
+          "canonical": null
+        },
+        {
+          "name": "Cloudinary",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Operating Systems",
+          "canonical": null
+        },
+        {
+          "name": "Computer Networks",
+          "canonical": null
+        },
+        {
+          "name": "DBMS",
+          "canonical": null
+        },
+        {
+          "name": "Distributed & Scalable Systems",
+          "canonical": null
+        },
+        {
+          "name": "OOP",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "Google Meet API",
+          "canonical": null
+        },
+        {
+          "name": "MERN",
+          "canonical": null
+        },
+        {
+          "name": "Distributed Systems",
+          "canonical": null
+        },
+        {
+          "name": "Gemini API",
+          "canonical": null
+        },
+        {
+          "name": "Replicate API",
+          "canonical": null
+        },
+        {
+          "name": "Twilio API",
+          "canonical": null
+        },
+        {
+          "name": "TUI Image Editor",
+          "canonical": null
+        },
+        {
+          "name": "Cloudinary CDN",
+          "canonical": null
+        },
+        {
+          "name": "GANs",
+          "canonical": null
+        },
+        {
+          "name": "Conditional GANs",
+          "canonical": null
+        },
+        {
+          "name": "Quantum GANs",
+          "canonical": null
+        },
+        {
+          "name": "Random Forest",
+          "canonical": null
+        },
+        {
+          "name": "SVM",
+          "canonical": null
+        },
+        {
+          "name": "Neural Networks",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect Remote",
+          "title": "Web Developer Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Platform UI & Architecture:: Spearheaded frontend development for an early-stage EdTech startup connecting students with IIT and AIIMS mentors, comprehensively revamping the user interface to enhance student engagement.",
+            "AI Chatbot Integration:: Engineered and deployed an AI-powered conversational interface to automate student onboarding and rapidly resolve queries, significantly reducing manual support overhead.",
+            "Real-Time Mentorship Pipeline:: Architected a seamless video consultation flow by integrating the Google Meet API, enabling secure 1:1 virtual mentoring sessions directly within the platform."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology Noida, India",
+          "start_year": 2022,
+          "end_year": 2027
+        },
+        {
+          "degree": "Class XII (CBSE)",
+          "level": "school",
+          "field_of_study": null,
+          "institution": "Gayatri Public School Agra, India",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "certifications": []
+    }
+  },
+  {
+    "metadata": {
+      "resume_id": "ViyomShukla_Software_Cisco",
+      "source_file": "ViyomShukla_Software_Cisco.pdf",
+      "source_type": "pdf",
+      "model": "cache",
+      "extracted_at": "2026-09-12T23:20:04.121347",
+      "n_chunks_used": 10,
+      "issues": []
+    },
+    "profile": {
+      "full_name": "Viyom Shukla",
+      "email": "Viyomshukla21@gmail.com",
+      "phone": "+91 63973 33481",
+      "location": "Noida, India",
+      "headline": "Web Developer Intern",
+      "skills": [
+        {
+          "name": "C",
+          "canonical": null
+        },
+        {
+          "name": "C++",
+          "canonical": null
+        },
+        {
+          "name": "JavaScript",
+          "canonical": null
+        },
+        {
+          "name": "Python",
+          "canonical": null
+        },
+        {
+          "name": "HTML",
+          "canonical": null
+        },
+        {
+          "name": "CSS",
+          "canonical": null
+        },
+        {
+          "name": "SQL",
+          "canonical": null
+        },
+        {
+          "name": "React.js",
+          "canonical": null
+        },
+        {
+          "name": "Node.js",
+          "canonical": null
+        },
+        {
+          "name": "Express.js",
+          "canonical": null
+        },
+        {
+          "name": "Tailwind CSS",
+          "canonical": null
+        },
+        {
+          "name": "Git",
+          "canonical": null
+        },
+        {
+          "name": "GitHub",
+          "canonical": null
+        },
+        {
+          "name": "MongoDB",
+          "canonical": null
+        },
+        {
+          "name": "MySQL",
+          "canonical": null
+        },
+        {
+          "name": "API",
+          "canonical": null
+        },
+        {
+          "name": "VS Code",
+          "canonical": null
+        },
+        {
+          "name": "Notion",
+          "canonical": null
+        },
+        {
+          "name": "Slack",
+          "canonical": null
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "canonical": null
+        },
+        {
+          "name": "Object-Oriented Design",
+          "canonical": null
+        },
+        {
+          "name": "Problem Solving",
+          "canonical": null
+        },
+        {
+          "name": "Complexity Analysis",
+          "canonical": null
+        },
+        {
+          "name": "Distributed Systems",
+          "canonical": null
+        },
+        {
+          "name": "Scalable Systems",
+          "canonical": null
+        },
+        {
+          "name": "Database Management Systems",
+          "canonical": null
+        },
+        {
+          "name": "Operating Systems",
+          "canonical": null
+        },
+        {
+          "name": "Computer Networks",
+          "canonical": null
+        },
+        {
+          "name": "Machine Learning",
+          "canonical": null
+        },
+        {
+          "name": "Data Mining",
+          "canonical": null
+        },
+        {
+          "name": "MERN stack",
+          "canonical": null
+        },
+        {
+          "name": "Gemini API",
+          "canonical": null
+        },
+        {
+          "name": "Replicate API",
+          "canonical": null
+        },
+        {
+          "name": "Twilio API",
+          "canonical": null
+        },
+        {
+          "name": "Generative Adversarial Networks (GANs)",
+          "canonical": null
+        },
+        {
+          "name": "JWT",
+          "canonical": null
+        },
+        {
+          "name": "Random Forest",
+          "canonical": null
+        },
+        {
+          "name": "SVM",
+          "canonical": null
+        },
+        {
+          "name": "Neural Networks",
+          "canonical": null
+        }
+      ],
+      "experience": [
+        {
+          "company": "Distance Connect",
+          "title": "Web Developer Intern",
+          "start_year": 2025,
+          "start_month": 8,
+          "end_year": 2025,
+          "end_month": 10,
+          "is_current": false,
+          "responsibilities": [
+            "Designed and developed scalable web application using React.js and Node.js in a multi-tier architecture.",
+            "Built and integrated APIs enabling efficient data processing and real-time communication in distributed systems.",
+            "Improved system performance and optimized frontend rendering, enhancing scalability and user experience by 40%."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Integrated B.Tech + M.Tech in Computer Science Engineering",
+          "level": "master",
+          "field_of_study": "Computer Science Engineering",
+          "institution": "Jaypee Institute of Information Technology, Noida",
+          "start_year": 2022,
+          "end_year": 2027
+        }
+      ],
+      "certifications": []
+    }
+  }
+]

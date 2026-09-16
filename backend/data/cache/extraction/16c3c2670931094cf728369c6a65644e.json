@@ -1,0 +1,152 @@
+{
+  "full_name": "Viyom Shukla",
+  "email": "Viyomshukla21@gmail.com",
+  "phone": "+91 63973 33481",
+  "location": "Noida, India",
+  "headline": "Software Developer Intern",
+  "skills": [
+    {
+      "name": "C",
+      "canonical": null
+    },
+    {
+      "name": "C++",
+      "canonical": null
+    },
+    {
+      "name": "JavaScript",
+      "canonical": null
+    },
+    {
+      "name": "Node.js",
+      "canonical": null
+    },
+    {
+      "name": "Python",
+      "canonical": null
+    },
+    {
+      "name": "HTML/CSS",
+      "canonical": null
+    },
+    {
+      "name": "Tailwind CSS",
+      "canonical": null
+    },
+    {
+      "name": "Reactjs",
+      "canonical": null
+    },
+    {
+      "name": "Git",
+      "canonical": null
+    },
+    {
+      "name": "GitHub",
+      "canonical": null
+    },
+    {
+      "name": "VS Code",
+      "canonical": null
+    },
+    {
+      "name": "MongoDB",
+      "canonical": null
+    },
+    {
+      "name": "Firebase",
+      "canonical": null
+    },
+    {
+      "name": "Notion",
+      "canonical": null
+    },
+    {
+      "name": "Slack",
+      "canonical": null
+    },
+    {
+      "name": "MERN Stack",
+      "canonical": null
+    },
+    {
+      "name": "Machine Learning",
+      "canonical": null
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "canonical": null
+    },
+    {
+      "name": "Gemini API",
+      "canonical": null
+    },
+    {
+      "name": "React.js",
+      "canonical": null
+    },
+    {
+      "name": "Gemini/NanoBananaAPI",
+      "canonical": null
+    },
+    {
+      "name": "PollinationAI",
+      "canonical": null
+    },
+    {
+      "name": "Razorpay",
+      "canonical": null
+    },
+    {
+      "name": "GANs",
+      "canonical": null
+    },
+    {
+      "name": "Generative Adversarial Networks",
+      "canonical": null
+    },
+    {
+      "name": "MERN-stack",
+      "canonical": null
+    },
+    {
+      "name": "React",
+      "canonical": null
+    },
+    {
+      "name": "JWT-based authentication",
+      "canonical": null
+    },
+    {
+      "name": "Conditional GANs (cGAN)",
+      "canonical": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Distance Connect",
+      "title": "Software Developer Intern",
+      "start_year": 2025,
+      "start_month": 8,
+      "end_year": 2025,
+      "end_month": 9,
+      "is_current": false,
+      "responsibilities": [
+        "Developed a responsive web interface to facilitate seamless connections between students and mentors.",
+        "Integrated Gemini API to build an intelligent chatbot providing real-time guidance and support to users.",
+        "Optimized frontend performance and UI/UX using React.js for better accessibility and user engagement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech + M.Tech in Computer Science",
+      "level": "master",
+      "field_of_study": "Computer Science",
+      "institution": "Jaypee Institute of Information Technology, Noida",
+      "start_year": 2022,
+      "end_year": 2027
+    }
+  ],
+  "certifications": []
+}

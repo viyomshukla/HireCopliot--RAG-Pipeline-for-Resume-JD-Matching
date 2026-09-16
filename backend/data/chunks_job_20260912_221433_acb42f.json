@@ -1,0 +1,938 @@
+[
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_header_1_1",
+    "text": "Viyom Shukla\nEmail: Viyomshukla21@gmail.com\nLinkedIn: viyom-shukla Mobile: +91-6397332481\nGitHub: github.com/viyomshukla Portfolio: viyom-potfolio.vercel.app\nTUF+: 350+ DSA problems | LeetCode: 200+ problems Location: Noida, India",
+    "embedding_text": "[HEADER]\nViyom Shukla\nEmail: Viyomshukla21@gmail.com\nLinkedIn: viyom-shukla Mobile: +91-6397332481\nGitHub: github.com/viyomshukla Portfolio: viyom-potfolio.vercel.app\nTUF+: 350+ DSA problems | LeetCode: 200+ problems Location: Noida, India",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "HEADER",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 1,
+      "char_count": 230,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_education_1_1",
+    "text": "Jaypee Institute of Information Technology Noida, India •\nIntegrated B.Tech + M.Tech in Computer Science Engineering; CGPA: 7.62/10 2022 – 2027",
+    "embedding_text": "[EDUCATION]\nJaypee Institute of Information Technology Noida, India •\nIntegrated B.Tech + M.Tech in Computer Science Engineering; CGPA: 7.62/10 2022 – 2027",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EDUCATION",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 2,
+      "char_count": 143,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_experience_1_1",
+    "text": "Distance Connect Remote •\nFull Stack Web Intern Aug 2025 – Oct 2025\n- Cross-Functional Product Development: Collaborated directly with founders at an early-stage EdTech startup to",
+    "embedding_text": "[EXPERIENCE]\nDistance Connect Remote •\nFull Stack Web Intern Aug 2025 – Oct 2025\n- Cross-Functional Product Development: Collaborated directly with founders at an early-stage EdTech startup to",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 3,
+      "char_count": 179,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_experience_2_1",
+    "text": "redesign the platform UI, translating ambiguous, evolving requirements into a shipped product that improved student engagement.\n- Process Automation: Engineered an AI-powered chatbot to automate student onboarding and query resolution, reducing manual support workload and improving turnaround time for user queries.\n- Third-Party API Integration: Integrated the Google Meet API to build a secure, real-time 1:1 mentorship video pipeline, working independently to debug and deliver within a fast-paced startup environment.",
+    "embedding_text": "[EXPERIENCE]\nredesign the platform UI, translating ambiguous, evolving requirements into a shipped product that improved student engagement.\n- Process Automation: Engineered an AI-powered chatbot to automate student onboarding and query resolution, reducing manual support workload and improving turnaround time for user queries.\n- Third-Party API Integration: Integrated the Google Meet API to build a secure, real-time 1:1 mentorship video pipeline, working independently to debug and deliver within a fast-paced startup environment.",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 2,
+      "part_index": 1,
+      "chunk_index": 4,
+      "char_count": 522,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_experience_3_1",
+    "text": "Student Placement Committee, JIIT Noida Noida, India •\nCoordinator Aug 2024 – Jan 2025\n- Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies",
+    "embedding_text": "[EXPERIENCE]\nStudent Placement Committee, JIIT Noida Noida, India •\nCoordinator Aug 2024 – Jan 2025\n- Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 3,
+      "part_index": 1,
+      "chunk_index": 5,
+      "char_count": 199,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_experience_4_1",
+    "text": "actively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts.",
+    "embedding_text": "[EXPERIENCE]\nactively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts.",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 4,
+      "part_index": 1,
+      "chunk_index": 6,
+      "char_count": 117,
+      "line_count": 1,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_projects_1_1",
+    "text": "•\nCybersecurity Anomaly Detection & Synthetic Data Pipeline (Python, TensorFlow, Scikit-Learn, XGBoost,\nPandas) Notebook\n- Data Processing & ETL Pipeline: Designed an end-to-end ETL and anomaly detection pipeline on 100K+ transaction records, cleaning, joining, and engineering features to detect irregular activity patterns.\n- Feature Selection & Imbalance Correction: Applied Recursive Feature Elimination (RFE) to isolate key predictive variables and implemented a Conditional GAN to address heavy class imbalance in rare transaction categories.\n- Ensemble Model Benchmarking: Benchmarked XGBoost, Gradient Boosting, and Random Forest using ROC-AUC and confusion matrices to optimize anomaly classification and minimize false positives.\n- DeepMood — GAN-Based Class-Imbalance Correction (Python, ML, Generative AI) Notebook",
+    "embedding_text": "[PROJECTS]\n•\nCybersecurity Anomaly Detection & Synthetic Data Pipeline (Python, TensorFlow, Scikit-Learn, XGBoost,\nPandas) Notebook\n- Data Processing & ETL Pipeline: Designed an end-to-end ETL and anomaly detection pipeline on 100K+ transaction records, cleaning, joining, and engineering features to detect irregular activity patterns.\n- Feature Selection & Imbalance Correction: Applied Recursive Feature Elimination (RFE) to isolate key predictive variables and implemented a Conditional GAN to address heavy class imbalance in rare transaction categories.\n- Ensemble Model Benchmarking: Benchmarked XGBoost, Gradient Boosting, and Random Forest using ROC-AUC and confusion matrices to optimize anomaly classification and minimize false positives.\n- DeepMood — GAN-Based Class-Imbalance Correction (Python, ML, Generative AI) Notebook",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 7,
+      "char_count": 826,
+      "line_count": 7,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_projects_1_2",
+    "text": "•\nCybersecurity Anomaly Detection & Synthetic Data Pipeline (Python, TensorFlow, Scikit-Learn, XGBoost,\nPandas) Notebook\n- Data Cleaning & Root Cause Analysis: Cleaned and encoded a 414K-row behavioral dataset, then applied Random",
+    "embedding_text": "[PROJECTS]\n•\nCybersecurity Anomaly Detection & Synthetic Data Pipeline (Python, TensorFlow, Scikit-Learn, XGBoost,\nPandas) Notebook\n- Data Cleaning & Root Cause Analysis: Cleaned and encoded a 414K-row behavioral dataset, then applied Random",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 1,
+      "part_index": 2,
+      "chunk_index": 8,
+      "char_count": 230,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_projects_2_1",
+    "text": "Forest-based Recursive Feature Elimination to isolate the key drivers behind a target outcome from 15+ candidate variables.\n- Class Imbalance Correction: Diagnosed a 2:1 class imbalance skewing model predictions, then designed a Conditional",
+    "embedding_text": "[PROJECTS]\nForest-based Recursive Feature Elimination to isolate the key drivers behind a target outcome from 15+ candidate variables.\n- Class Imbalance Correction: Diagnosed a 2:1 class imbalance skewing model predictions, then designed a Conditional",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 2,
+      "part_index": 1,
+      "chunk_index": 9,
+      "char_count": 240,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_projects_3_1",
+    "text": "GAN to synthesize tens of thousands of minority-class records and produce a more representative dataset for analysis.\n- Model Benchmarking & Insight Generation: Benchmarked 9 classification models (Random Forest, Gradient",
+    "embedding_text": "[PROJECTS]\nGAN to synthesize tens of thousands of minority-class records and produce a more representative dataset for analysis.\n- Model Benchmarking & Insight Generation: Benchmarked 9 classification models (Random Forest, Gradient",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 3,
+      "part_index": 1,
+      "chunk_index": 10,
+      "char_count": 221,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_projects_4_1",
+    "text": "Boosting, SVM, AdaBoost, Stacking, and others) using cross-validation, precision/recall/F1, and confusion matrices, surfacing a precision-recall trade-off with direct implications for real-world decision thresholds.\n- Thumblify — AI-Powered Thumbnail Generation & Editing Platform (React.js, Node.js, MongoDB, REST",
+    "embedding_text": "[PROJECTS]\nBoosting, SVM, AdaBoost, Stacking, and others) using cross-validation, precision/recall/F1, and confusion matrices, surfacing a precision-recall trade-off with direct implications for real-world decision thresholds.\n- Thumblify — AI-Powered Thumbnail Generation & Editing Platform (React.js, Node.js, MongoDB, REST",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 4,
+      "part_index": 1,
+      "chunk_index": 11,
+      "char_count": 314,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_projects_5_1",
+    "text": "APIs, Cloudinary) Source Code\n- End-to-End Platform Architecture: Built a full-stack SaaS (React.js, Node.js/Express) with fault-tolerant API integrations, serving 100+ users with zero downtime.\n- Auth & Payment Systems: Implemented OAuth 2.0/JWT-secured APIs and a Razorpay-based credit subscription system with server-side webhook verification for all transactions.\n- Low-Latency Multi-Channel Access: Built a Twilio WhatsApp bot and in-app chatbot for instant prompt-to-thumbnail generation, bypassing the web dashboard.",
+    "embedding_text": "[PROJECTS]\nAPIs, Cloudinary) Source Code\n- End-to-End Platform Architecture: Built a full-stack SaaS (React.js, Node.js/Express) with fault-tolerant API integrations, serving 100+ users with zero downtime.\n- Auth & Payment Systems: Implemented OAuth 2.0/JWT-secured APIs and a Razorpay-based credit subscription system with server-side webhook verification for all transactions.\n- Low-Latency Multi-Channel Access: Built a Twilio WhatsApp bot and in-app chatbot for instant prompt-to-thumbnail generation, bypassing the web dashboard.",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 5,
+      "part_index": 1,
+      "chunk_index": 12,
+      "char_count": 523,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_publications_1_1",
+    "text": "•\nEnhancing Network Intrusion Detection Using Conditional GANs for Imbalanced Data Classification IEEE\nXplore\n- Implemented a Conditional GAN to synthesize rare attack samples in the NSL-KDD dataset, balancing class distribution and training Random Forest, SVM, and Neural Network classifiers to achieve 99.8% detection accuracy across underrepresented threat categories.",
+    "embedding_text": "[PUBLICATIONS]\n•\nEnhancing Network Intrusion Detection Using Conditional GANs for Imbalanced Data Classification IEEE\nXplore\n- Implemented a Conditional GAN to synthesize rare attack samples in the NSL-KDD dataset, balancing class distribution and training Random Forest, SVM, and Neural Network classifiers to achieve 99.8% detection accuracy across underrepresented threat categories.",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PUBLICATIONS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 13,
+      "char_count": 371,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_achievements_1_1",
+    "text": "•\nSQL Certification: HackerRank SQL Certified; solved 70+ SQL problems on LeetCode, focusing on query optimization and problem-solving.\n- International Conference Speaker: Presented published research at the 17th IEEE IC3-2025, JIIT Noida. Certificate\n- National Semi-Finalist — Smart India Hackathon (SIH ’25): Selected among the top national teams across India in the Tourism domain.",
+    "embedding_text": "[ACHIEVEMENTS]\n•\nSQL Certification: HackerRank SQL Certified; solved 70+ SQL problems on LeetCode, focusing on query optimization and problem-solving.\n- International Conference Speaker: Presented published research at the 17th IEEE IC3-2025, JIIT Noida. Certificate\n- National Semi-Finalist — Smart India Hackathon (SIH ’25): Selected among the top national teams across India in the Tourism domain.",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "ACHIEVEMENTS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 14,
+      "char_count": 385,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "Resume_DataAnalytic (1)_skills_1_1",
+    "text": "Programming Languages: Python, SQL, C, C++\nData Analysis & Visualization: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn\nDatabases: MySQL, MongoDB\nCore Concepts: Data Structures & Algorithms, DBMS, Machine Learning, Exploratory Data Analysis\nTools: Git, GitHub, VS Code, Jupyter Notebook, Postman, Notion, Slack",
+    "embedding_text": "[SKILLS]\nProgramming Languages: Python, SQL, C, C++\nData Analysis & Visualization: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn\nDatabases: MySQL, MongoDB\nCore Concepts: Data Structures & Algorithms, DBMS, Machine Learning, Exploratory Data Analysis\nTools: Git, GitHub, VS Code, Jupyter Notebook, Postman, Notion, Slack",
+    "metadata": {
+      "resume_id": "Resume_DataAnalytic (1)",
+      "source_file": "Resume_DataAnalytic (1).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "SKILLS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 15,
+      "char_count": 313,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_header_1_1",
+    "text": "Viyom Shukla\n+ Noida, India # Viyomshukla21@gmail.com (cid:132) +91 63973 32481 (cid:240) viyom-shukla § viyomshukla (cid:128) Portfolio — LeetCode 2 TUF+",
+    "embedding_text": "[HEADER]\nViyom Shukla\n+ Noida, India # Viyomshukla21@gmail.com (cid:132) +91 63973 32481 (cid:240) viyom-shukla § viyomshukla (cid:128) Portfolio — LeetCode 2 TUF+",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "HEADER",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 1,
+      "char_count": 154,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_summary_1_1",
+    "text": "FrontenddeveloperworkingprimarilyinReact.js,JavaScript,HTMLandCSS.Buildsreusable,responsiveUIcomponents,integrates\nREST APIs into React views, and tunes load performance with lazy loading and code splitting. Comfortable owning the services behind the interface: fault-tolerant API pipelines, authentication, payments and integration tests.",
+    "embedding_text": "[SUMMARY]\nFrontenddeveloperworkingprimarilyinReact.js,JavaScript,HTMLandCSS.Buildsreusable,responsiveUIcomponents,integrates\nREST APIs into React views, and tunes load performance with lazy loading and code splitting. Comfortable owning the services behind the interface: fault-tolerant API pipelines, authentication, payments and integration tests.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "SUMMARY",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 2,
+      "char_count": 339,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_skills_1_1",
+    "text": "Frontend: JavaScript (ES6+), HTML5, CSS3, React.js (Hooks, Component Architecture), Tailwind CSS, Bootstrap,\nMaterial Design, Responsive & Cross-Platform Layouts, Lazy Loading, Code Splitting, Memoization\nBackend & Data: Node.js, Express.js, REST APIs, JWT, Webhooks, MongoDB, MySQL, PostgreSQL, Cloudinary\nLanguages & Tools: C, C++, Python, SQL, Git, GitHub, Postman (Integration Testing), Vercel CI/CD\nCS Fundamentals: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks",
+    "embedding_text": "[SKILLS]\nFrontend: JavaScript (ES6+), HTML5, CSS3, React.js (Hooks, Component Architecture), Tailwind CSS, Bootstrap,\nMaterial Design, Responsive & Cross-Platform Layouts, Lazy Loading, Code Splitting, Memoization\nBackend & Data: Node.js, Express.js, REST APIs, JWT, Webhooks, MongoDB, MySQL, PostgreSQL, Cloudinary\nLanguages & Tools: C, C++, Python, SQL, Git, GitHub, Postman (Integration Testing), Vercel CI/CD\nCS Fundamentals: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "SKILLS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 3,
+      "char_count": 498,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_experience_1_1",
+    "text": "Web Developer Intern Aug 2025 - Oct 2025\nDistance Connect\n- Built responsive, cross-platform React.js UI, consolidating repeated page markup into a shared Bootstrap-styled component set to keep behaviour consistent across screens.\n- Integrated REST APIs into React views so the interface rendered live data from backend services.\n- Cut frontend load time by 40% using lazy loading, memoization and component-level code splitting.",
+    "embedding_text": "[EXPERIENCE]\nWeb Developer Intern Aug 2025 - Oct 2025\nDistance Connect\n- Built responsive, cross-platform React.js UI, consolidating repeated page markup into a shared Bootstrap-styled component set to keep behaviour consistent across screens.\n- Integrated REST APIs into React views so the interface rendered live data from backend services.\n- Cut frontend load time by 40% using lazy loading, memoization and component-level code splitting.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 4,
+      "char_count": 429,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_projects_1_1",
+    "text": "Thumblify: AIThumbnailGeneration&EditingPlatform— React.js,TailwindCSS,Node.js, Live 2 | Code 2\nMongoDB, Cloudinary\n- Component Architecture: Built the React.js and Tailwind CSS frontend as a reusable component set, responsive across desktop and mobile, serving 100+ users generating and editing 2K/4K thumbnails.\n- GenerationUX: Builtanin-appchatbotforprompt-to-thumbnailgeneration,keepingtheinterfaceresponsivewhile long-running jobs completed instead of blocking on the request.\n- Auth&BillingUI: BuiltJWTauthflowsandacredit-basedRazorpaycheckout,confirmingpaymentviaserver-side webhook signatures rather than the client success callback, closing a tampering gap.\n- FrontendPerformance: Optimizedloadtimewithlazyloadingandcomponent-levelcodesplitting;wrotePostman integration tests over auth and payment routes to catch regressions before deploy.",
+    "embedding_text": "[PROJECTS]\nThumblify: AIThumbnailGeneration&EditingPlatform— React.js,TailwindCSS,Node.js, Live 2 | Code 2\nMongoDB, Cloudinary\n- Component Architecture: Built the React.js and Tailwind CSS frontend as a reusable component set, responsive across desktop and mobile, serving 100+ users generating and editing 2K/4K thumbnails.\n- GenerationUX: Builtanin-appchatbotforprompt-to-thumbnailgeneration,keepingtheinterfaceresponsivewhile long-running jobs completed instead of blocking on the request.\n- Auth&BillingUI: BuiltJWTauthflowsandacredit-basedRazorpaycheckout,confirmingpaymentviaserver-side webhook signatures rather than the client success callback, closing a tampering gap.\n- FrontendPerformance: Optimizedloadtimewithlazyloadingandcomponent-levelcodesplitting;wrotePostman integration tests over auth and payment routes to catch regressions before deploy.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 5,
+      "char_count": 849,
+      "line_count": 6,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_projects_1_2",
+    "text": "Thumblify: AIThumbnailGeneration&EditingPlatform— React.js,TailwindCSS,Node.js, Live 2 | Code 2\nMongoDB, Cloudinary\n- Fault-Tolerant Pipeline: Chose multi-provider LLM routing over a single Replicate integration, trading orches- tration complexity for continuity when a provider degrades; added a Twilio WhatsApp bot for mobile.",
+    "embedding_text": "[PROJECTS]\nThumblify: AIThumbnailGeneration&EditingPlatform— React.js,TailwindCSS,Node.js, Live 2 | Code 2\nMongoDB, Cloudinary\n- Fault-Tolerant Pipeline: Chose multi-provider LLM routing over a single Replicate integration, trading orches- tration complexity for continuity when a provider degrades; added a Twilio WhatsApp bot for mobile.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 1,
+      "part_index": 2,
+      "chunk_index": 6,
+      "char_count": 328,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_projects_2_1",
+    "text": "NextTrip: TripBooking&ManagementPlatform— React.js,Bootstrap,Node.js,MongoDB Live 2 | Code 2\n- Role-Based Interface: Rendered distinct admin and traveler views off JWT roles from one responsive Bootstrap component tree, avoiding two parallel builds.\n- Admin Dashboard: Built the admin surface for trip listings, promotional imagery and booking analytics, giving organizers one view over live inventory and sales.\n- KYC Upload Flow: Built an Aadhaar document-upload flow with an admin review and approval queue, letting verified organizers publish trips with rich image galleries.\n- Data&Delivery: Normalizeda6-collectionMongoDBschemawithindexedqueries;automatedRazorpaypayments with server-side verification; set up Git-based CI/CD on Vercel deploying on every push to main.",
+    "embedding_text": "[PROJECTS]\nNextTrip: TripBooking&ManagementPlatform— React.js,Bootstrap,Node.js,MongoDB Live 2 | Code 2\n- Role-Based Interface: Rendered distinct admin and traveler views off JWT roles from one responsive Bootstrap component tree, avoiding two parallel builds.\n- Admin Dashboard: Built the admin surface for trip listings, promotional imagery and booking analytics, giving organizers one view over live inventory and sales.\n- KYC Upload Flow: Built an Aadhaar document-upload flow with an admin review and approval queue, letting verified organizers publish trips with rich image galleries.\n- Data&Delivery: Normalizeda6-collectionMongoDBschemawithindexedqueries;automatedRazorpaypayments with server-side verification; set up Git-based CI/CD on Vercel deploying on every push to main.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 2,
+      "part_index": 1,
+      "chunk_index": 7,
+      "char_count": 774,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_education_1_1",
+    "text": "Jaypee Institute of Information Technology, Noida 2022 - 2027\nIntegrated B.Tech + M.Tech in Computer Science Engineering - CGPA: 7.62/10",
+    "embedding_text": "[EDUCATION]\nJaypee Institute of Information Technology, Noida 2022 - 2027\nIntegrated B.Tech + M.Tech in Computer Science Engineering - CGPA: 7.62/10",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EDUCATION",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 8,
+      "char_count": 136,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_publications_1_1",
+    "text": "Enhancing Network Intrusion Detection Using Conditional GANs for Imbalanced Data Classification –\nIEEE Xplore 2. 99.8% accuracy on the NSL-KDD dataset using Conditional GANs with ensemble methods (Random\nForest, SVM, Neural Networks).",
+    "embedding_text": "[PUBLICATIONS]\nEnhancing Network Intrusion Detection Using Conditional GANs for Imbalanced Data Classification –\nIEEE Xplore 2. 99.8% accuracy on the NSL-KDD dataset using Conditional GANs with ensemble methods (Random\nForest, SVM, Neural Networks).",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PUBLICATIONS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 9,
+      "char_count": 234,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Frontend Role_achievements_1_1",
+    "text": "- LeetCode Knight: 350+ DSA problems across arrays, trees, graphs and DP (LeetCode, TakeUforward).\n- Conference Speaker: Presented the above research at 17th IC3-2025, JIIT Noida. Certificate 2\n- Hackathons: Smart India Hackathon 2023, Adobe India Hackathon, Flipkart Grid 6.0, Amazon ML Challenge.\n- Placement Committee Member: Coordinating placement activities for 200+ students.",
+    "embedding_text": "[ACHIEVEMENTS]\n- LeetCode Knight: 350+ DSA problems across arrays, trees, graphs and DP (LeetCode, TakeUforward).\n- Conference Speaker: Presented the above research at 17th IC3-2025, JIIT Noida. Certificate 2\n- Hackathons: Smart India Hackathon 2023, Adobe India Hackathon, Flipkart Grid 6.0, Amazon ML Challenge.\n- Placement Committee Member: Coordinating placement activities for 200+ students.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Frontend Role",
+      "source_file": "ViyomShukla_Frontend Role.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "ACHIEVEMENTS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 10,
+      "char_count": 381,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_header_1_1",
+    "text": "Viyom Shukla\nEmail: Viyomshukla21@gmail.com\nLinkedIn: viyom-shukla Mobile: +91-6397332481\nGitHub: github.com/viyomshukla Portfolio: viyom-potfolio.vercel.app\nTUF+: 350+ DSA problems | LeetCode: 200+ problems Location: Noida, India",
+    "embedding_text": "[HEADER]\nViyom Shukla\nEmail: Viyomshukla21@gmail.com\nLinkedIn: viyom-shukla Mobile: +91-6397332481\nGitHub: github.com/viyomshukla Portfolio: viyom-potfolio.vercel.app\nTUF+: 350+ DSA problems | LeetCode: 200+ problems Location: Noida, India",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "HEADER",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 1,
+      "char_count": 230,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_education_1_1",
+    "text": "Jaypee Institute of Information Technology Noida, India •\nIntegrated B.Tech + M.Tech in Computer Science Engineering; CGPA: 7.62/10 2022 – 2027\nGayatri Public School Agra, India •\nClass XII (CBSE): 88.6% | Class X (CBSE): 86.6%",
+    "embedding_text": "[EDUCATION]\nJaypee Institute of Information Technology Noida, India •\nIntegrated B.Tech + M.Tech in Computer Science Engineering; CGPA: 7.62/10 2022 – 2027\nGayatri Public School Agra, India •\nClass XII (CBSE): 88.6% | Class X (CBSE): 86.6%",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EDUCATION",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 2,
+      "char_count": 227,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_experience_1_1",
+    "text": "Distance Connect Remote •\nFull Stack Intern — Backend (Python) & Frontend Aug 2025 – Oct 2025\n- End-to-End Feature Ownership: Designed and developed platform features end-to-end for an early-stage EdTech",
+    "embedding_text": "[EXPERIENCE]\nDistance Connect Remote •\nFull Stack Intern — Backend (Python) & Frontend Aug 2025 – Oct 2025\n- End-to-End Feature Ownership: Designed and developed platform features end-to-end for an early-stage EdTech",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 3,
+      "char_count": 203,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_experience_2_1",
+    "text": "startup connecting students with IIT and AIIMS mentors, building Python backend services and the REST APIs consumed by the client layer.\n- Python Backend Service: Engineered and deployed a reliable, scalable Python backend service powering an AI conversational interface, automating student onboarding and query resolution to reduce manual support overhead.\n- Third-Party REST API Integration: IntegratedtheGoogleMeetRESTAPItobuildasecure1:1videoconsultation flow end-to-end, enabling virtual mentoring sessions directly within the platform.",
+    "embedding_text": "[EXPERIENCE]\nstartup connecting students with IIT and AIIMS mentors, building Python backend services and the REST APIs consumed by the client layer.\n- Python Backend Service: Engineered and deployed a reliable, scalable Python backend service powering an AI conversational interface, automating student onboarding and query resolution to reduce manual support overhead.\n- Third-Party REST API Integration: IntegratedtheGoogleMeetRESTAPItobuildasecure1:1videoconsultation flow end-to-end, enabling virtual mentoring sessions directly within the platform.",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 2,
+      "part_index": 1,
+      "chunk_index": 4,
+      "char_count": 541,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_experience_3_1",
+    "text": "Student Placement Committee, JIIT Noida Noida, India •\nCoordinator Aug 2024 – Jan 2025\n- Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies",
+    "embedding_text": "[EXPERIENCE]\nStudent Placement Committee, JIIT Noida Noida, India •\nCoordinator Aug 2024 – Jan 2025\n- Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 3,
+      "part_index": 1,
+      "chunk_index": 5,
+      "char_count": 199,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_experience_4_1",
+    "text": "actively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts.",
+    "embedding_text": "[EXPERIENCE]\nactively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts.",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 4,
+      "part_index": 1,
+      "chunk_index": 6,
+      "char_count": 117,
+      "line_count": 1,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_projects_1_1",
+    "text": "•\nThumblify — AI-Powered Thumbnail Generation & Editing Platform (React.js, Node.js, MongoDB, REST\nAPIs, Cloudinary) Live Demo\n- Scalable, Fault-Tolerant Backend: Designed a reliable backend pipeline routing requests across multiple LLM providers via Replicate REST APIs with provider-level fallback, sustaining 100+ users generating 2K/4K thumbnails without service interruption.\n- Payments & Transaction Integrity: Eliminated transaction-tampering risk in a credit-based subscription and billing systembyimplementingserver-sideRazorpaywebhooksignatureverification, achieving100%paymentintegrityacrossall completed transactions.\n- Low-Latency Multi-Channel Access: Reduced generation friction for mobile users by building a Twilio-integrated",
+    "embedding_text": "[PROJECTS]\n•\nThumblify — AI-Powered Thumbnail Generation & Editing Platform (React.js, Node.js, MongoDB, REST\nAPIs, Cloudinary) Live Demo\n- Scalable, Fault-Tolerant Backend: Designed a reliable backend pipeline routing requests across multiple LLM providers via Replicate REST APIs with provider-level fallback, sustaining 100+ users generating 2K/4K thumbnails without service interruption.\n- Payments & Transaction Integrity: Eliminated transaction-tampering risk in a credit-based subscription and billing systembyimplementingserver-sideRazorpaywebhooksignatureverification, achieving100%paymentintegrityacrossall completed transactions.\n- Low-Latency Multi-Channel Access: Reduced generation friction for mobile users by building a Twilio-integrated",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 7,
+      "char_count": 742,
+      "line_count": 6,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_projects_2_1",
+    "text": "WhatsApp bot alongside an in-app chatbot, enabling prompt-to-thumbnail generation without requiring users to open the web dashboard.\n- NextTrip — Booking & Payments Platform (Backend: Node.js, MongoDB, REST APIs) Source Code\n- Secure REST API Design: Engineered role-based access control with Google OAuth 2.0 and JWT across admin/traveler roles, securing every REST API route, and automated Razorpay payment capture with server-side verification, reducing manual reconciliation to 0.\n- KYC & Identity Verification: Built an Aadhaar document-upload and admin-review flow that gates organizer onboarding, applying KYC-style verification before a user can publish trips and take bookings.\n- Data Modeling & Query Performance: Designed a normalized 6-collection MongoDB schema with indexed queries to serve trip listings and booking analytics, and built the admin dashboard on top of it.",
+    "embedding_text": "[PROJECTS]\nWhatsApp bot alongside an in-app chatbot, enabling prompt-to-thumbnail generation without requiring users to open the web dashboard.\n- NextTrip — Booking & Payments Platform (Backend: Node.js, MongoDB, REST APIs) Source Code\n- Secure REST API Design: Engineered role-based access control with Google OAuth 2.0 and JWT across admin/traveler roles, securing every REST API route, and automated Razorpay payment capture with server-side verification, reducing manual reconciliation to 0.\n- KYC & Identity Verification: Built an Aadhaar document-upload and admin-review flow that gates organizer onboarding, applying KYC-style verification before a user can publish trips and take bookings.\n- Data Modeling & Query Performance: Designed a normalized 6-collection MongoDB schema with indexed queries to serve trip listings and booking analytics, and built the admin dashboard on top of it.",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 2,
+      "part_index": 1,
+      "chunk_index": 8,
+      "char_count": 884,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_projects_2_2",
+    "text": "WhatsApp bot alongside an in-app chatbot, enabling prompt-to-thumbnail generation without requiring users to open the web dashboard.\n- DeepMood — GAN-Based Class-Imbalance Correction (Python, Machine Learning, Generative AI) Notebook\n- Data Preprocessing & EDA: Analyzed a real-world depression dataset through exploratory data analysis, selected the most relevant features, and normalized the data to prepare it for model training.\n- Synthetic Data Generation with CGAN: Identified that depression cases were underrepresented in the dataset, then built a Conditional GAN to generate 5,000+ synthetic records, balancing the classes and improving classifier accuracy to 92%.",
+    "embedding_text": "[PROJECTS]\nWhatsApp bot alongside an in-app chatbot, enabling prompt-to-thumbnail generation without requiring users to open the web dashboard.\n- DeepMood — GAN-Based Class-Imbalance Correction (Python, Machine Learning, Generative AI) Notebook\n- Data Preprocessing & EDA: Analyzed a real-world depression dataset through exploratory data analysis, selected the most relevant features, and normalized the data to prepare it for model training.\n- Synthetic Data Generation with CGAN: Identified that depression cases were underrepresented in the dataset, then built a Conditional GAN to generate 5,000+ synthetic records, balancing the classes and improving classifier accuracy to 92%.",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 2,
+      "part_index": 2,
+      "chunk_index": 9,
+      "char_count": 673,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_publications_1_1",
+    "text": "•\nEnhancing Network Intrusion Detection Using Conditional GANs for Imbalanced Data Classification IEEE\nXplore\n- Implemented a Conditional GAN to synthesize rare attack samples in the NSL-KDD dataset, balancing class distribution and training Random Forest, SVM, and Neural Network classifiers to achieve 99.8% detection accuracy across underrepresented threat categories.",
+    "embedding_text": "[PUBLICATIONS]\n•\nEnhancing Network Intrusion Detection Using Conditional GANs for Imbalanced Data Classification IEEE\nXplore\n- Implemented a Conditional GAN to synthesize rare attack samples in the NSL-KDD dataset, balancing class distribution and training Random Forest, SVM, and Neural Network classifiers to achieve 99.8% detection accuracy across underrepresented threat categories.",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PUBLICATIONS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 10,
+      "char_count": 371,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_achievements_1_1",
+    "text": "•\nInternational Conference Speaker: Presented published research at the 17th IEEE IC3-2025, JIIT Noida. Certificate\n- Competitive Programming: Solved 450+ DSA and 50+ SQL problems across TUF+, LeetCode, and GeeksforGeeks, focusing on optimization, time complexity, and algorithm design.\n- Smart India Hackathon (SIH ’23): Selected among the top teams across India in the Tourism domain.\n- National Hackathon Competitor: Competed in the Amazon ML Challenge and Adobe India Hackathon ’25.",
+    "embedding_text": "[ACHIEVEMENTS]\n•\nInternational Conference Speaker: Presented published research at the 17th IEEE IC3-2025, JIIT Noida. Certificate\n- Competitive Programming: Solved 450+ DSA and 50+ SQL problems across TUF+, LeetCode, and GeeksforGeeks, focusing on optimization, time complexity, and algorithm design.\n- Smart India Hackathon (SIH ’23): Selected among the top teams across India in the Tourism domain.\n- National Hackathon Competitor: Competed in the Amazon ML Challenge and Adobe India Hackathon ’25.",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "ACHIEVEMENTS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 11,
+      "char_count": 486,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_pockectful_skills_1_1",
+    "text": "Programming Languages: C++ (Proficient), Python (Proficient), JavaScript, C,Golang(Basic),SQL\nBackend & APIs: Node.js, Express.js, REST APIs, JWT, OAuth 2.0, Webhooks\nDatabases: MongoDB, MySQL\nTools & Platforms: Git, GitHub, AWS (basic), Postman, Firebase, Cloudinary, React.js, Tailwind CSS\nCore CS: Data Structures & Algorithms, Operating Systems, Computer Networks, DBMS, Machine Learning",
+    "embedding_text": "[SKILLS]\nProgramming Languages: C++ (Proficient), Python (Proficient), JavaScript, C,Golang(Basic),SQL\nBackend & APIs: Node.js, Express.js, REST APIs, JWT, OAuth 2.0, Webhooks\nDatabases: MongoDB, MySQL\nTools & Platforms: Git, GitHub, AWS (basic), Postman, Firebase, Cloudinary, React.js, Tailwind CSS\nCore CS: Data Structures & Algorithms, Operating Systems, Computer Networks, DBMS, Machine Learning",
+    "metadata": {
+      "resume_id": "ViyomShukla_pockectful",
+      "source_file": "ViyomShukla_pockectful.pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "SKILLS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 12,
+      "char_count": 391,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_header_1_1",
+    "text": "Viyom Shukla\nEmail: Viyomshukla21@gmail.com\nLinkedIn: viyom-shukla Mobile: +91-6397332481\nGitHub: github.com/viyomshukla Portfolio: viyom-potfolio.vercel.app\nTUF+: 350+ DSA problems | LeetCode: 200+ problems Location: Noida, India",
+    "embedding_text": "[HEADER]\nViyom Shukla\nEmail: Viyomshukla21@gmail.com\nLinkedIn: viyom-shukla Mobile: +91-6397332481\nGitHub: github.com/viyomshukla Portfolio: viyom-potfolio.vercel.app\nTUF+: 350+ DSA problems | LeetCode: 200+ problems Location: Noida, India",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "HEADER",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 1,
+      "char_count": 230,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_education_1_1",
+    "text": "Jaypee Institute of Information Technology Noida, India •\nIntegrated B.Tech + M.Tech in Computer Science Engineering; CGPA: 7.62/10 2022 – 2027",
+    "embedding_text": "[EDUCATION]\nJaypee Institute of Information Technology Noida, India •\nIntegrated B.Tech + M.Tech in Computer Science Engineering; CGPA: 7.62/10 2022 – 2027",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EDUCATION",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 2,
+      "char_count": 143,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_skills_1_1",
+    "text": "Programming Languages: C, C++ (Proficient),JavaScript, Python, HTML, CSS, SQL\nFrameworks & Libraries: React.js, Node.js, Express.js, Tailwind CSS\nAI & Retrieval: Retrieval-Augmented Generation (RAG), Vector Databases (ChromaDB), Hybrid Search (Embeddings),LLM APIs, GANs\nTools & Technologies: Git, GitHub, MongoDB, MySQL, API,VS Code,Firebase,Cloudinary, Postman, Slack\nCore CS: Data Structures & Algorithms, Operating Systems, Computer Networks, DBMS,, Machine Learning",
+    "embedding_text": "[SKILLS]\nProgramming Languages: C, C++ (Proficient),JavaScript, Python, HTML, CSS, SQL\nFrameworks & Libraries: React.js, Node.js, Express.js, Tailwind CSS\nAI & Retrieval: Retrieval-Augmented Generation (RAG), Vector Databases (ChromaDB), Hybrid Search (Embeddings),LLM APIs, GANs\nTools & Technologies: Git, GitHub, MongoDB, MySQL, API,VS Code,Firebase,Cloudinary, Postman, Slack\nCore CS: Data Structures & Algorithms, Operating Systems, Computer Networks, DBMS,, Machine Learning",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "SKILLS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 3,
+      "char_count": 470,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_experience_1_1",
+    "text": "Distance Connect Remote •\nFull Stack Web Intern Aug 2025 – Oct 2025\n- Conversational AI Service Integration:: Engineered and deployed an LLM-backed chatbot to automate student",
+    "embedding_text": "[EXPERIENCE]\nDistance Connect Remote •\nFull Stack Web Intern Aug 2025 – Oct 2025\n- Conversational AI Service Integration:: Engineered and deployed an LLM-backed chatbot to automate student",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 4,
+      "char_count": 175,
+      "line_count": 3,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_experience_2_1",
+    "text": "onboarding and query resolution, handling the highest-volume support paths without manual intervention.\n- Third-Party API Integration: Built a real-time mentorship flow by integrating the Google Meet API with",
+    "embedding_text": "[EXPERIENCE]\nonboarding and query resolution, handling the highest-volume support paths without manual intervention.\n- Third-Party API Integration: Built a real-time mentorship flow by integrating the Google Meet API with",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 2,
+      "part_index": 1,
+      "chunk_index": 5,
+      "char_count": 208,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_experience_3_1",
+    "text": "OAuth-based authorization, enabling secure 1:1 virtual sessions to be scheduled and launched directly from the platform.\n- Platform UI Revamp: Ledfrontenddevelopmentforanearly-stageEdTechplatformconnectingstudentswithIITand",
+    "embedding_text": "[EXPERIENCE]\nOAuth-based authorization, enabling secure 1:1 virtual sessions to be scheduled and launched directly from the platform.\n- Platform UI Revamp: Ledfrontenddevelopmentforanearly-stageEdTechplatformconnectingstudentswithIITand",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 3,
+      "part_index": 1,
+      "chunk_index": 6,
+      "char_count": 223,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_experience_4_1",
+    "text": "AIIMS mentors, rebuilding the interface to improve student engagement.\nStudent Placement Committee, JIIT Noida Noida, India •\nCoordinator Aug 2024 – Jan 2025\n- Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies",
+    "embedding_text": "[EXPERIENCE]\nAIIMS mentors, rebuilding the interface to improve student engagement.\nStudent Placement Committee, JIIT Noida Noida, India •\nCoordinator Aug 2024 – Jan 2025\n- Corporate Outreach: Coordinated with the placement head and cross-functional student teams to source companies",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 4,
+      "part_index": 1,
+      "chunk_index": 7,
+      "char_count": 270,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_experience_5_1",
+    "text": "actively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts.",
+    "embedding_text": "[EXPERIENCE]\nactively hiring for campus roles, compiling job requirements and eligibility criteria to prioritize outreach efforts.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "EXPERIENCE",
+      "item_index": 5,
+      "part_index": 1,
+      "chunk_index": 8,
+      "char_count": 117,
+      "line_count": 1,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_projects_1_1",
+    "text": "•\nThumblify — AI-Powered Thumbnail Generation & Editing Platform (React.js, Node.js, MongoDB, REST\nAPIs, Cloudinary) Live\n- Fault-Tolerant Multi-Provider Routing: Built a provider-agnostic routing layer over Replicate APIs with automatic failover across multiple LLM backends, eliminating single-provider downtime and sustaining 100+ users generating 2K/4K thumbnails without service interruption.\n- Secure Payment Infrastructure: Eliminated transaction-tampering risk in the credit-based subscription model by implementingserver-sideRazorpaywebhooksignatureverification,achieving100%paymentintegrityacrossallcompleted transactions.\n- Multi-Channel HTTP Gateway: Reduced generation friction for mobile users by building a Twilio-integrated",
+    "embedding_text": "[PROJECTS]\n•\nThumblify — AI-Powered Thumbnail Generation & Editing Platform (React.js, Node.js, MongoDB, REST\nAPIs, Cloudinary) Live\n- Fault-Tolerant Multi-Provider Routing: Built a provider-agnostic routing layer over Replicate APIs with automatic failover across multiple LLM backends, eliminating single-provider downtime and sustaining 100+ users generating 2K/4K thumbnails without service interruption.\n- Secure Payment Infrastructure: Eliminated transaction-tampering risk in the credit-based subscription model by implementingserver-sideRazorpaywebhooksignatureverification,achieving100%paymentintegrityacrossallcompleted transactions.\n- Multi-Channel HTTP Gateway: Reduced generation friction for mobile users by building a Twilio-integrated",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 9,
+      "char_count": 739,
+      "line_count": 6,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_projects_2_1",
+    "text": "WhatsApp bot alongside an in-app chatbot, enabling prompt-to-thumbnail generation without requiring users to open the web dashboard.\n- Hiring Copilot — RAG Pipeline for Resume–JD Matching (Python, FastAPI, pdfplumber, Pydantic, LLM",
+    "embedding_text": "[PROJECTS]\nWhatsApp bot alongside an in-app chatbot, enabling prompt-to-thumbnail generation without requiring users to open the web dashboard.\n- Hiring Copilot — RAG Pipeline for Resume–JD Matching (Python, FastAPI, pdfplumber, Pydantic, LLM",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 2,
+      "part_index": 1,
+      "chunk_index": 10,
+      "char_count": 231,
+      "line_count": 2,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_projects_3_1",
+    "text": "APIs, LangGraph, ChromaDB, SQLite, Next.js) Source Code(In Progress)\n- Document Ingestion & Parsing Pipeline: Built a Python service that parses bulk PDF/DOCX resumes via pdfplumber and python-docx into normalized text, with a custom chunking layer validated by an evaluation harness that measures retrieval quality across chunking configurations.\n- Hybrid Retrieval & Reranking: Designed a two-stage retrieval layer fusing BM25 keyword search with dense vector search over ChromaDB via Reciprocal Rank Fusion, then reranking with a sentence-transformers cross-encoder to return cited resume evidence per job requirement.\n- Structured Extraction & Agent Orchestration: Implementing schema-enforced LLM extraction with Pydantic to convert unstructured resumes into typed records in SQL storage, orchestrated as a LangGraph agent workflow with a ragas-driven evaluation loop.",
+    "embedding_text": "[PROJECTS]\nAPIs, LangGraph, ChromaDB, SQLite, Next.js) Source Code(In Progress)\n- Document Ingestion & Parsing Pipeline: Built a Python service that parses bulk PDF/DOCX resumes via pdfplumber and python-docx into normalized text, with a custom chunking layer validated by an evaluation harness that measures retrieval quality across chunking configurations.\n- Hybrid Retrieval & Reranking: Designed a two-stage retrieval layer fusing BM25 keyword search with dense vector search over ChromaDB via Reciprocal Rank Fusion, then reranking with a sentence-transformers cross-encoder to return cited resume evidence per job requirement.\n- Structured Extraction & Agent Orchestration: Implementing schema-enforced LLM extraction with Pydantic to convert unstructured resumes into typed records in SQL storage, orchestrated as a LangGraph agent workflow with a ragas-driven evaluation loop.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 3,
+      "part_index": 1,
+      "chunk_index": 11,
+      "char_count": 873,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_projects_3_2",
+    "text": "APIs, LangGraph, ChromaDB, SQLite, Next.js) Source Code(In Progress)\n- NextTrip — Booking & Management Platform (Backend: Node.js, MongoDB, REST APIs) Live\n- Secure Access & Transactions: Engineered role-based access control via Google OAuth 2.0 and JWT for admin/traveler roles, securing 100% of API routes, and automated Razorpay payments with server-side verification, reducing manual reconciliation to 0.\n- KYC-Compliant Identity Module: BuiltanAadhaardocument-uploadflowwithadminreviewandmanualapproval, on a normalized 6-collection MongoDB schema with indexed queries backing an admin review dashboard.\n- Admin Control & Data Layer: Built an admin dashboard for trip listings, promotional imagery, and booking analytics on a normalized 6-collection MongoDB schema with indexed queries.",
+    "embedding_text": "[PROJECTS]\nAPIs, LangGraph, ChromaDB, SQLite, Next.js) Source Code(In Progress)\n- NextTrip — Booking & Management Platform (Backend: Node.js, MongoDB, REST APIs) Live\n- Secure Access & Transactions: Engineered role-based access control via Google OAuth 2.0 and JWT for admin/traveler roles, securing 100% of API routes, and automated Razorpay payments with server-side verification, reducing manual reconciliation to 0.\n- KYC-Compliant Identity Module: BuiltanAadhaardocument-uploadflowwithadminreviewandmanualapproval, on a normalized 6-collection MongoDB schema with indexed queries backing an admin review dashboard.\n- Admin Control & Data Layer: Built an admin dashboard for trip listings, promotional imagery, and booking analytics on a normalized 6-collection MongoDB schema with indexed queries.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PROJECTS",
+      "item_index": 3,
+      "part_index": 2,
+      "chunk_index": 12,
+      "char_count": 791,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_publications_1_1",
+    "text": "•\nEnhancing Network Intrusion Detection Using Conditional GANs for Imbalanced Data Classification IEEE\nXplore\n- Enhancing Network Intrusion Detection Using Quantum GANs for Imbalanced Data Classification IEEE —",
+    "embedding_text": "[PUBLICATIONS]\n•\nEnhancing Network Intrusion Detection Using Conditional GANs for Imbalanced Data Classification IEEE\nXplore\n- Enhancing Network Intrusion Detection Using Quantum GANs for Imbalanced Data Classification IEEE —",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PUBLICATIONS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 13,
+      "char_count": 210,
+      "line_count": 4,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_publications_2_1",
+    "text": "Under Review",
+    "embedding_text": "[PUBLICATIONS]\nUnder Review",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "PUBLICATIONS",
+      "item_index": 2,
+      "part_index": 1,
+      "chunk_index": 14,
+      "char_count": 12,
+      "line_count": 1,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  },
+  {
+    "chunk_id": "ViyomShukla_Resume (3)_achievements_1_1",
+    "text": "•\nInternational Conference Speaker: Presented published research at the 17th IEEE IC3-2025, JIIT Noida. Certificate\n- Competitive Programming: Solved 550+ DSA and 50+ SQL problems across TUF+, LeetCode, and GeeksforGeeks, focusing on optimization, time complexity, and algorithm design.\n- Smart India Hackathon (SIH ’23): Selected among the top teams across India in the Tourism domain.\n- National Hackathon Competitor: Competed in the Amazon ML Challenge and Adobe India Hackathon ’25.",
+    "embedding_text": "[ACHIEVEMENTS]\n•\nInternational Conference Speaker: Presented published research at the 17th IEEE IC3-2025, JIIT Noida. Certificate\n- Competitive Programming: Solved 550+ DSA and 50+ SQL problems across TUF+, LeetCode, and GeeksforGeeks, focusing on optimization, time complexity, and algorithm design.\n- Smart India Hackathon (SIH ’23): Selected among the top teams across India in the Tourism domain.\n- National Hackathon Competitor: Competed in the Amazon ML Challenge and Adobe India Hackathon ’25.",
+    "metadata": {
+      "resume_id": "ViyomShukla_Resume (3)",
+      "source_file": "ViyomShukla_Resume (3).pdf",
+      "source_type": "pdf",
+      "candidate_name": "Viyom Shukla",
+      "section": "ACHIEVEMENTS",
+      "item_index": 1,
+      "part_index": 1,
+      "chunk_index": 15,
+      "char_count": 486,
+      "line_count": 5,
+      "job_id": "job_20260912_221433_acb42f"
+    }
+  }
+]

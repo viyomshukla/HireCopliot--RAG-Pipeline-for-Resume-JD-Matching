@@ -77,7 +77,7 @@ CHROMA_DIR = BASE / "data" / "chroma"
 # actually be FILTERED or DISPLAYED belong here -- metadata is duplicated per
 # vector, so storing the whole chunk record would bloat the index for nothing.
 METADATA_FIELDS = [
-    "resume_id", "candidate_name", "section",
+    "job_id", "resume_id", "candidate_name", "section",
     "source_type", "item_index", "char_count",
 ]
 
