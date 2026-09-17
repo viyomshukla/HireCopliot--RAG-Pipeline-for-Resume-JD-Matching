@@ -43,7 +43,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 from fastapi.responses import RedirectResponse
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+
 BASE = Path(__file__).resolve().parents[1]
+
 sys.path.insert(0, str(BASE))
 # The API loads .env itself. Scripts each call load_dotenv(), but uvicorn starts
 # the app directly, so without this the server runs with no API keys and the
@@ -55,7 +59,7 @@ except ImportError:
     pass
 
 from fastapi import BackgroundTasks, FastAPI, File, Form, HTTPException, UploadFile
-from fastapi.middleware.cors import CORSMiddleware
+
 
 from api.pipeline import chunks_path, registry, run_pipeline
 from api.schemas import (
@@ -90,13 +94,7 @@ app = FastAPI(
 # The Next.js dev server runs on a different port, so the browser treats it as a
 # different origin. Locked to localhost: a wildcard here would let any website a
 # user visits call this API with their session.
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+
 
 # Retrieval components are expensive to construct -- a local embedding model and
 # a cross-encoder take seconds to load and hold memory. Built once, lazily, and
@@ -129,9 +127,7 @@ def get_retriever():
         )
     return _retriever
 
-@app.get("/", include_in_schema=False)
-def root():
-    return RedirectResponse("/docs")
+
 @app.get("/api/health")
 def health() -> dict:
     return {"status": "ok", "jobs": len(registry.list())}
@@ -429,3 +425,17 @@ def audit(request: RankRequest) -> AuditResponse:
               "at this size one shortlist decision moves a rate by over 10 "
               "points. A flag is a prompt to investigate, not a verdict."),
     )
+    
+FRONTEND = BASE.parent / "frontend" / "dist"
+
+if FRONTEND.exists():
+    app.mount("/assets", StaticFiles(directory=FRONTEND / "assets"), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def serve_spa(full_path: str):
+        """Returns index.html for any non-API path.
+
+        A single-page app does its own routing, so a browser refresh on
+        /ranking must still be served the app shell rather than a 404.
+        """
+        return FileResponse(FRONTEND / "index.html")
