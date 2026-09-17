@@ -425,7 +425,44 @@ def audit(request: RankRequest) -> AuditResponse:
               "at this size one shortlist decision moves a rate by over 10 "
               "points. A flag is a prompt to investigate, not a verdict."),
     )
-    
+@app.on_event("startup")
+def seed_demo_corpus() -> None:
+    """Rebuilds the demo batch when the filesystem is empty.
+
+    Spaces without persistent storage reset on every restart, so the database
+    and vector index have to be rebuilt. Everything needed is committed to the
+    repo -- the synthetic resumes and their ground truth -- so this is a few
+    minutes of CPU rather than a data loss problem. Real uploads made during a
+    session are lost on restart, which is stated in the UI.
+    """
+    if (DATA / "candidates.db").exists():
+        return
+
+    import json
+    from app.db.session import get_session, init_db
+    from app.ingestion.batch import ingest_directory
+    from app.retrieval.vector_store import VectorStore
+    from scripts.load_database import load_record
+
+    resumes = DATA / "sample_resumes"
+    if not resumes.exists():
+        print("no sample corpus committed - starting empty")
+        return
+
+    print("rebuilding demo corpus...")
+    result = ingest_directory(resumes, job_id="demo")
+    (DATA / "chunks_demo.json").write_text(
+        json.dumps(result.chunks, ensure_ascii=False), encoding="utf-8"
+    )
+    VectorStore().index_chunks(result.chunks)
+
+    extractions = DATA / "extractions_demo.json"
+    if extractions.exists():
+        init_db()
+        with get_session() as session:
+            for record in json.loads(extractions.read_text(encoding="utf-8")):
+                load_record(session, record)
+    print(f"demo corpus ready: {len(result.chunks)} chunks")  
 FRONTEND = BASE.parent / "frontend" / "dist"
 
 if FRONTEND.exists():

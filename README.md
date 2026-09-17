@@ -19,8 +19,37 @@ The tool ranks candidates and shows its evidence. **It does not decide who to hi
 
 ---
 
+## Demo
+
+<video src="frontend/assests/Recording%202026-09-17%20134527.mp4" controls width="100%"></video>
+
+▶️ **[Watch the full walkthrough](frontend/assests/Recording%202026-09-17%20134527.mp4)**: uploading a batch, reviewing the inferred requirements, reading the ranked shortlist with its evidence, and running the fairness audit.
+
+---
+
+## Screenshots
+
+### Batches: the starting point
+Every processed batch in one place. The sidebar shows the active batch, whether the API is reachable, and the light / system / dark theme switch.
+
+![Batches screen with empty state](frontend/assests/image1.png)
+
+### Upload: a zip of resumes
+Drop one archive of `.pdf` and `.docx` files. The optional "Hiring for" label stays in the browser tab and is never sent to the server.
+
+![Upload screen with drop zone](frontend/assests/image2.png)
+
+### Rank: a shortlist with evidence
+Four of ten candidates passed the hard requirements. Each row shows its score, experience, degree and requirements met, with the original filename under the name. Rows that share a name and email are flagged as **possible duplicates**, and a warning explains that they may be one person counted three times.
+
+![Ranked shortlist with duplicate warning](frontend/assests/image3.png)
+
+---
+
 ## Table of contents
 
+- [Demo](#demo)
+- [Screenshots](#screenshots)
 - [What it does](#what-it-does)
 - [Features](#features)
 - [How it works](#how-it-works)
